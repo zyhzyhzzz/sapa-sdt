@@ -142,13 +142,15 @@ def fmt_table():
 
 
 ALL_MODELS = ("3b", "7b", "ivl2b", "ivl8b")
+# 微调模型（finetune/）：结果文件名形如 neg_yn_3b+pair.jsonl；单独汇总到 summary_ft.json，不影响论文主结果
+FT_MODELS = tuple(sorted({f.rsplit("_", 1)[1][:-6] for f in os.listdir(RUNS) if f.startswith("neg_") and "+" in f}))
 DETECT = {"level": lambda r: letter(r, "ABCD") in ("A", "B", "C"),
           "level_explicit": lambda r: letter(r, "ABCD") in ("A", "B", "C"),
           "dfirst": lambda r: letter(r, "ABCD") in ("B", "C", "D"),
           "yn": lambda r: r.strip().lower().startswith("yes")}
 
 
-def summary():
+def summary(models=ALL_MODELS, path=SUMMARY):
     """主图数据：每个模型 × 格式的 SAPA 式检出率（原始指令 + 真实截图，320 条）与配对负样本判别力（196 对）。
     另给出信号检测论指标：d' = z(H) - z(F)（辨别力），c = -(z(H) + z(F)) / 2（判定阈值，正 = 保守、倾向答"无隐私"）。
     H、F 为 sham 上的命中率与 masked 上的虚报率，用 (k + 0.5) / (n + 1) 校正避免 0/1。"""
@@ -157,7 +159,7 @@ def summary():
     rows = []
     print("\n== 总表：SAPA 式检出率 vs 判别力")
     print(f"  {'模型':6s} {'格式':15s} {'检出率(原始/真实)':>16s} {'判别力 [95% CI]':>22s} {'平衡准确率':>9s} {'dprime':>7s} {'c':>6s}")
-    for m in ALL_MODELS:
+    for m in models:
         for f, fn in DETECT.items():
             p1 = os.path.join(RUNS, f"{src[f]}_{m}.jsonl")
             p2 = os.path.join(RUNS, f"neg_{f}_{m}.jsonl")
@@ -177,13 +179,13 @@ def summary():
             rows.append(dict(model=m, fmt=f, detect=float(np.mean(v) * 100), hit=float(t.mean() * 100),
                              fa=float(q.mean() * 100), disc=d[0], lo=d[1], hi=d[2], bacc=bacc, dprime=dp, c=c))
             print(f"  {m:6s} {f:15s} {np.mean(v) * 100:16.1f} {d[0]:+7.1f} [{d[1]:+5.1f},{d[2]:+5.1f}] {bacc:9.1f} {dp:+7.2f} {c:+6.2f}")
-    json.dump(rows, open(SUMMARY, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    json.dump(rows, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     if rows:
         det = [r["detect"] for r in rows]
         print(f"  检出率范围 {min(det):.1f}–{max(det):.1f}；判别力范围 {min(r['disc'] for r in rows):+.1f}–{max(r['disc'] for r in rows):+.1f}")
 
 
-def neg_table(prefix="neg"):
+def neg_table(prefix="neg", models=ALL_MODELS):
     """配对负样本：同一截图遮掉目标隐私（masked，负）或遮掉等量非隐私文字（sham，正），指令都用中性化版本。
     检出率 = P(检出|sham)，误报率 = P(检出|masked)，判别力 = 两者之差（配对 bootstrap 95% CI），
     平衡准确率 = (检出率 + 1 - 误报率) / 2。总选同一选项的模型判别力为 0、平衡准确率为 50。
@@ -191,7 +193,7 @@ def neg_table(prefix="neg"):
     title = {"neg": "看截图", "ocrneg": "读 OCR 文字（不给图）"}[prefix]
     print(f"\n== 配对负样本 · {title}（中性化指令；sham = 正，masked = 负）")
     print(f"  {'模型':6s} {'格式':15s} {'n':>4s} {'检出率':>7s} {'误报率':>7s} {'判别力 [95% CI]':>22s} {'平衡准确率':>9s}  McNemar p")
-    for m in ALL_MODELS:
+    for m in models:
         for f, fn in DETECT.items():
             p = os.path.join(RUNS, f"{prefix}_{f}_{m}.jsonl")
             if not os.path.exists(p):
@@ -240,3 +242,7 @@ if __name__ == "__main__":
     neg_table()
     neg_table("ocrneg")
     summary()
+    if FT_MODELS:
+        print("\n######## 微调模型（finetune/，评测集与上面相同）")
+        neg_table(models=("3b",) + FT_MODELS)
+        summary(("3b",) + FT_MODELS, SUMMARY.replace("summary.json", "summary_ft.json"))

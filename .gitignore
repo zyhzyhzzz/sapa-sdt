@@ -8,3 +8,5 @@ __pycache__/
 *.pyc
 figs/*.pdf
 figs/*.png
+artifacts/adapters/
+artifacts/train/masked_images/

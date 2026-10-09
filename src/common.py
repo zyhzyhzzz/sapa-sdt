@@ -3,14 +3,22 @@ import os
 import torch
 from transformers import (AutoModelForImageTextToText, AutoProcessor, BitsAndBytesConfig,
                           Qwen2_5_VLForConditionalGeneration, set_seed)
-from paths import MODEL_DIR, IMG_DIR
+from paths import MODEL_DIR, IMG_DIR, ADAPTERS
 
 MODELS = {"3b": "Qwen2.5-VL-3B-Instruct", "7b": "Qwen2.5-VL-7B-Instruct",
           "ivl2b": "InternVL3-2B-hf", "ivl8b": "InternVL3-8B-hf"}
 
 
 def load(name):
+    """name 为 MODELS 的键；"3b+pair" 形式表示在 3b 上加载 artifacts/adapters/3b+pair 下的 LoRA 适配器。"""
     set_seed(0)  # 解码是贪心的；这里只为把任何潜在随机性也固定住
+    base, _, tag = name.partition("+")
+    if tag:
+        from peft import PeftModel
+        model, proc = load(base)
+        model = PeftModel.from_pretrained(model, os.path.join(ADAPTERS, name))
+        model.eval()
+        return model, proc
     path = os.path.join(MODEL_DIR, MODELS[name])
     q = BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_quant_type="nf4", bnb_4bit_compute_dtype=torch.bfloat16)
     # low_cpu_mem_usage：逐分片加载，避免 7B/8B 在系统内存里整份展开（9/22 那次就是因此被杀）
