@@ -1,0 +1,10 @@
+# 大文件不入库：数据集、模型权重、官方代码克隆、可由 mask 步骤重建的配对图
+data/
+models/
+third_party/
+artifacts/masked_images/
+logs/
+__pycache__/
+*.pyc
+figs/*.pdf
+figs/*.png

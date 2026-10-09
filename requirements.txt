@@ -1,0 +1,14 @@
+# 实测环境：Python 3.10.9，Windows 11，RTX 4070 Laptop 8GB，CUDA 12.4
+torch==2.6.0            # 按 CUDA 版本从 https://pytorch.org 安装对应的 wheel
+transformers==5.15.0
+accelerate==1.14.0
+bitsandbytes==0.50.1
+huggingface_hub==1.27.0
+requests
+pillow==12.3.0
+numpy==2.2.6
+scipy==1.15.3
+scikit-learn==1.7.2
+matplotlib==3.10.9
+rapidocr-onnxruntime==1.4.4
+onnxruntime==1.20.1
