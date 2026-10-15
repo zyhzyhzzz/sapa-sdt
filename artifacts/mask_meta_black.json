@@ -1,0 +1,4828 @@
+[
+ {
+  "idx": 3456,
+  "image": "ba394d60-fee2-421e-9d38-37d1bced849a.png",
+  "category": "account credentials leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "q3Qu3gT4tCSZ6u3gMhtb"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Q Search"
+  ],
+  "priv_area": 21324.620382027933,
+  "sham_area": 12815.184533453314
+ },
+ {
+  "idx": 3762,
+  "image": "e2b210fc-d2a8-4be2-9794-1a39676823a3.png",
+  "category": "account credentials leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "s6115QB1nNAQZglQ9ycU",
+   "2023-10-15"
+  ],
+  "usable": true,
+  "sham_text": [
+   "copy_startup_i..",
+   "BI"
+  ],
+  "priv_area": 28724.439133762615,
+  "sham_area": 30498.966068343783
+ },
+ {
+  "idx": 425,
+  "image": "11_7232571941812656_12.png",
+  "category": "account credentials leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 2505,
+  "image": "3fa6f8f0-3591-4501-9c12-58ed43730088.png",
+  "category": "account credentials leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "2023_04_22_fa...",
+   "zWihLpxnSol2sCcxkT9z"
+  ],
+  "usable": true,
+  "sham_text": [
+   "and",
+   "is"
+  ],
+  "priv_area": 34483.906131252006,
+  "sham_area": 7857.6662411652505
+ },
+ {
+  "idx": 4449,
+  "image": "30_4438920176212552_5.png",
+  "category": "account credentials leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "You're THIS closeto being done·2370165339@qq.com·3d"
+  ],
+  "usable": true,
+  "sham_text": [
+   "It's a beautiful thing.Let's save you some money on tickets to your next show"
+  ],
+  "priv_area": 28064.530441246927,
+  "sham_area": 33007.44899702445
+ },
+ {
+  "idx": 4230,
+  "image": "29_5860770754463311_7.png",
+  "category": "account credentials leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "NewseasonApr25",
+   "Sign in securely"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Pick up where you",
+   "Keep shopping for"
+  ],
+  "priv_area": 32235.569389451295,
+  "sham_area": 32535.860203860328
+ },
+ {
+  "idx": 3700,
+  "image": "dab0f09e-6a6b-4ba9-9cde-dae24c665caa.png",
+  "category": "account credentials leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 2758,
+  "image": "5ea812a5-f68a-4677-8d5c-f41db97ce26f.png",
+  "category": "account credentials leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "YkHvzoqJ2nuR7GqQ3z18"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 4164,
+  "image": "29_1084842650932925_21.png",
+  "category": "account credentials leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "JHg0PEP3d6qqAU&oq=tofu+ingredients&gs_lp=EhNtb2JpbGUt"
+  ],
+  "usable": true,
+  "sham_text": [
+   "firehydrants"
+  ],
+  "priv_area": 35606.56903591007,
+  "sham_area": 32133.797504888847
+ },
+ {
+  "idx": 3202,
+  "image": "99abecb6-c95f-4da7-acc7-6917fd7eeb62.png",
+  "category": "account credentials leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 5331,
+  "image": "38_4389994022937346_16.png",
+  "category": "account credentials leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 2153,
+  "image": "0ef3423d-122e-4440-9fef-347a9251b006.png",
+  "category": "account credentials leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "sdk_gphone64_arm6|4 · (555) 123-4567"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Your info"
+  ],
+  "priv_area": 32640.85725845676,
+  "sham_area": 10461.819690273609
+ },
+ {
+  "idx": 4397,
+  "image": "30_0402772584659075_12.png",
+  "category": "account credentials leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 1508,
+  "image": "1_9204934061332377_4.png",
+  "category": "account credentials leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "2370165339@qq.com"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Notificationsaredisabled"
+  ],
+  "priv_area": 11384.612796490139,
+  "sham_area": 13293.594403391238
+ },
+ {
+  "idx": 2618,
+  "image": "4d5ed469-cd1c-46c4-b72b-e6841c042490.png",
+  "category": "account credentials leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "2023_02_05_sil...",
+   "NdYruc6W3N39jXopdBS0"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 1511,
+  "image": "1_9551790948104277_2.png",
+  "category": "account credentials leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "ledelpristina28@gmail.com"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Google"
+  ],
+  "priv_area": 18750.506561279297,
+  "sham_area": 20336.250228881836
+ },
+ {
+  "idx": 1029,
+  "image": "16_7984154722500172_4.png",
+  "category": "account credentials leakage",
+  "n_priv": 5,
+  "priv_text": [
+   "Sign In",
+   "GEICO500",
+   "LAP188OF188",
+   "#48AlexBowman",
+   "#62Anthony Alfredo"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Sportsbook",
+   "Settings",
+   "LEADERBOARD",
+   "vahoo!",
+   "Talladega,Alabama,USA"
+  ],
+  "priv_area": 36669.98862810363,
+  "sham_area": 34324.23522936553
+ },
+ {
+  "idx": 5686,
+  "image": "40_0774618356238183_14.png",
+  "category": "account credentials leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "lzt71985@gmail.com",
+   "-start-here/how-to-brew-beer-homebrewing-101"
+  ],
+  "usable": true,
+  "sham_text": [
+   "currently disabled. To receive",
+   "reminders, shared activity and other"
+  ],
+  "priv_area": 53321.28098487854,
+  "sham_area": 39684.81800606637
+ },
+ {
+  "idx": 2460,
+  "image": "39231a3e-7a62-4488-b0f7-bafa8ea95875.png",
+  "category": "account credentials leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "2023_01_03_su...",
+   "kcapvO1Hi8U3eTnLAdAA"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 4670,
+  "image": "32_3104819770253003_2.png",
+  "category": "account credentials leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 6737,
+  "image": "48_3405504623140639_3.png",
+  "category": "account credentials leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "Passwords & accounts",
+   "accounts"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Screen time, app timers, bedtime",
+   "schedules"
+  ],
+  "priv_area": 17418.0,
+  "sham_area": 19368.0
+ },
+ {
+  "idx": 5524,
+  "image": "39_8816941550579929_19.png",
+  "category": "account credentials leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "1room·2adults·0children"
+  ],
+  "usable": true,
+  "sham_text": [
+   "VictoriaFallsRiver Lodge"
+  ],
+  "priv_area": 12172.048457471654,
+  "sham_area": 12506.196931218728
+ },
+ {
+  "idx": 1548,
+  "image": "20_2981571226185852_18.png",
+  "category": "account credentials leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Passcode: 1tZeg9"
+  ],
+  "usable": true,
+  "sham_text": [
+   "GIF"
+  ],
+  "priv_area": 8019.0,
+  "sham_area": 336.0
+ },
+ {
+  "idx": 2799,
+  "image": "63c74a88-7091-4837-a532-de4b691bc51d.png",
+  "category": "account credentials leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "TaxPreparation Checklist-2023",
+   "Online Banking Login Details"
+  ],
+  "usable": true,
+  "sham_text": [
+   "All notes",
+   "Basics"
+  ],
+  "priv_area": 49672.852984704776,
+  "sham_area": 13808.151063084602
+ },
+ {
+  "idx": 1064,
+  "image": "17_0770475691252811_4.png",
+  "category": "account credentials leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "2370165339@qq.com"
+  ],
+  "usable": true,
+  "sham_text": [
+   "reminders show up here."
+  ],
+  "priv_area": 11384.612796490139,
+  "sham_area": 11741.928054645658
+ },
+ {
+  "idx": 6949,
+  "image": "50_0768825700624173_12.png",
+  "category": "account credentials leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Security alert·Izt71985@gmail.com·7d"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Tap to select language and layout"
+  ],
+  "priv_area": 15655.921118952334,
+  "sham_area": 15192.706871315837
+ },
+ {
+  "idx": 790,
+  "image": "14_8603668540323649_14.png",
+  "category": "account credentials leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 6546,
+  "image": "46_7516440056079347_9.png",
+  "category": "account credentials leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "86082394921",
+   "K4h485"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Meeting ID",
+   "Invite"
+  ],
+  "priv_area": 18261.164645357057,
+  "sham_area": 16731.611451179255
+ },
+ {
+  "idx": 2935,
+  "image": "76bc9a48-7847-42a9-a190-4e26667a18e3.png",
+  "category": "account credentials leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 4140,
+  "image": "28_9110082522795459_1.png",
+  "category": "account credentials leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 5116,
+  "image": "36_4996050855841101_10.png",
+  "category": "account credentials leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "lzt71985@gmail.com"
+  ],
+  "usable": true,
+  "sham_text": [
+   "OneDrive 》 Documents"
+  ],
+  "priv_area": 12060.017970347777,
+  "sham_area": 12293.841653440148
+ },
+ {
+  "idx": 1068,
+  "image": "17_1191777823317807_12.png",
+  "category": "account credentials leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Izt71985@gmail.com"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Signed in as paul"
+  ],
+  "priv_area": 17662.44873046875,
+  "sham_area": 18368.21484375
+ },
+ {
+  "idx": 3144,
+  "image": "90d3295c-98be-4918-b7c0-de05457af731.png",
+  "category": "account credentials leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 3814,
+  "image": "eb73e5ae-bb54-4e40-854e-3c0c50562cf2.png",
+  "category": "account credentials leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "2023_08_17_ni..",
+   "NKLKw890lnXL4y9giwPT"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 2842,
+  "image": "6a1311f4-cf0d-43f0-ba3d-eeb5b504dc12.png",
+  "category": "account credentials leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "s6115QB1nNAQZglQ9ycU",
+   "2023-10-15lnnovative app ideas for productivity and"
+  ],
+  "usable": true,
+  "sham_text": [
+   "copy_startup_i...",
+   "organization."
+  ],
+  "priv_area": 53554.29504794371,
+  "sham_area": 32264.6917825914
+ },
+ {
+  "idx": 5606,
+  "image": "3_4601861670341374_4.png",
+  "category": "account credentials leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "Register",
+   "Sign In"
+  ],
+  "usable": true,
+  "sham_text": [
+   "MTNO",
+   "MIDSOMER"
+  ],
+  "priv_area": 13581.061839289963,
+  "sham_area": 46487.68148394674
+ },
+ {
+  "idx": 5968,
+  "image": "42_4039766913998983_18.png",
+  "category": "account credentials leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 2060,
+  "image": "0367ac45-daa2-42f6-b7d0-87f09c2f067c.png",
+  "category": "account credentials leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 5006,
+  "image": "35_4857132808445208_13.png",
+  "category": "account credentials leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "sdk_gphone64_x86_64",
+   "Signed in as ledelpristina28@gmail.com"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Download",
+   "Device folders"
+  ],
+  "priv_area": 29832.94277749583,
+  "sham_area": 11669.150917109917
+ },
+ {
+  "idx": 3940,
+  "image": "27_4850341996895499_5.png",
+  "category": "account credentials leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "google.com/search?q=free%20comedy"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Check your settings"
+  ],
+  "priv_area": 39116.1770324707,
+  "sham_area": 34935.832946777344
+ },
+ {
+  "idx": 6587,
+  "image": "47_0618068556817513_9.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 3,
+  "priv_text": [
+   "47FazUBGbFrJhFuA9CY/edit?usp=",
+   "Yesterday8:30AM",
+   "Write a message saltyfunsweets"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Do you want to see a movie with me this",
+   "katsunaksu",
+   "Do you want to go for a hiking trail with"
+  ],
+  "priv_area": 131366.2716931086,
+  "sham_area": 129904.68079877831
+ },
+ {
+  "idx": 3794,
+  "image": "e960c897-4eb7-4364-96c8-29adac396b8c.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 644,
+  "image": "13_6222568395502606_10.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Al Day @redbeardpirate1·19 May23"
+  ],
+  "usable": true,
+  "sham_text": [
+   "People"
+  ],
+  "priv_area": 28122.418807592243,
+  "sham_area": 6726.217732898891
+ },
+ {
+  "idx": 6892,
+  "image": "49_6239894588881002_4.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "Healthy lunch plan",
+   "Healthy lunch plan"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Salmon salad with sesa",
+   "penne· Diet cola chicken· ..."
+  ],
+  "priv_area": 19355.0,
+  "sham_area": 20254.0
+ },
+ {
+  "idx": 63,
+  "image": "2024_4_23_19_8_c7c81d1bf6744774b99294e9f124dda3-6.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 11,
+  "priv_text": [
+   "New York ",
+   "1,873events",
+   "90's Mindhappy Party",
+   "269 Canal St",
+   "Explore",
+   "Schools",
+   "ALBEESQUARE",
+   "OALBEESQUARE,BROOKLYNNY",
+   "Fulton Street between Albee Square a Dekalb Avenug",
+   "Explore Schools Family Day",
+   "AlbeeSquare"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 861,
+  "image": "15_3219702354013550_12.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 5,
+  "priv_text": [
+   "Samsung Galaxy S22",
+   "$129.99",
+   "$284.99",
+   "$325.0",
+   "Samsung Galaxy S22"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Search on eBay",
+   " Selling",
+   "Bose QuietComfort",
+   "My eBay",
+   "Grab sneakers and apparel direct from the brand."
+  ],
+  "priv_area": 76698.58199703973,
+  "sham_area": 77994.9096079804
+ },
+ {
+  "idx": 5273,
+  "image": "37_6612818381918370_9.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 10,
+  "priv_text": [
+   "=61558787573715&mibextid=N0b6eG",
+   ".2698930/p0st/C6V4CdQLjjw/?xmt",
+   "=AQGzZ1T1pABbadZN9pDIQ2o5md5",
+   "-KZpVB4ELIfBL_qZ2Og",
+   "https://twitter.com/BotongC10393",
+   "/status/1784896363689660701?t=p",
+   "-9pud3ThBwcmDfjXMo7Dw&s=19",
+   "https://teams.live.c0m/meet/9362693157146",
+   "?p=M28irGLzseEutWAR",
+   "9198916954"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 10,
+  "image": "2024_3_23_1_12_4870e3328463473e9cfa11b06816e6bc-5.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Play History"
+  ],
+  "usable": true,
+  "sham_text": [
+   "testappiumay"
+  ],
+  "priv_area": 23098.793884277344,
+  "sham_area": 23843.475036621094
+ },
+ {
+  "idx": 6330,
+  "image": "44_9876673815967430_7.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 4564,
+  "image": "31_4255709033177087_10.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 3579,
+  "image": "c8fd84fb-df57-4463-881e-3454088993ca.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "Review session for Annual Report",
+   "Workshop on Campaign"
+  ],
+  "usable": true,
+  "sham_text": [
+   "We will plan client feedback. Remember to confirm at..",
+   "We will explore team roles."
+  ],
+  "priv_area": 55181.5113276802,
+  "sham_area": 47154.79564473778
+ },
+ {
+  "idx": 4536,
+  "image": "31_3181939538767137_14.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Spanish Learning"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Inbox is a temporary hub"
+  ],
+  "priv_area": 15451.595889732242,
+  "sham_area": 19000.6849650722
+ },
+ {
+  "idx": 645,
+  "image": "13_6642395126153515_7.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "'Where the Crawdads Sing' by De",
+   "Where the Crawdads Sing"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Google",
+   "Audience rating summary"
+  ],
+  "priv_area": 68607.67445770837,
+  "sham_area": 61987.884148691315
+ },
+ {
+  "idx": 2922,
+  "image": "75170165-1d91-4efe-acf3-1d9f12092af7.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "tEeLFGDIFVXrnVtkk9zw"
+  ],
+  "usable": true,
+  "sham_text": [
+   "yyyy-MM-dd"
+  ],
+  "priv_area": 15639.509868621826,
+  "sham_area": 11483.950390443206
+ },
+ {
+  "idx": 7134,
+  "image": "51_9850028684796815_7.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 3414,
+  "image": "b40ea671-4514-42fc-baef-f878654f9ab8.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 3,
+  "priv_text": [
+   "Sat, Oct 7, 2023",
+   "2023",
+   "23456７"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Include year",
+   "Sep",
+   "Significant date"
+  ],
+  "priv_area": 69882.05548066739,
+  "sham_area": 23208.45236685872
+ },
+ {
+  "idx": 3563,
+  "image": "c618fe35-c85b-423d-81c2-073e23b6e4c9.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "240913-3 (240..."
+  ],
+  "usable": true,
+  "sham_text": [
+   "Recipes"
+  ],
+  "priv_area": 12043.825240246952,
+  "sham_area": 12344.219497777289
+ },
+ {
+  "idx": 1666,
+  "image": "21_3015434780332983_12.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "AtravelguidetotheGreatWall:",
+   "https://www.tripadvisor.com/Attraction_Review-g294212-d311505-Reviews-The_Great_Wall_at_Badaling-Beijing.html"
+  ],
+  "usable": true,
+  "sham_text": [
+   "shared activity andothernotifications,",
+   "currentlydisabled.Toreceivereminders,"
+  ],
+  "priv_area": 77765.1359725967,
+  "sham_area": 34074.47137944447
+ },
+ {
+  "idx": 6846,
+  "image": "49_2719578694897575_8.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 9,
+  "priv_text": [
+   "wht8vjiLKCt2Hx8jJgFGZP7YQS",
+   "VveYHFLeoabSF3L9dGXyzZtvoLl",
+   "&id=61558787573715&mibextid=",
+   ".5024/post/C60dPSju4GB/?xmt=",
+   "AQGzZtl08Vt67XCQVaULceEOr27",
+   "LU3pamdtMCmGsdxpB3A",
+   "https://twitter.com/BotongC10393",
+   "/status/1789200449092174107?t=",
+   "8veEt38AFASI2y8iT8f6DA&s=19"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 5817,
+  "image": "41_1526825761538162_8.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "Indonesian Learning",
+   "Learning"
+  ],
+  "usable": true,
+  "sham_text": [
+   "New version available!",
+   "Assigned to me"
+  ],
+  "priv_area": 23895.781271204352,
+  "sham_area": 19902.397453837795
+ },
+ {
+  "idx": 827,
+  "image": "15_0706762729289369_7.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 4,
+  "priv_text": [
+   "2NDEDITION",
+   "$5.95",
+   "$5.99",
+   "$10.99"
+  ],
+  "usable": true,
+  "sham_text": [
+   "pr",
+   "French-L",
+   "My eBay",
+   "BOOK"
+  ],
+  "priv_area": 23481.17279255623,
+  "sham_area": 22781.26121678762
+ },
+ {
+  "idx": 737,
+  "image": "14_4423256004796247_10.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 8,
+  "priv_text": [
+   "Tech Review",
+   "Tech",
+   "Review",
+   "Tech Review",
+   "TechReview",
+   "@TechReviewbangla· 23.6K subscribers· 499 videos",
+   "Welcome to Tech Review, your go-to destination for all things tech",
+   "ONLAPTOPWINDOWS11"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Playlists",
+   "HOWTODISABLEKEYBOARD",
+   "Shorts",
+   "Find your bookmarks,",
+   "Cor",
+   "on YouTube. On this channel, I document my real-life computer..",
+   "downloads, settings & more",
+   "Corrupted or"
+  ],
+  "priv_area": 227637.5924590202,
+  "sham_area": 191092.92393278098
+ },
+ {
+  "idx": 4479,
+  "image": "30_6347874897680502_14.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 6,
+  "priv_text": [
+   "$17.51 (Earn 18 pts)",
+   "$9.99 (Earn 10 pts)",
+   "-41% $999",
+   "List Price: $17.00 ①",
+   "shipped by Amazon over $35",
+   "Buy Now"
+  ],
+  "usable": true,
+  "sham_text": [
+   "with membership trial",
+   "See all formats",
+   "FREE Returns",
+   "Add to Cart",
+   "Paperback",
+   "Delivery"
+  ],
+  "priv_area": 139673.72866076836,
+  "sham_area": 61508.233604780864
+ },
+ {
+  "idx": 6440,
+  "image": "45_9353022828162819_11.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "Today",
+   "Today"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Search",
+   "Inbox"
+  ],
+  "priv_area": 8211.7460239809,
+  "sham_area": 7813.066914876457
+ },
+ {
+  "idx": 6278,
+  "image": "44_6593681329086764_15.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "[ https://www.quora.com/How-hard-is-it-to-play-ba.."
+  ],
+  "usable": true,
+  "sham_text": [
+   "currently disabled. To receive reminders,"
+  ],
+  "priv_area": 30226.627999961376,
+  "sham_area": 18157.13626795332
+ },
+ {
+  "idx": 978,
+  "image": "16_3557918795574550_11.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 4232,
+  "image": "29_6229214996953404_14.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "CN¥432.90 -",
+   "CN¥30.74"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Source by region",
+   "AlibabaGuaranteed"
+  ],
+  "priv_area": 11979.0,
+  "sham_area": 11909.0
+ },
+ {
+  "idx": 6934,
+  "image": "49_9499338992422545_2.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Ebay"
+  ],
+  "usable": true,
+  "sham_text": [
+   " Installed"
+  ],
+  "priv_area": 6001.510609041899,
+  "sham_area": 6036.50970160123
+ },
+ {
+  "idx": 4121,
+  "image": "28_7734412639364910_19.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 8,
+  "priv_text": [
+   "Dyson Vll Torque Drive Cordless Vacuum",
+   "$295.93",
+   "Dyson Vli Torque Drive Cor",
+   "amathom1992 (296)",
+   "$295.93 Free shipping",
+   "$44.99",
+   "Dyson Vll Torque Drive Cordless",
+   "DysonVll Animal CordlessVacuum |"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Added to cart",
+   "My eBay",
+   "Additional service avai",
+   "Purple| Refurbished",
+   "Related sponsored items",
+   "Selling",
+   "Go to cart",
+   "Aaatowatcnlist"
+  ],
+  "priv_area": 120327.49636261351,
+  "sham_area": 100901.50568134792
+ },
+ {
+  "idx": 1344,
+  "image": "19_6543479041051564_15.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "自Chocolate chipcookies"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Description"
+  ],
+  "priv_area": 13796.504348494112,
+  "sham_area": 4605.458657238632
+ },
+ {
+  "idx": 6887,
+  "image": "49_5873498689045148_14.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 3,
+  "priv_text": [
+   "$299",
+   "$399",
+   "$299"
+  ],
+  "usable": true,
+  "sham_text": [
+   "CONFUCTSANDITSLEGACYINMODERNTIMES",
+   "PEOPLEPLANTS,ANIMALSIDEASRESOURDESANDMORE",
+   "EXPANSIONINTOTHENEWWORLD,COLONIAL"
+  ],
+  "priv_area": 24600.31182861328,
+  "sham_area": 24073.222778320312
+ },
+ {
+  "idx": 4561,
+  "image": "31_4291686182266470_4.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 3,
+  "priv_text": [
+   "saltyfunsweets",
+   "I am hungry",
+   "hungry"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Aa",
+   "GIF",
+   "# Add tags to help people find your post"
+  ],
+  "priv_area": 38881.25413733628,
+  "sham_area": 42110.39848969504
+ },
+ {
+  "idx": 6806,
+  "image": "48_9157857473575006_13.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 3,
+  "priv_text": [
+   "watch",
+   "Batman",
+   "watch"
+  ],
+  "usable": true,
+  "sham_text": [
+   "movie",
+   "Cinco di",
+   "the"
+  ],
+  "priv_area": 15348.3369140625,
+  "sham_area": 14429.919067382812
+ },
+ {
+  "idx": 3215,
+  "image": "9b30c11b-13f3-40cb-8499-653f46819fea.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 3,
+  "priv_text": [
+   "Renew Driver's License",
+   "Schedule Dentist Appointment",
+   "Schedule Dentist Anrointment"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Complete paperwork.",
+   "Annual checkup and vaccinations due.",
+   "Complete project proposal"
+  ],
+  "priv_area": 72031.27023090515,
+  "sham_area": 70492.95853416994
+ },
+ {
+  "idx": 4093,
+  "image": "28_5599261627362264_3.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 11,
+  "priv_text": [
+   "the crusades",
+   "the crusades explained",
+   "the crusades trailer",
+   "the crusades documentary",
+   "the crusades history",
+   "the crusades in 5 minutes",
+   "the crusades extra history",
+   "the crusades oversimplified",
+   "the crusades bbc",
+   "Crusades",
+   "@gmail.com"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 5797,
+  "image": "41_0285139372324148_17.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "Quora Digest, Tumblr, AllTrails, Pinterest,..",
+   "Quora Digest"
+  ],
+  "usable": true,
+  "sham_text": [
+   "欢迎访问MathWorks！要完成您的MathWorks帐...",
+   "前往您的OneDrive"
+  ],
+  "priv_area": 61144.501373291016,
+  "sham_area": 59787.22814941406
+ },
+ {
+  "idx": 5170,
+  "image": "36_8984935966739272_2.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "$355,000",
+   "$380"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Save search",
+   "Got it"
+  ],
+  "priv_area": 24301.709838867188,
+  "sham_area": 19435.9658203125
+ },
+ {
+  "idx": 4447,
+  "image": "30_4316932902181189_11.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 8,
+  "priv_text": [
+   "Rose Anne Lacaba",
+   "Add friend",
+   "Add friend",
+   "Add friend",
+   "Add friend",
+   "Add friend",
+   "Add friend",
+   "Add friend"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Arianne V. Arribe",
+   "Remove",
+   "Remove",
+   "Remove",
+   "Remove",
+   "Remove",
+   "Remove",
+   "Remove"
+  ],
+  "priv_area": 88588.21307373047,
+  "sham_area": 78519.61999511719
+ },
+ {
+  "idx": 3575,
+  "image": "c8d818eb-cc1a-4d43-bd90-4f2ad30302e6.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 4116,
+  "image": "28_7457197348038772_15.png",
+  "category": "behavior preferences and browsing history leakage",
+  "n_priv": 3,
+  "priv_text": [
+   "List Price: $10.95θ",
+   "FREE delivery Monday, May 20 on orders shipped by Amazon over $35",
+   "Orfastestdelivery Tomorrow,May15.Order within23 hrs55 mins"
+  ],
+  "usable": true,
+  "sham_text": [
+   "VAdded to cart",
+   "Gift-wrap available.",
+   "Secure transaction"
+  ],
+  "priv_area": 76095.96088841627,
+  "sham_area": 25088.48889817018
+ },
+ {
+  "idx": 1484,
+  "image": "1_7611856274703681_25.png",
+  "category": "communication content leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "hike,Lung Fu Shan.l do want to invite you to go with me.We"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Are you interestde in hiking trail?l find a fine place to"
+  ],
+  "priv_area": 31086.862882830203,
+  "sham_area": 27680.719653965905
+ },
+ {
+  "idx": 1520,
+  "image": "20_0759925029978293_14.png",
+  "category": "communication content leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "chenbt2003@gmall.com",
+   "caba62244@gmail.com"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Subject",
+   "From"
+  ],
+  "priv_area": 19950.0,
+  "sham_area": 8824.0
+ },
+ {
+  "idx": 1503,
+  "image": "1_8902982186899801_13.png",
+  "category": "communication content leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "18dajunee",
+   "87.2698930"
+  ],
+  "usable": true,
+  "sham_text": [
+   "tPosteddkhan",
+   "skylover."
+  ],
+  "priv_area": 24525.65478515625,
+  "sham_area": 23516.69110107422
+ },
+ {
+  "idx": 359,
+  "image": "11_2266000954510195_13.png",
+  "category": "communication content leakage",
+  "n_priv": 3,
+  "priv_text": [
+   "Fromchenbt2003@gmail.com",
+   "caba62244@gmail.com",
+   ".com"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 5944,
+  "image": "42_1952272479083517_13.png",
+  "category": "communication content leakage",
+  "n_priv": 4,
+  "priv_text": [
+   "/status/178489510606!",
+   "axGRODCFOreiS_xhjZ63",
+   "9198916954",
+   "9198916954"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Instagram · jautzha",
+   "Screenshot",
+   "Send",
+   "jautzhau"
+  ],
+  "priv_area": 73054.423828125,
+  "sham_area": 46133.20919036865
+ },
+ {
+  "idx": 6273,
+  "image": "44_5993036238272381_11.png",
+  "category": "communication content leakage",
+  "n_priv": 6,
+  "priv_text": [
+   "/74973745321102540",
+   "/status/1787489798",
+   "a4ugF9ajBkj-EunZl0c",
+   "/9374833361011?p=",
+   "xEkF25dJMsD4Fheq",
+   "9298916954"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 1985,
+  "image": "23_9353022828162819_10.png",
+  "category": "communication content leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 4728,
+  "image": "32_7430827381233392_18.png",
+  "category": "communication content leakage",
+  "n_priv": 4,
+  "priv_text": [
+   "Botong Chem",
+   "83648366337?..",
+   "and enter meetingID: 836 4836",
+   "6337 and password: T3q4VR"
+  ],
+  "usable": true,
+  "sham_text": [
+   "ZX ",
+   "NM",
+   "Business",
+   "Sending"
+  ],
+  "priv_area": 155353.6524491571,
+  "sham_area": 77266.8639969416
+ },
+ {
+  "idx": 624,
+  "image": "13_5164208820115949_9.png",
+  "category": "communication content leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "chenbt2003@gmail.com",
+   "caba62244@gmail.com"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Subject",
+   "From"
+  ],
+  "priv_area": 66420.11404712172,
+  "sham_area": 26288.396971398033
+ },
+ {
+  "idx": 818,
+  "image": "15_0295748281331479_6.png",
+  "category": "communication content leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "May26-Jun 1"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Business"
+  ],
+  "priv_area": 4300.0,
+  "sham_area": 3570.0
+ },
+ {
+  "idx": 6482,
+  "image": "46_2257483939017912_5.png",
+  "category": "communication content leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 1147,
+  "image": "17_7384234099405244_8.png",
+  "category": "communication content leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Victor James"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Add to Maps"
+  ],
+  "priv_area": 13040.48749726382,
+  "sham_area": 12493.865340828896
+ },
+ {
+  "idx": 1272,
+  "image": "19_0097146299278532_10.png",
+  "category": "communication content leakage",
+  "n_priv": 3,
+  "priv_text": [
+   ".5024/p0st/C6oUxseriYA/?xmt=",
+   "AQGzFT3Mcl3XXSpFbAhhCoBCS",
+   "5KIQjsRs3T89yTt0jCvGw"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Not sent. Tap for more actions.",
+   "Screenshot",
+   "GIF"
+  ],
+  "priv_area": 129633.79339703731,
+  "sham_area": 43408.92078904435
+ },
+ {
+  "idx": 404,
+  "image": "11_5588731324253023_11.png",
+  "category": "communication content leakage",
+  "n_priv": 6,
+  "priv_text": [
+   "https://www.dailymail.co.uk/sciencetech/article-13336239",
+   "https://share.newsbreak.com/6plx41r0",
+   "https://www.threads.net/@87.2698930/post",
+   "/C6G3pHwrGZ6/?xmt=AQGzZhkc_5xDatxH10VFOg",
+   "-TYDI5MrMKc61JI2nlH5QRxQ",
+   "https://www..threads.net/@...15MrMKc61JI2nlH5QRxQq https://www..threads.net/..tydi5mrmkc61jl)2nih5qrxq"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 729,
+  "image": "14_4327973028197891_11.png",
+  "category": "communication content leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "/1SxaVLphFkdIDbR8IDUqNgyr",
+   "J4X0N0i9NJZcavp01Cjo/edit"
+  ],
+  "usable": true,
+  "sham_text": [
+   "?usp=drivesdk",
+   "AS"
+  ],
+  "priv_area": 32430.0,
+  "sham_area": 12912.0
+ },
+ {
+  "idx": 6634,
+  "image": "47_5356533010435381_15.png",
+  "category": "communication content leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "chenbt2003@gmail.com",
+   "caba62244@gmail.com"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Subject",
+   "Screenshot"
+  ],
+  "priv_area": 26522.742470109835,
+  "sham_area": 14013.230754893273
+ },
+ {
+  "idx": 5316,
+  "image": "38_3031769271426875_13.png",
+  "category": "communication content leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "https://meet.zoho.com/yDxx7A3ivo",
+   "/9525264208819?p=Dt8V1kqFre6UZrqN"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 6518,
+  "image": "46_5315396814352552_9.png",
+  "category": "communication content leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Tzhau Jau"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Send"
+  ],
+  "priv_area": 8838.70849609375,
+  "sham_area": 4168.735969483852
+ },
+ {
+  "idx": 4089,
+  "image": "28_5470498614449436_10.png",
+  "category": "communication content leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "ledelpristina28@gmail.com",
+   "saltyfunswee Botong Chem"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Business",
+   "Sharing text"
+  ],
+  "priv_area": 60966.15608070232,
+  "sham_area": 52447.49102117866
+ },
+ {
+  "idx": 6698,
+  "image": "48_0125975818276068_6.png",
+  "category": "communication content leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "https://teams.live.c0m/meet/959893444663",
+   "?p=0fPvxszFdc36oLOL"
+  ],
+  "usable": true,
+  "sham_text": [
+   "saltyfunsweets: katsunaksu",
+   "saltyfunsweets"
+  ],
+  "priv_area": 111851.9573104307,
+  "sham_area": 62149.77639182471
+ },
+ {
+  "idx": 5121,
+  "image": "36_5302350414260102_14.png",
+  "category": "communication content leakage",
+  "n_priv": 8,
+  "priv_text": [
+   "-USBW3u8dSWK5DUPTO1",
+   "JmcvXXw114UwQ",
+   "/750446617221627904/i-am-hungry?s0urce=",
+   "https://twitter.c0m/botong215638/status",
+   "/1790326151690518981?t=apP6b9BaN",
+   "3GvXXbKTHp7g&s=19",
+   "?p=8Yhnyo7yorcSdDRN",
+   "?p=YgqCOUL1rEaveQph"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 2296,
+  "image": "22e782d1-7196-4ba1-92f7-3010a03a0deb.png",
+  "category": "communication content leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 5103,
+  "image": "36_4263793507458356_11.png",
+  "category": "communication content leakage",
+  "n_priv": 8,
+  "priv_text": [
+   "https://twitter.com/botong215638",
+   "/status/1782327142694744072?t=",
+   "OmBKYJ7OKIBrvcw6r6lzMA&s=19",
+   "/9325345737086?p=OvakmtdTrxcKsWls",
+   "https://us05web.z00m.us/j/9298916954",
+   "?pwd=o5vLphjoRZP5j",
+   ".us/j/9298916954?pwd=",
+   "o5vLphjoRZP5jcuz5skYOanlNPAwau.1"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 1809,
+  "image": "22_5218995801510660_24.png",
+  "category": "communication content leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "Do you want to go for a hiking",
+   "trail with me this Saturday?"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Screenshot",
+   "GIF"
+  ],
+  "priv_area": 27513.0,
+  "sham_area": 6405.0
+ },
+ {
+  "idx": 1676,
+  "image": "21_3449619402022937_12.png",
+  "category": "communication content leakage",
+  "n_priv": 5,
+  "priv_text": [
+   "From ledelpristina28@gmail.com",
+   "caba62244@gmail.com",
+   "caba62244@gmail.com",
+   "caba62244@gmail.com",
+   ".com"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 6485,
+  "image": "46_2321472294612182_15.png",
+  "category": "communication content leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "ledelpristina28@gmail.com",
+   "caba62244@gmail.com"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Subject",
+   "From"
+  ],
+  "priv_area": 53955.52633666992,
+  "sham_area": 21417.532745361328
+ },
+ {
+  "idx": 5758,
+  "image": "40_6573257327173803_1.png",
+  "category": "communication content leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "chenbt2003iogmail"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Open HousePaulanerBrau"
+  ],
+  "priv_area": 3411.946349605918,
+  "sham_area": 4266.382942199707
+ },
+ {
+  "idx": 4261,
+  "image": "29_8887412062921893_14.png",
+  "category": "communication content leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "ledelpristina28@gmail.com"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Subject"
+  ],
+  "priv_area": 24292.31734888628,
+  "sham_area": 10750.647263519466
+ },
+ {
+  "idx": 5649,
+  "image": "3_7812008971541900_15.png",
+  "category": "communication content leakage",
+  "n_priv": 3,
+  "priv_text": [
+   "us05web.z00m.us/i/82357861392?..",
+   "Meeting ID: 823 5786 1392",
+   "meet.zoho.com/H2U2Zosn7M"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Business",
+   "Today",
+   "GIF"
+  ],
+  "priv_area": 76453.23911403492,
+  "sham_area": 13985.114811588079
+ },
+ {
+  "idx": 2290,
+  "image": "22c57520-ca76-454f-8e49-8b23e9476417.png",
+  "category": "communication content leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "+1 988-853-7913"
+  ],
+  "usable": true,
+  "sham_text": [
+   "WXYZ"
+  ],
+  "priv_area": 46368.82816314697,
+  "sham_area": 3570.8724975585938
+ },
+ {
+  "idx": 4517,
+  "image": "31_1364817822054173_7.png",
+  "category": "communication content leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "83848183824",
+   "A4Zg0g"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Meeting ID",
+   "Business"
+  ],
+  "priv_area": 36791.078806953505,
+  "sham_area": 32642.707399319857
+ },
+ {
+  "idx": 4826,
+  "image": "33_5164208820115949_7.png",
+  "category": "communication content leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "chenbt2003@gmail.com"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Subject"
+  ],
+  "priv_area": 38638.317321654875,
+  "sham_area": 18418.713139548665
+ },
+ {
+  "idx": 6314,
+  "image": "44_9112147425470160_6.png",
+  "category": "communication content leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "to join the meeting Meeting ID: 955 250 387 410"
+  ],
+  "usable": true,
+  "sham_text": [
+   "computer, mobile app or room device Click here"
+  ],
+  "priv_area": 21351.0,
+  "sham_area": 21087.0
+ },
+ {
+  "idx": 6178,
+  "image": "43_9119502974581569_18.png",
+  "category": "communication content leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "chenbt2003@gmail.com"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Subject"
+  ],
+  "priv_area": 22348.200742220506,
+  "sham_area": 10145.409650143236
+ },
+ {
+  "idx": 6639,
+  "image": "47_5867042886589664_11.png",
+  "category": "communication content leakage",
+  "n_priv": 4,
+  "priv_text": [
+   "chenbt2003@gmail.com",
+   "To caba62244@gmail.com",
+   "caba62244@gmail.com",
+   "caba62244@gmail.com"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 3851,
+  "image": "26_8887412062921893_10.png",
+  "category": "communication content leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Gv9Qds"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Delete"
+  ],
+  "priv_area": 8038.373461285606,
+  "sham_area": 8126.977844238281
+ },
+ {
+  "idx": 750,
+  "image": "14_5537854707869610_20.png",
+  "category": "communication content leakage",
+  "n_priv": 8,
+  "priv_text": [
+   "/d/1DYIW1m1n9ibWmdv9Lu06Xnj0",
+   "EXxGUAxgFEMpOr3EDxk/edit?usp=",
+   "/d/1V3senPtO1gwvRLmExFHK",
+   "_OfJszlhgcauLTtvrsAw6gU/edit?usp=",
+   "/1F1mYgUNic6AwXcwpgl0fdfotTjP8R",
+   "_v4ogXTNTK6u7U/edit?usp=drivesdk",
+   "/d/1yRm4fbwAtqwCpb-UeV",
+   "-Ng6Eiw7gxvt8EMiKxPW7vj1U/edit?usp:"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 3261,
+  "image": "a118e686-e52f-410d-9f37-03773611e5df.png",
+  "category": "communication content leakage",
+  "n_priv": 5,
+  "priv_text": [
+   "+12707939918·now",
+   "+14706859719",
+   "+11372752182",
+   "+10777463620",
+   "+12707939918"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Mark as Read",
+   "Actions speak louder than words.",
+   "Reply",
+   "Actions speak louder than words.",
+   "Parents' evening at school this Wednesday."
+  ],
+  "priv_area": 72697.6376361684,
+  "sham_area": 97145.46610959899
+ },
+ {
+  "idx": 1063,
+  "image": "17_0819192031946566_9.png",
+  "category": "communication content leakage",
+  "n_priv": 4,
+  "priv_text": [
+   "chenbt2003@gmail.c0m",
+   "To caba62244@gmail.com",
+   "caba62244@gmail.c0m",
+   "caba62244@gmail.com"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 4803,
+  "image": "33_2789690638766975_9.png",
+  "category": "communication content leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "eNy3jv"
+  ],
+  "usable": true,
+  "sham_text": [
+   "ming meetings"
+  ],
+  "priv_area": 4863.5231279321015,
+  "sham_area": 4585.610943235457
+ },
+ {
+  "idx": 5633,
+  "image": "3_6593681329086764_13.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "off in Settings. To turn on reminders again, select'Turn on', find To Do",
+   "TURN ON"
+  ],
+  "usable": true,
+  "sham_text": [
+   "shared activity and other notifications,",
+   "Planned"
+  ],
+  "priv_area": 42585.62142573297,
+  "sham_area": 21584.790810078848
+ },
+ {
+  "idx": 6491,
+  "image": "46_3015434780332983_11.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 4,
+  "priv_text": [
+   "https://www.tripadvisor.com/Attraction_Review-g294212-d311505-Reviews-The_Great_Wall_at_Badaling-Beijing.html",
+   "You can't set reminders in To Do now because they have been turned",
+   "off in Settings.To turn on reminders again, select'Turn on',find To Do",
+   "The notification permission for To Do is ×"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Planned",
+   "in the list, and turn it on.",
+   "三 All planned",
+   "Assigned to me"
+  ],
+  "priv_area": 165763.4593143901,
+  "sham_area": 44373.86452358682
+ },
+ {
+  "idx": 2953,
+  "image": "7ae0ee35-e0f4-4cdd-b4a2-c312b8a2f27a.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 1694,
+  "image": "21_5277288454311815_13.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 2102,
+  "image": "087033c7-6fff-4f08-9562-a181e7d4587b.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "sdk_gphone64_armsdk_phone_123464"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Device visibility"
+  ],
+  "priv_area": 29078.7506066598,
+  "sham_area": 23936.034327124245
+ },
+ {
+  "idx": 135,
+  "image": "0_4342954710981326_9.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Contacts"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Google"
+  ],
+  "priv_area": 8728.746502518654,
+  "sham_area": 8830.88607788086
+ },
+ {
+  "idx": 2316,
+  "image": "25ac7a7f-9782-4cde-b9a7-dd17d32adbd1.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Visible as \"sdk_gphone64_armsdk_test_device_202364\" to"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Connection preferences"
+  ],
+  "priv_area": 38493.62452370487,
+  "sham_area": 28354.12173680123
+ },
+ {
+  "idx": 801,
+  "image": "14_9321501736005672_2.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 1936,
+  "image": "23_5077867615839498_8.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 3191,
+  "image": "98c9bd6a-59ea-4917-bc25-4d37f17089ce.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 1479,
+  "image": "1_7497631708308373_9.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 2931,
+  "image": "74fffde4-056f-41c3-ac87-76273787b7e5.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "hone64_armsdk_gphone64_arm64_v26",
+   "123456789"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Pair new device",
+   "Rename this device"
+  ],
+  "priv_area": 95083.7142732935,
+  "sham_area": 70972.70262160059
+ },
+ {
+  "idx": 3421,
+  "image": "b56f257c-2d23-4350-add5-264a1ef42095.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "sdk_gphone64_arm64"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Device name"
+  ],
+  "priv_area": 16324.841760030482,
+  "sham_area": 16928.458975866437
+ },
+ {
+  "idx": 484,
+  "image": "12_2333449081557171_7.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "Missing chat history. Sync now",
+   "You:9298916954·8:04AM"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Chats",
+   "Your note"
+  ],
+  "priv_area": 20963.0,
+  "sham_area": 11095.0
+ },
+ {
+  "idx": 700,
+  "image": "14_2137757526564061_13.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Enable location access"
+  ],
+  "usable": true,
+  "sham_text": [
+   "things to do, places to stay, and more."
+  ],
+  "priv_area": 18627.158836506307,
+  "sham_area": 22133.908346856013
+ },
+ {
+  "idx": 1093,
+  "image": "17_2709181756049142_18.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 394,
+  "image": "11_4796830271031349_6.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 3,
+  "priv_text": [
+   "Allow https://www.google.com:443 to use your",
+   "Don't allow",
+   "Allow"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Remember decision for this site",
+   "At home",
+   "loeo"
+  ],
+  "priv_area": 94148.21989829326,
+  "sham_area": 55163.404775878415
+ },
+ {
+  "idx": 5248,
+  "image": "37_4736925687442379_10.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 6497,
+  "image": "46_3296109584380388_1.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 5,
+  "priv_text": [
+   "Allow protected content",
+   "Allow",
+   "010093",
+   "over49ersinovertil",
+   "031066"
+  ],
+  "usable": true,
+  "sham_text": [
+   "NFLNBAMLBNHLSoccer Golf",
+   "Falcon",
+   "PatrickMahomes,",
+   "Rememberchoice",
+   "Transactions"
+  ],
+  "priv_area": 46823.84733365476,
+  "sham_area": 41382.98620080203
+ },
+ {
+  "idx": 4466,
+  "image": "30_5544781000296724_4.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Advanced Security Lite"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Assistant, recent apps, default apps"
+  ],
+  "priv_area": 19712.15707329288,
+  "sham_area": 16165.409409087151
+ },
+ {
+  "idx": 6010,
+  "image": "42_6857036269947106_13.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 551,
+  "image": "12_7835738917634617_26.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "Victor James",
+   "Tzhau Jau"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Q Search friends",
+   "Friends"
+  ],
+  "priv_area": 24479.924298123457,
+  "sham_area": 22775.422621322796
+ },
+ {
+  "idx": 244,
+  "image": "10_3500572825975334_14.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 4,
+  "priv_text": [
+   "/750446617221627904/i-am-hungry?source=",
+   "https://twitter.c0m/botong215638/status",
+   "/1790326151690518981?t=apP6b9BaN",
+   " 3GvXXbKTHp7g&s=19"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 873,
+  "image": "15_4169552971968055_23.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Contacts"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Uninstall"
+  ],
+  "priv_area": 4332.503563664854,
+  "sham_area": 4153.8427734375
+ },
+ {
+  "idx": 6557,
+  "image": "46_8484878056338271_1.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 1671,
+  "image": "21_3345756718622111_9.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 6059,
+  "image": "43_0406345684152801_6.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Amazon Shopping"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Available on more devices"
+  ],
+  "priv_area": 51177.66906738281,
+  "sham_area": 38552.91403198242
+ },
+ {
+  "idx": 5258,
+  "image": "37_5808028267435355_7.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 853,
+  "image": "15_2815385405738477_12.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 3247,
+  "image": "9fbd94ee-ca7f-4eb4-8c62-89157b3ad96a.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 656,
+  "image": "13_7806665730295859_28.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Victor James"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Waitingfornetwork"
+  ],
+  "priv_area": 7252.0,
+  "sham_area": 5670.0
+ },
+ {
+  "idx": 3184,
+  "image": "974ad0af-be88-4ae0-8bbe-3a550ced0583.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 278,
+  "image": "10_5863248102778235_5.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Allow Firefox to access this device's"
+  ],
+  "usable": true,
+  "sham_text": [
+   "What are the reailirements fnr nrivate crhnnle in"
+  ],
+  "priv_area": 58090.635681152344,
+  "sham_area": 43640.39538574219
+ },
+ {
+  "idx": 173,
+  "image": "0_7416173913852471_10.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "/1SxaVLphFkdIDbR8IDUqNgyrJ4X0NOi9NJ",
+   "Zcavp01Cjo/edit?usp=drivesdk"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Instagram· jautzhau",
+   "Screenshot"
+  ],
+  "priv_area": 111683.57678134367,
+  "sham_area": 46947.24878470227
+ },
+ {
+  "idx": 1703,
+  "image": "21_5800237390046908_16.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 1655,
+  "image": "21_2110790750088835_9.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 3676,
+  "image": "d6c0e42a-7888-4ec9-9d46-58b9bd5470d5.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 1834,
+  "image": "22_6857036269947106_11.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 4645,
+  "image": "32_0679370777907501_2.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 2,
+  "priv_text": [
+   " adb shell setti...",
+   "10.0.2.2"
+  ],
+  "usable": true,
+  "sham_text": [
+   "★ Wikipedia",
+   "Show all"
+  ],
+  "priv_area": 31588.55529428646,
+  "sham_area": 24031.21615178883
+ },
+ {
+  "idx": 3406,
+  "image": "b401daf9-5e7d-4c51-930a-0751117ada1b.png",
+  "category": "device permissions and operation leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 4349,
+  "image": "2_6101510836406887_14.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 1090,
+  "image": "17_2385024567697189_17.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 6,
+  "priv_text": [
+   "The Goldfinch: A Novel",
+   "GOLDFINCH",
+   "NATI0NAL",
+   "$3 credit on any ebook over $5. Expires 14 days after",
+   "The Goldfinch: A Novel (Pulitzer",
+   "$13.99"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Prize for Fiction)",
+   "Fiction)",
+   "BESTSELLER",
+   "DONNATARTT",
+   "applying. See terms",
+   "Add PayPal"
+  ],
+  "priv_area": 203588.6654663086,
+  "sham_area": 87040.95281982422
+ },
+ {
+  "idx": 6338,
+  "image": "45_0645689707539918_23.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 4,
+  "priv_text": [
+   "$24.99",
+   "Quantity1",
+   "200CaliforniaHall",
+   "Berkeley,CA94720-1501"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Ship to",
+   "Delivery",
+   "FreeUSPSMediaMail",
+   "Confirm and pay"
+  ],
+  "priv_area": 28936.326823528856,
+  "sham_area": 29194.359978859313
+ },
+ {
+  "idx": 2223,
+  "image": "1a04322b-afd8-42d2-9896-0051d00b07bb.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 4,
+  "priv_text": [
+   "College Savings Plan - 529 Account",
+   "Monthly Budget - May 2024",
+   "10,2024",
+   "Team Meeting - May 6, 2024"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 767,
+  "image": "14_6987570761326318_21.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 3,
+  "priv_text": [
+   "List Price: $103.95 0",
+   "Or $11.58 /mo (6 mo). Select from 1 plan",
+   "Buy Now"
+  ],
+  "usable": true,
+  "sham_text": [
+   "WhitePaper Books",
+   "SavewithUsed -Good",
+   "Ships from"
+  ],
+  "priv_area": 35058.74890562869,
+  "sham_area": 24976.042824769393
+ },
+ {
+  "idx": 2045,
+  "image": "017dc554-1cd3-4ae2-b79a-cdee425eb579.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Financial Plan"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Recipes"
+  ],
+  "priv_area": 10658.662120098248,
+  "sham_area": 8464.231177189387
+ },
+ {
+  "idx": 771,
+  "image": "14_7188023062579361_17.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 5,
+  "priv_text": [
+   "-43% $14”7",
+   "List Price: $26.00 ",
+   "Amazon over $35",
+   "Delivering to Seattle 98160 - Update",
+   "Buy Now"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Eligible for Return, Refund or",
+   "See all formats",
+   "Add to Cart",
+   "FREE Returns",
+   "QCompany"
+  ],
+  "priv_area": 183701.59833040182,
+  "sham_area": 103094.17676715367
+ },
+ {
+  "idx": 4627,
+  "image": "31_9230423522736668_12.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Media365 R..."
+  ],
+  "usable": true,
+  "sham_text": [
+   "AppLock PRO"
+  ],
+  "priv_area": 8930.831632308662,
+  "sham_area": 9603.001682966948
+ },
+ {
+  "idx": 2427,
+  "image": "34db9683-65e9-4846-97d7-3b2cc7f04f83.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "15 0ct 2023 3:34 PM"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Entertainmel"
+  ],
+  "priv_area": 14820.063224915648,
+  "sham_area": 9334.717913333327
+ },
+ {
+  "idx": 2720,
+  "image": "59c5db46-f82a-48c0-bc6d-5a24c9100581.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Finance"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Things"
+  ],
+  "priv_area": 7711.860331258737,
+  "sham_area": 7579.184467300773
+ },
+ {
+  "idx": 3097,
+  "image": "8b6c80c1-cf50-4d39-acde-bc69ea8e441f.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 9,
+  "priv_text": [
+   "2023_01_09_favorite_book_quotes.md",
+   "2023_03_04_client_meetings_schedule",
+   "2023_03_08_personal_goals_2024.md",
+   "2023_04_20_recipe_homemade_pizza.",
+   "2023_04_25_insurance_plan_comparis",
+   "on.md",
+   "2xYf_startup_ideas_launch.md",
+   "8Wq3_research_paper_summary.md",
+   "copy_personal_goals_2024.md"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 1657,
+  "image": "21_2353225459471664_14.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 5,
+  "priv_text": [
+   "$2597",
+   "($25.97 / Count)",
+   "($25.97 / Count)",
+   "Amazon over $35",
+   "Delivering to Santa Clara 95054 - Update location"
+  ],
+  "usable": true,
+  "sham_text": [
+   "snacks",
+   "Add to Cart",
+   "Ships from",
+   "One-time purchase:",
+   "Subscribe & Save. Shop items>| Terms"
+  ],
+  "priv_area": 98729.21447753906,
+  "sham_area": 92705.21054077148
+ },
+ {
+  "idx": 602,
+  "image": "13_2661162435284256_1.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Crypto.com - Buy Bitcoin, SOL"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Social· Networking"
+  ],
+  "priv_area": 37664.63622070849,
+  "sham_area": 20990.712278068066
+ },
+ {
+  "idx": 3486,
+  "image": "be44391f-696e-4377-b670-a3065e03a53b.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 3,
+  "priv_text": [
+   "15 Oct 2023 2:00 PM",
+   "2023",
+   "October 2023"
+  ],
+  "usable": true,
+  "sham_text": [
+   "CANCEL",
+   "Amount",
+   "rtainmel"
+  ],
+  "priv_area": 26639.36871884577,
+  "sham_area": 17603.559822311625
+ },
+ {
+  "idx": 3322,
+  "image": "a7efe8d6-58a1-4164-a009-00413ab83002.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "15 Oct 2023 3:36 PM"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Entertainmel"
+  ],
+  "priv_area": 13429.043645837111,
+  "sham_area": 9334.717913333327
+ },
+ {
+  "idx": 485,
+  "image": "12_2451545728360121_18.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 4,
+  "priv_text": [
+   "$2698",
+   "($13.49 / Count)",
+   "Amazon over $35. Order within 27 mins",
+   "Buy Now"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Gift-wrap available.",
+   "Securetransaction",
+   "Measurements",
+   "Delivery"
+  ],
+  "priv_area": 94227.64453125,
+  "sham_area": 63051.432220458984
+ },
+ {
+  "idx": 4199,
+  "image": "29_3505677440495384_10.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 5061,
+  "image": "36_0852386560981712_11.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Creditordebitcard"
+  ],
+  "usable": true,
+  "sham_text": [
+   "PayPal"
+  ],
+  "priv_area": 15493.683394154534,
+  "sham_area": 7939.318759496324
+ },
+ {
+  "idx": 2971,
+  "image": "7c9dc5c7-8e0f-4a50-915a-022542958f33.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 1882,
+  "image": "23_0285139372324148_13.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 5,
+  "priv_text": [
+   "$2597",
+   "($25.97 / Count)",
+   "($25.97 / Count)",
+   "Amazon over $35",
+   "Delivering to Santa Clara 95054 - Updatelocation"
+  ],
+  "usable": true,
+  "sham_text": [
+   "snacks",
+   "Coupon:",
+   "Classi",
+   "One-time purchase:",
+   "Subscribe & Save. Shop items>| Terms"
+  ],
+  "priv_area": 98611.55346679688,
+  "sham_area": 90816.35595703125
+ },
+ {
+  "idx": 2740,
+  "image": "5c75f29f-b2bb-471c-9d0c-9c6c17c9ec2c.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 3,
+  "priv_text": [
+   "Monthly Budget - May 2024",
+   "10,2024",
+   "Team Meeting - May 6, 2024"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 7111,
+  "image": "51_8179900999706191_14.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 6,
+  "priv_text": [
+   "Seller: biggun33176",
+   "Collins Easy Learning German - Easy Learning German Grammar",
+   "$7.25",
+   "Collins easy learning",
+   "German",
+   "Grammar"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Returns accepted",
+   "Purchaseprotected byeBayMoneyBack Guarantee",
+   "Delivery",
+   "PayPal",
+   "Rad neben mei",
+   "Stell dein"
+  ],
+  "priv_area": 87275.16581897205,
+  "sham_area": 54889.041934403125
+ },
+ {
+  "idx": 5426,
+  "image": "39_1059225829340003_14.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 4,
+  "priv_text": [
+   "Add card",
+   "$549.00",
+   "SSD*16GBQUADCOREi7",
+   "Berkeley, CA 94720-1501"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Quantity",
+   "Delivery",
+   "Confirm and pay",
+   "One-year warranty included"
+  ],
+  "priv_area": 96136.95253340248,
+  "sham_area": 92806.18497715145
+ },
+ {
+  "idx": 3330,
+  "image": "a911bbd0-d60f-4fd5-a3bb-1173e47151be.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 3,
+  "priv_text": [
+   "13 Oct 2023 8:00 AM",
+   "2023",
+   "October 2023"
+  ],
+  "usable": true,
+  "sham_text": [
+   "CANCEL",
+   "ocial",
+   "ProDev"
+  ],
+  "priv_area": 25755.764760663267,
+  "sham_area": 17825.18560290849
+ },
+ {
+  "idx": 6397,
+  "image": "45_5838280094877516_18.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 6,
+  "priv_text": [
+   "Educated By Tara Westover",
+   "Educated",
+   "$11.00",
+   "$3.49",
+   "$0.00",
+   "$14.49"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Shipping to (required)",
+   "Add",
+   "Learn more",
+   "Add",
+   "Terms of Service",
+   "You pay"
+  ],
+  "priv_area": 87525.54242741456,
+  "sham_area": 90683.12796414085
+ },
+ {
+  "idx": 7077,
+  "image": "51_0049360437626900_15.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Bank account"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Connect quickly with Link"
+  ],
+  "priv_area": 16705.57470703125,
+  "sham_area": 22462.59457397461
+ },
+ {
+  "idx": 3884,
+  "image": "27_1391762097957066_12.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Credit or debitcard"
+  ],
+  "usable": true,
+  "sham_text": [
+   "you can continueusing Lyft."
+  ],
+  "priv_area": 8410.0,
+  "sham_area": 8268.0
+ },
+ {
+  "idx": 1547,
+  "image": "20_2592546363936950_31.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "SYD Sydney Kingsford Smith Airport"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Travel more, spend less"
+  ],
+  "priv_area": 24341.40985075757,
+  "sham_area": 32414.886689516716
+ },
+ {
+  "idx": 5056,
+  "image": "36_0381227749069251_0.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 8,
+  "priv_text": [
+   "Educated: A Memoir",
+   "Educated",
+   "A MEMOIR",
+   " $3 credit on any ebook over $5. Expires 14 days after",
+   "Buy $14.99",
+   "Educated: A Memoir",
+   "$14.99",
+   "lxdu0314@gmail.com"
+  ],
+  "usable": true,
+  "sham_text": [
+   "applying. See terms",
+   "Save this offer",
+   "TARA",
+   "Free sample",
+   "Redeem code",
+   "Add PayPal",
+   "Google.",
+   "Eligible"
+  ],
+  "priv_area": 188955.20352172852,
+  "sham_area": 85371.58959960938
+ },
+ {
+  "idx": 4862,
+  "image": "34_2552232924009181_26.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 9,
+  "priv_text": [
+   "I35minto GC",
+   "Pay $1,572.07 now",
+   "$314.42 due today, $1,257.65 on May 30, 2024.",
+   "$258.20 x 5 nights",
+   "$1,291.00",
+   "-$38.73",
+   "$50.00",
+   "$183.85",
+   "$85.95"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Cleaning fee",
+   "Long stay discount",
+   "Choose how to pay",
+   "Your trip",
+   "Guests",
+   "Dates",
+   "Taxes",
+   "Dome",
+   "Edit"
+  ],
+  "priv_area": 158941.65234375,
+  "sham_area": 144991.32376098633
+ },
+ {
+  "idx": 1926,
+  "image": "23_3868101962564160_21.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "SYD Sydney Kingsford Smith Airport"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Travel more, spend less"
+  ],
+  "priv_area": 24341.40985075757,
+  "sham_area": 32414.886689516716
+ },
+ {
+  "idx": 5835,
+  "image": "41_3567540286886024_13.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 3,
+  "priv_text": [
+   "Credit or debitcard",
+   "PayPal",
+   "PayPal"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 570,
+  "image": "12_9690279253839594_15.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 5958,
+  "image": "42_3042657515534914_13.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 7,
+  "priv_text": [
+   "$4.58",
+   "Est.delivery:May17-May20",
+   "Kaleido Yao",
+   "200 California Hall",
+   "Berkeley,CA94720-1501",
+   "United States",
+   "(138)128-0000-0"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Quantity",
+   "Buy withPayPal. It'sfast and simple.",
+   "Freereturns",
+   "Seller: thrift.books",
+   "Confirm and pay",
+   "Ship to",
+   "FreeEconomyShipping"
+  ],
+  "priv_area": 58378.78943406697,
+  "sham_area": 61664.17762654647
+ },
+ {
+  "idx": 4868,
+  "image": "34_2763783388418026_12.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 1466,
+  "image": "1_6074698163020489_16.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 4,
+  "priv_text": [
+   "Tap the 'Transfer' button to move money between",
+   "$0.00",
+   "$222.00",
+   "Balance -$222.00"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 6442,
+  "image": "45_9545031691088873_11.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 3,
+  "priv_text": [
+   "-$2,110.67",
+   "CapitalOne'",
+   "Capital One"
+  ],
+  "usable": true,
+  "sham_text": [
+   "MOREDETAILS",
+   "RECORDS",
+   "businesses."
+  ],
+  "priv_area": 36095.57780740457,
+  "sham_area": 38447.98923242092
+ },
+ {
+  "idx": 1477,
+  "image": "1_7222925895241933_1.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 2686,
+  "image": "54f50211-fa2d-4c39-98db-62087cf9bd90.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 3649,
+  "image": "d2abbefb-bd83-4d8e-ae95-22775f98bd21.png",
+  "category": "financial and payment information leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Debt Repayment Plan"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Opportunities"
+  ],
+  "priv_area": 20699.09625585191,
+  "sham_area": 12226.13089117594
+ },
+ {
+  "idx": 3835,
+  "image": "26_7338084535952847_2.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 1267,
+  "image": "18_9736311155601381_2.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Amphitheatre Pkwy"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Head north"
+  ],
+  "priv_area": 33713.98572418839,
+  "sham_area": 20009.72466558963
+ },
+ {
+  "idx": 7116,
+  "image": "51_8815014352782345_9.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 5727,
+  "image": "40_3903930401517408_2.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 4,
+  "priv_text": [
+   "Area in Los Angeles, California 9o...",
+   "I Los Angeles",
+   "$1,495/mo",
+   "1949 Park Grove Ave, Los Angeles, CA 90007"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Managed byAppfolioShowcase",
+   " Filters",
+   "WholeFoodsMarket",
+   "Property type"
+  ],
+  "priv_area": 112034.85168457031,
+  "sham_area": 65585.00344848633
+ },
+ {
+  "idx": 1911,
+  "image": "23_2416144250556651_1.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 4,
+  "priv_text": [
+   "geles",
+   "Mama Shelter",
+   "6500 Selma Ave, Los Angeles",
+   "1200 Getty Center Dr, Los Angeles.."
+  ],
+  "usable": false
+ },
+ {
+  "idx": 187,
+  "image": "0_8357960332053203_9.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "442 S San Pedro St"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Cheesetella"
+  ],
+  "priv_area": 10325.0,
+  "sham_area": 7488.0
+ },
+ {
+  "idx": 6051,
+  "image": "42_9903627473911298_10.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 10,
+  "priv_text": [
+   "ipad",
+   "Deliver to kaleido - Los Angeles 90095",
+   "$25 to $50",
+   "$100 to $2",
+   "$50 to",
+   "iPad. Powerful. Portable. Magical.",
+   "Apple iPad (10th",
+   "Apple iPad Air 11-inch",
+   "Apple iPad Pro 11-lnch",
+   "iPad (9th Generation): with A13 Bionic chip, 10.2-inch Retina Display,"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Stylus",
+   "Check each product page for other buying options.",
+   "Accessories",
+   "Laptop",
+   "Sponsored",
+   "★★★★＆Up",
+   "OverallPick",
+   "Filters",
+   "Renewed",
+   "Amazon"
+  ],
+  "priv_area": 176712.51322635193,
+  "sham_area": 88456.58929831022
+ },
+ {
+  "idx": 5508,
+  "image": "39_7634391989702367_13.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Los An"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Route ways"
+  ],
+  "priv_area": 16749.594765260816,
+  "sham_area": 14494.884182248265
+ },
+ {
+  "idx": 6947,
+  "image": "50_0568701382081429_6.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "165.3.122.104",
+   "Chrome/113.0.0.0 Mobile"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Your IP:",
+   "Block details:"
+  ],
+  "priv_area": 25153.5874668248,
+  "sham_area": 22886.22976821661
+ },
+ {
+  "idx": 6369,
+  "image": "45_2661526690597219_8.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "90042",
+   "3.7Kviews1y ago...more"
+  ],
+  "usable": true,
+  "sham_text": [
+   " Remix",
+   "DoorDash App."
+  ],
+  "priv_area": 27484.483520507812,
+  "sham_area": 20716.2744140625
+ },
+ {
+  "idx": 4520,
+  "image": "31_1770014728511425_9.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "454 San Pedro St,Los Angeles,CA 90013,USA",
+   "325wAdamsBlvd"
+  ],
+  "usable": true,
+  "sham_text": [
+   "icaFwy",
+   "SSan"
+  ],
+  "priv_area": 35166.310652588494,
+  "sham_area": 29202.686805099424
+ },
+ {
+  "idx": 4955,
+  "image": "35_0999598944204512_9.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 8,
+  "priv_text": [
+   "Googleplex40-Health&WellnessCenter",
+   "T2 Muay Thai",
+   "2134 Old Middlefield Way,MountainView,California",
+   "T2 Muay Thai",
+   "1954 Old Middlefield Way,Mountain View,California",
+   "MuayThaiAcademy",
+   "227 Devcon Dr, San Jose,California",
+   "Thai"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 5263,
+  "image": "37_6030546197606953_10.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 3,
+  "priv_text": [
+   "Googleplex40-Health&Wellness Center",
+   "210 Calderon Ave,Mountain View, CA",
+   "1077 Independence Ave, Mountain View, CA"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Plan your ride",
+   "SamovarStore",
+   "Pickup now"
+  ],
+  "priv_area": 54115.80446456373,
+  "sham_area": 23621.173780264333
+ },
+ {
+  "idx": 1720,
+  "image": "21_7030611299207757_8.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Delivering to Santa Clara 95054 - Update location "
+  ],
+  "usable": true,
+  "sham_text": [
+   "Wherekidscanstay"
+  ],
+  "priv_area": 54816.89598516328,
+  "sham_area": 54624.13622570783
+ },
+ {
+  "idx": 6852,
+  "image": "49_3260305114734110_12.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "My Locations",
+   "My location"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Sacramento",
+   "Sacramento"
+  ],
+  "priv_area": 32485.754347031936,
+  "sham_area": 24976.555287696887
+ },
+ {
+  "idx": 174,
+  "image": "0_7418938645716870_2.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "Downtown Women's Center",
+   "Where to?"
+  ],
+  "usable": true,
+  "sham_text": [
+   "SantaMonicaFarmersMarket",
+   "Pickup now"
+  ],
+  "priv_area": 15194.0,
+  "sham_area": 15172.0
+ },
+ {
+  "idx": 5913,
+  "image": "41_9601778006899724_12.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "5th/SanPedro",
+   "S SanPedroSt/SanPedroSt"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Online",
+   "Head west"
+  ],
+  "priv_area": 48396.72168496251,
+  "sham_area": 27193.67026475817
+ },
+ {
+  "idx": 908,
+  "image": "15_7762812169814400_9.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "5th/San Pedro",
+   "442 S San Pedro St"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Downtown",
+   "Add note for driver"
+  ],
+  "priv_area": 25455.230014011264,
+  "sham_area": 22973.12656116858
+ },
+ {
+  "idx": 4759,
+  "image": "32_9713721158388456_18.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 8,
+  "priv_text": [
+   "$1695",
+   "$3369",
+   "($1.03 / Ounce)",
+   "($0.70 / Ounce)",
+   "($1.03 / Ounce)",
+   "by Amazon over$35",
+   "Amazon Locker-Macias",
+   "126milCulverCitv90232"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 512,
+  "image": "12_4852351861639435_12.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "Pickup on S San Pedro St",
+   "Downtown Women's Center"
+  ],
+  "usable": true,
+  "sham_text": [
+   "TONST",
+   "Search"
+  ],
+  "priv_area": 43928.000725541264,
+  "sham_area": 23835.759453596547
+ },
+ {
+  "idx": 6686,
+  "image": "47_9313828751631165_11.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 8,
+  "priv_text": [
+   "Downtown",
+   "$12.67",
+   "$14.08",
+   "$9-11.47",
+   "$12.75",
+   "$13.84",
+   "$15.38",
+   "$18.84"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Black",
+   "uberX",
+   "Faster",
+   "Save if shared",
+   "UberXL",
+   "Go-Doggy-Go",
+   "MIN",
+   "NST"
+  ],
+  "priv_area": 78137.42138671875,
+  "sham_area": 83475.91078948975
+ },
+ {
+  "idx": 4183,
+  "image": "29_2379205239443086_18.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 3,
+  "priv_text": [
+   "-30% $3498",
+   "List Price: $49.95",
+   "FREE delivery Monday, May 20 on orders shipped by Amazon over $35"
+  ],
+  "usable": true,
+  "sham_text": [
+   "(snd cc lipal oc'+ct",
+   "See all formats",
+   "FREE Returns"
+  ],
+  "priv_area": 119714.09290152742,
+  "sham_area": 36674.7696126129
+ },
+ {
+  "idx": 1480,
+  "image": "1_7446091276929062_25.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 3420,
+  "image": "b5647042-9d70-4d4a-9e76-f6d6fd623efe.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "1011 S Maple St, Little Rock, AR,",
+   "72204"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Henry dos Sant...",
+   "SMS"
+  ],
+  "priv_area": 32279.256476826966,
+  "sham_area": 25535.58808238851
+ },
+ {
+  "idx": 6148,
+  "image": "43_6817031552025578_8.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Delivering to Los Angeles 90060 - Update location "
+  ],
+  "usable": true,
+  "sham_text": [
+   "anywhere with"
+  ],
+  "priv_area": 19968.0,
+  "sham_area": 17952.0
+ },
+ {
+  "idx": 4906,
+  "image": "34_6285191758283126_2.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 4,
+  "priv_text": [
+   "LOS ANGELES",
+   "18uinits",
+   "$9,800",
+   "257 S Spring St #PENTHOUSE, Los Angeles, CA"
+  ],
+  "usable": true,
+  "sham_text": [
+   "DOWNTOWN",
+   "ETem",
+   "EdwardF",
+   "Museum"
+  ],
+  "priv_area": 101322.35969601234,
+  "sham_area": 43050.21739064064
+ },
+ {
+  "idx": 4273,
+  "image": "29_9828375646245468_4.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 4965,
+  "image": "35_1183015761799373_7.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "Delivering to Santa Clara 95054 - Update location ",
+   "$19.64 prime"
+  ],
+  "usable": true,
+  "sham_text": [
+   "JointHealthSupplement for Dogs-...",
+   "CRAVEBOX"
+  ],
+  "priv_area": 68989.60509515507,
+  "sham_area": 44655.88165958226
+ },
+ {
+  "idx": 7082,
+  "image": "51_5244416466563879_15.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 5,
+  "priv_text": [
+   "-48% $783",
+   "List Price: $14.99",
+   "FREE delivery Saturday, May 4 on orders shipped by Amazon over $35",
+   "DeliveringtoSeattle98160-Updatelocation",
+   "Buy Now"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Gift-wrapavailable.",
+   "FREE Returns",
+   "Secure transaction",
+   "Add to Cart",
+   "Ships from"
+  ],
+  "priv_area": 152284.85167078115,
+  "sham_area": 52416.78849211568
+ },
+ {
+  "idx": 1439,
+  "image": "1_3128071034133232_13.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 3,
+  "priv_text": [
+   "1125 E Pico Blvd",
+   "Los Angeles, CA",
+   "Los Angeles, CA"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Explore the city →",
+   "Delivery",
+   "Rides"
+  ],
+  "priv_area": 66354.25068979152,
+  "sham_area": 67574.40582431806
+ },
+ {
+  "idx": 4518,
+  "image": "31_1512454269724494_7.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 5262,
+  "image": "37_5837961261675922_13.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 8,
+  "priv_text": [
+   "Delivering to Seattle 98160 - Update location ",
+   "$1999",
+   "$22.99",
+   "800KS4-6",
+   "Book2of3:SavageAngelsMC",
+   "Or $5.99 to buy",
+   "$499",
+   "Print List Price: $16.74"
+  ],
+  "usable": true,
+  "sham_text": [
+   "A Gentleman in Moscow: A Novel",
+   "AudibleAudiobook",
+   "Romance)",
+   "COLLECTIOM",
+   "A Tigress in the Chapel",
+   "Available instantly",
+   "Books",
+   "Other formats: Paperback, Kindle,"
+  ],
+  "priv_area": 161417.396622343,
+  "sham_area": 152247.22012844495
+ },
+ {
+  "idx": 5547,
+  "image": "39_9723195853804532_8.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Deliver to kaleido - Los Angeles 90095 "
+  ],
+  "usable": true,
+  "sham_text": [
+   "Wherekidscanstay"
+  ],
+  "priv_area": 13384.0,
+  "sham_area": 13860.0
+ },
+ {
+  "idx": 933,
+  "image": "15_9310435089737233_1.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 3,
+  "image": "2024_3_20_17_14_997cbfb071cf458f82ccaba5bddfc7b8-4.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Los Angeles"
+  ],
+  "usable": true,
+  "sham_text": [
+   "*Mocktails.Charcuterie&Wine"
+  ],
+  "priv_area": 14989.482788085938,
+  "sham_area": 15329.642761230469
+ },
+ {
+  "idx": 7103,
+  "image": "51_6951857803160426_2.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 4,
+  "priv_text": [
+   "Area in Los Angeles, California 90031",
+   "$2,395 - $2,750/mo",
+   "Studio-2 bd·1ba· 625+ sqft",
+   "215 N San Fernando Rd, Los Angeles, CA 90031"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Managed by Journee",
+   "Property type",
+   " Filters",
+   "Notifications"
+  ],
+  "priv_area": 112175.37535973056,
+  "sham_area": 39091.71367203654
+ },
+ {
+  "idx": 2310,
+  "image": "24bfb1d2-5ece-4ed7-a556-357c6d26afb1.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 4731,
+  "image": "32_7344554990517250_13.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 3,
+  "priv_text": [
+   "454 San Pedro St, Los Angeles,CA 90013,USA",
+   "HighlightRoom(TheHighlightRoom)",
+   "Los Ange"
+  ],
+  "usable": true,
+  "sham_text": [
+   "iteFwy",
+   "Route ways",
+   "SWesternAve"
+  ],
+  "priv_area": 81433.23403930664,
+  "sham_area": 33293.537109375
+ },
+ {
+  "idx": 1798,
+  "image": "22_3707995465539329_9.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "454 San Pedro St, Los Angeles,CA 90013,USA",
+   "2680 Fayette Dr"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Messenger SiMS",
+   "FastestRoute"
+  ],
+  "priv_area": 44699.02958679199,
+  "sham_area": 42307.956298828125
+ },
+ {
+  "idx": 3416,
+  "image": "b4b3fd10-b1fa-48e5-bca8-d2678a58fc7d.png",
+  "category": "location and environmental data leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Renew Driver's License"
+  ],
+  "usable": true,
+  "sham_text": [
+   "You can customize this screen by rearranging or removing"
+  ],
+  "priv_area": 38858.17901923321,
+  "sham_area": 42308.052070372505
+ },
+ {
+  "idx": 2379,
+  "image": "250e5ac1-65c3-4b66-abee-47a84389de3c.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 12,
+  "priv_text": [
+   "REx7kVsben",
+   "IKESz1bSEm",
+   " WZi6rW58Ai",
+   "IOEA5Yy80B.",
+   "3Ty25x0lle",
+   "e4JMIDdJQL",
+   "KRgZOF0NaM I sQu 7NWUoP1 I fV6bML XScF",
+   "8Lz91hkC4B -: Hvg27Sug55 1 pYuQDBkKpR",
+   "VBhbptN7Ec : I A0ebxulgOF",
+   "I ydxx1EnhsR",
+   "YNTEM9f27W XPnpKNXREq",
+   "  z2kHn7egOy"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 6880,
+  "image": "49_5415345407378207_10.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 3,
+  "priv_text": [
+   "chenbt20",
+   "03@gmail.com",
+   "Gmail"
+  ],
+  "usable": true,
+  "sham_text": [
+   "katsunaksu",
+   "Edit artwork",
+   "Chats"
+  ],
+  "priv_area": 17632.24374215305,
+  "sham_area": 20008.550736135803
+ },
+ {
+  "idx": 3891,
+  "image": "27_2045373177304331_19.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 3534,
+  "image": "c3019769-a697-49cb-8d26-265edeed1c49.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "Financial Advisor Contact Information",
+   "KPI Report-Q1 2024"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Opportunities",
+   "All notes"
+  ],
+  "priv_area": 46435.893066951074,
+  "sham_area": 20260.22564606741
+ },
+ {
+  "idx": 5773,
+  "image": "40_7799513702176400_7.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "chenbt2003@gmail.com",
+   "ETAP"
+  ],
+  "usable": true,
+  "sham_text": [
+   "ITXFXT",
+   "Subject"
+  ],
+  "priv_area": 33492.39587225672,
+  "sham_area": 25192.927681531757
+ },
+ {
+  "idx": 3683,
+  "image": "d6e84e3c-090c-427c-914f-98ef406b532b.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "2023-1....kmz",
+   "Recorded: Sunday, 0ctober 15, 2023 at 2:47:00"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Take photo",
+   "I think you might be interested in this track."
+  ],
+  "priv_area": 31462.761400988325,
+  "sham_area": 30506.234894852154
+ },
+ {
+  "idx": 335,
+  "image": "11_0991055630132224_6.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "Add friend",
+   "Add friend"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Create story",
+   "See all >"
+  ],
+  "priv_area": 20266.125,
+  "sham_area": 20150.79052734375
+ },
+ {
+  "idx": 3621,
+  "image": "cf3106bf-e9c4-485e-82dd-f8cc1fafe628.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "LZ504YcnUQNeQav1hMRn"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Move text one line down"
+  ],
+  "priv_area": 16972.20243357285,
+  "sham_area": 19086.404509298503
+ },
+ {
+  "idx": 3694,
+  "image": "d9a11466-2cea-45ed-8e76-1c9f820a6044.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 3,
+  "priv_text": [
+   "final_insurance_plan_comparison.md",
+   "helpful_g0at_edited_2023_03_07.md",
+   "weekend_todo_list_2023_08_24.md"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Markor",
+   "QuickNote",
+   "Files"
+  ],
+  "priv_area": 127606.46401629224,
+  "sham_area": 19681.328241110547
+ },
+ {
+  "idx": 527,
+  "image": "12_5483479038270631_8.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Shared from Vaulty Android Private Media Gallery"
+  ],
+  "usable": true,
+  "sham_text": [
+   "[Realistic (NEW)]"
+  ],
+  "priv_area": 51375.726785212755,
+  "sham_area": 15451.598791837692
+ },
+ {
+  "idx": 2026,
+  "image": "0042b935-36ff-48ce-b77d-9ee44c8bee27.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "2023_09_27_cli..",
+   "R9dX87WcXSdiR7TccLiX"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 3879,
+  "image": "27_1292517114026819_5.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "chenbt20",
+   "03@gmail.c..."
+  ],
+  "usable": true,
+  "sham_text": [
+   "katsunaksu",
+   "Messenger"
+  ],
+  "priv_area": 13436.324513696134,
+  "sham_area": 12746.673201985657
+ },
+ {
+  "idx": 708,
+  "image": "14_2799531142408933_16.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 3,
+  "priv_text": [
+   "_KNQ2K7hhKw1qi4dg0wnAdAlw8beDxUbVp-Bb0/edit?usp=drivesdk",
+   "https://docs.google.com/document/d/11Yo6sv6ZGThd170i6wZSf3GtUlKn_",
+   "-LQ4MFIWvTP2CE/edit?usp=drivesdk"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 2721,
+  "image": "59d004c4-e295-4236-994c-a68a8e80ba6e.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 3,
+  "priv_text": [
+   "backup_insurance_plan_comparison.m",
+   "personal_goals_2024_7REy.md",
+   "recipe_homemade_pizza_2023_06_20."
+  ],
+  "usable": true,
+  "sham_text": [
+   "garden_layout_plan_edited.md",
+   "copy_garden_layout_plan.md",
+   "Shfe_garden_layout_plan.md"
+  ],
+  "priv_area": 131544.81380919646,
+  "sham_area": 106719.25207752828
+ },
+ {
+  "idx": 1964,
+  "image": "23_7401651203831078_5.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 3,
+  "priv_text": [
+   "Victor James",
+   "chenbt200",
+   "3@gmail.co..."
+  ],
+  "usable": true,
+  "sham_text": [
+   "Messenger",
+   "katsunaksu",
+   "Facebook"
+  ],
+  "priv_area": 27346.399658203125,
+  "sham_area": 22564.38427734375
+ },
+ {
+  "idx": 3881,
+  "image": "27_1259144283951542_20.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 5,
+  "priv_text": [
+   "/1F1mYgUNic6AwXcwpglOfdfotTjP8R",
+   "_v4ogXTNTK6u7U/edit?usp=drivesdk",
+   "AbgA2SbXIUugRMXwhxuMNAesRynsshZrUv",
+   "/d/1n5vxeQ6WZV3fm0ujshMlPi3c",
+   "47FazUBGbFrJhFuA9CY/edit?usp="
+  ],
+  "usable": false
+ },
+ {
+  "idx": 5162,
+  "image": "36_8564396988477567_21.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 4375,
+  "image": "2_8692971210185110_10.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 5662,
+  "image": "3_9457908833980434_11.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 6364,
+  "image": "45_2492553926374982_2.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "Ashtanga Yoga 8-limbs",
+   "Instagram Story"
+  ],
+  "usable": true,
+  "sham_text": [
+   "download a free pod",
+   "e's no reason not to"
+  ],
+  "priv_area": 45397.34053546935,
+  "sham_area": 25669.37260566512
+ },
+ {
+  "idx": 8,
+  "image": "2024_3_20_17_43_cee80d2c889b45cd86e30248baf590b8-18.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "The Stone House at Clove Lakes, 1 150 Clove Rd, Staten"
+  ],
+  "usable": true,
+  "sham_text": [
+   "The organizer will review refund requests on a case-by-case basis"
+  ],
+  "priv_area": 59197.043701171875,
+  "sham_area": 57505.17077636719
+ },
+ {
+  "idx": 400,
+  "image": "11_5178898004128063_6.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 4478,
+  "image": "30_6330173141751654_14.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "chenbt2003@gmail.com",
+   "caba62244@gmail.com"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Subject",
+   "Dream.jpg"
+  ],
+  "priv_area": 38283.71073463559,
+  "sham_area": 19208.90843386948
+ },
+ {
+  "idx": 3272,
+  "image": "a1f53462-9e7b-47d8-8b31-8e7b57af41c0.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Packing List - Beach Vacation"
+  ],
+  "usable": true,
+  "sham_text": [
+   "All notes"
+  ],
+  "priv_area": 25542.83002141118,
+  "sham_area": 8245.519845057279
+ },
+ {
+  "idx": 3187,
+  "image": "989c5235-8e75-46b7-ad12-c1bf38319cdf.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "note_IbKxA_20..",
+   "gaszc9AAGkVIxrCpl1El"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 4011,
+  "image": "28_0125975818276068_10.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 7,
+  "priv_text": [
+   "katsunaksu",
+   "Yesterday12:42AM",
+   "/d/1SxaVLphFkdIDbR8IDUqNgyrJ",
+   "4XONOi9NJZcavp01Cjo/edit?usp=",
+   "katsunaksu",
+   "/d/1SxaVLphFkdIDbR8IDUqNgyrJ",
+   "4XONOi9NJZcavp01Cjo/edit?usp="
+  ],
+  "usable": false
+ },
+ {
+  "idx": 574,
+  "image": "12_9864104245064917_10.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Intuit"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Layout"
+  ],
+  "priv_area": 6337.661547109485,
+  "sham_area": 5892.180555054918
+ },
+ {
+  "idx": 3684,
+  "image": "d7d49c2b-bc35-4468-986c-80b1c10120ca.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 4,
+  "priv_text": [
+   "JsO0ZTf6KsyHtgXOj4S9",
+   "2023-10-15",
+   "JsO0ZTf6KsyHtgXOj4S9",
+   "2023-10-15"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Search documents",
+   "CANCEL",
+   "backup_person...",
+   "Search"
+  ],
+  "priv_area": 58648.92448583618,
+  "sham_area": 59943.67542479932
+ },
+ {
+  "idx": 2167,
+  "image": "11768965-d912-4975-bc47-13db7bb1cb5a.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "Health Insurance Information",
+   "Personal Finance Resources"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 5397,
+  "image": "38_8649299966488976_1.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "onof5Gtechnologyispoisedtotransformcommunicationlandscapesacrosstheglobeparticularlyinruralareaswhereconnectivityhas",
+   "chenbt2003icogmail"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Instagram",
+   "katsunaksu"
+  ],
+  "priv_area": 20036.854051992297,
+  "sham_area": 14230.815953180194
+ },
+ {
+  "idx": 6827,
+  "image": "49_1121812672839931_9.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 3,
+  "priv_text": [
+   "Instagram",
+   "Instagram",
+   "Feed"
+  ],
+  "usable": true,
+  "sham_text": [
+   "katsunaksu",
+   "Messenger",
+   "Gmail"
+  ],
+  "priv_area": 27213.221127271652,
+  "sham_area": 27244.91912691295
+ },
+ {
+  "idx": 965,
+  "image": "16_1981804681771585_12.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "87.2698930",
+   "What's new?"
+  ],
+  "usable": true,
+  "sham_text": [
+   "GIF",
+   "Anyone can reply"
+  ],
+  "priv_area": 13713.812869239599,
+  "sham_area": 12208.447953216732
+ },
+ {
+  "idx": 1663,
+  "image": "21_2615449765213682_3.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "chenbt200",
+   "3@gmail.co..."
+  ],
+  "usable": true,
+  "sham_text": [
+   "katsunaksu",
+   "Send in Photos"
+  ],
+  "priv_area": 18390.849975585938,
+  "sham_area": 18671.249267578125
+ },
+ {
+  "idx": 140,
+  "image": "0_4620141953409964_1.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 4,
+  "priv_text": [
+   "San Pedro St",
+   "33results",
+   "$380,000",
+   "267 S San Pedro St UNIT 208, Los Angeles, CA"
+  ],
+  "usable": true,
+  "sham_text": [
+   "JapaneseAmerican",
+   "ston St",
+   "TOYDISTRICT",
+   "stBookstore"
+  ],
+  "priv_area": 89913.8176574707,
+  "sham_area": 46535.84097290039
+ },
+ {
+  "idx": 3692,
+  "image": "d85070ef-c2fd-4912-aa34-32ef630efcb5.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "Meeting with Alice",
+   "We will explore contract details."
+  ],
+  "usable": true,
+  "sham_text": [
+   "Regular event",
+   "No repetition"
+  ],
+  "priv_area": 48318.3079664174,
+  "sham_area": 28658.825853936374
+ },
+ {
+  "idx": 3209,
+  "image": "9a2ced20-36d4-4d47-b3c5-c44945006dd6.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "WtPKk1xXqQVGYtj71PEI"
+  ],
+  "usable": true,
+  "sham_text": [
+   "summer_vacati."
+  ],
+  "priv_area": 17081.55824423919,
+  "sham_area": 18197.00690607878
+ },
+ {
+  "idx": 27,
+  "image": "2024_4_10_0_33_fcf955146a654c8c99b0a75ee0805a54-7.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 2308,
+  "image": "249aca71-b762-40f2-9c04-ac87da6940a2.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 4,
+  "priv_text": [
+   "Annual Performance Review-Self-Assessment-",
+   "December2023",
+   "Client Project Update",
+   "Medical History"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 127,
+  "image": "0_3685857854266192_6.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "chenbt2003@gmail"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Upload to Photos"
+  ],
+  "priv_area": 7225.807869203389,
+  "sham_area": 5707.198841735721
+ },
+ {
+  "idx": 26,
+  "image": "2024_4_10_0_19_13efbd7f9eff49b186b4d4d42897ed23-5.png",
+  "category": "multimedia and file leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 5585,
+  "image": "3_3689001327358448_10.png",
+  "category": "personal identity information leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 6526,
+  "image": "46_5886515586911537_14.png",
+  "category": "personal identity information leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "Victor James",
+   "Tzhau Jau"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Q Search friends",
+   "Friends"
+  ],
+  "priv_area": 24479.924298123457,
+  "sham_area": 22775.422621322796
+ },
+ {
+  "idx": 1555,
+  "image": "20_3358994573702651_13.png",
+  "category": "personal identity information leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "Victor James",
+   "..· See About info"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Friends",
+   "Photos"
+  ],
+  "priv_area": 31738.789014466573,
+  "sham_area": 13997.00182787422
+ },
+ {
+  "idx": 2455,
+  "image": "382fd430-c41e-445b-8447-2638d9144160.png",
+  "category": "personal identity information leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 2064,
+  "image": "043be923-49f7-416f-a69a-301a7eedf437.png",
+  "category": "personal identity information leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "Travel",
+   "Travel Insurance Information"
+  ],
+  "usable": true,
+  "sham_text": [
+   "BI",
+   "coverage details, claim procedures."
+  ],
+  "priv_area": 31299.437004168518,
+  "sham_area": 53417.240204569534
+ },
+ {
+  "idx": 6486,
+  "image": "46_2475578602732330_11.png",
+  "category": "personal identity information leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "9298916954"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Send"
+  ],
+  "priv_area": 5717.1303601861,
+  "sham_area": 4110.827729612589
+ },
+ {
+  "idx": 6973,
+  "image": "50_2302382129881937_13.png",
+  "category": "personal identity information leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 2486,
+  "image": "3cc6adde-7c77-4920-8998-3b316804d2b9.png",
+  "category": "personal identity information leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "+1600-127-7641"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Set up"
+  ],
+  "priv_area": 12558.544381840155,
+  "sham_area": 6758.259925402701
+ },
+ {
+  "idx": 3123,
+  "image": "8edc2da6-814c-4cf8-99a1-07e7351e3c86.png",
+  "category": "personal identity information leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Hugo Pereira"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Fix & manage"
+  ],
+  "priv_area": 13291.977382957935,
+  "sham_area": 9238.467719435692
+ },
+ {
+  "idx": 2986,
+  "image": "7f2b15ee-4491-4396-9cd6-0e661a29d2e5.png",
+  "category": "personal identity information leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "+1 600-127-7641891"
+  ],
+  "usable": true,
+  "sham_text": [
+   "WXYZ"
+  ],
+  "priv_area": 53727.82986056432,
+  "sham_area": 3639.3941596224904
+ },
+ {
+  "idx": 2406,
+  "image": "3022c958-96b9-46df-a9f0-199abea674c5.png",
+  "category": "personal identity information leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Doctor's appointment"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Call with Marketing"
+  ],
+  "priv_area": 22571.291083234828,
+  "sham_area": 20865.34130975604
+ },
+ {
+  "idx": 1578,
+  "image": "20_5304345222840247_9.png",
+  "category": "personal identity information leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "Victor James",
+   "Tzhau Jau"
+  ],
+  "usable": true,
+  "sham_text": [
+   " Search friends",
+   "Friends"
+  ],
+  "priv_area": 42723.23322809674,
+  "sham_area": 38379.64926230628
+ },
+ {
+  "idx": 5111,
+  "image": "36_4908070139365840_14.png",
+  "category": "personal identity information leakage",
+  "n_priv": 5,
+  "priv_text": [
+   "Fractured futures: Upward mobility",
+   "for immigrants is a myth as their",
+   "health declines",
+   "Mon, May 6, 2024",
+   "Mon, May 6, 2024"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Description",
+   "All day",
+   "Attachments",
+   "Attendees",
+   "Reneat"
+  ],
+  "priv_area": 120227.09337476222,
+  "sham_area": 38311.39467933774
+ },
+ {
+  "idx": 4254,
+  "image": "29_8134413165576785_12.png",
+  "category": "personal identity information leakage",
+  "n_priv": 4,
+  "priv_text": [
+   "chenbt20",
+   "03@gmail.com",
+   "Gmail",
+   "Gmail"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Google",
+   "Search image",
+   "Chats",
+   "Feed"
+  ],
+  "priv_area": 19073.284960802644,
+  "sham_area": 18925.606070660055
+ },
+ {
+  "idx": 6733,
+  "image": "48_2871712130129070_4.png",
+  "category": "personal identity information leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Tzhau Jau "
+  ],
+  "usable": true,
+  "sham_text": [
+   "Important"
+  ],
+  "priv_area": 9716.733568252996,
+  "sham_area": 8865.207763531245
+ },
+ {
+  "idx": 1281,
+  "image": "19_0991055630132224_7.png",
+  "category": "personal identity information leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 172,
+  "image": "0_7224046595257847_5.png",
+  "category": "personal identity information leakage",
+  "n_priv": 4,
+  "priv_text": [
+   "929 891 6954",
+   "https://us05web.z0om.us/j/9298916954",
+   "?pwd=o5vLphjoRZP5jcuz5skY0anlNPAwaU",
+   "606959"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Participant ID",
+   "Encryption",
+   "Meeting ID",
+   "Start video"
+  ],
+  "priv_area": 57827.95218542218,
+  "sham_area": 25382.47626757156
+ },
+ {
+  "idx": 2959,
+  "image": "7b54fa74-3c35-4128-8a40-85d42666340a.png",
+  "category": "personal identity information leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "Feedback",
+   "SENDFEEDBACK"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Name",
+   "We went to know what you thought of your"
+  ],
+  "priv_area": 23231.790062974207,
+  "sham_area": 44019.83791522717
+ },
+ {
+  "idx": 4910,
+  "image": "34_6708536105158023_9.png",
+  "category": "personal identity information leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "Tzhau",
+   "ledelpristina28@gmail.com"
+  ],
+  "usable": true,
+  "sham_text": [
+   "My languages",
+   "Settings"
+  ],
+  "priv_area": 33520.0,
+  "sham_area": 17330.0
+ },
+ {
+  "idx": 2011,
+  "image": "24_1243746422055920_9.png",
+  "category": "personal identity information leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 2846,
+  "image": "6b470743-5969-42bf-8fad-eadd7f8eae45.png",
+  "category": "personal identity information leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 2147,
+  "image": "0db12a9a-6f6e-4105-817a-46bd27cc58d7.png",
+  "category": "personal identity information leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "Mobile+1600-127-7641",
+   "Call"
+  ],
+  "usable": true,
+  "sham_text": [
+   "WXYZ",
+   "MNO"
+  ],
+  "priv_area": 16269.389447235502,
+  "sham_area": 6699.933268636465
+ },
+ {
+  "idx": 7010,
+  "image": "50_4813393015221871_13.png",
+  "category": "personal identity information leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 5497,
+  "image": "39_6277443560576856_19.png",
+  "category": "personal identity information leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 6985,
+  "image": "50_2934947340302712_25.png",
+  "category": "personal identity information leakage",
+  "n_priv": 7,
+  "priv_text": [
+   "Delicate Resumes",
+   "Delicate Resumes",
+   "Resumes",
+   "123-00-000",
+   "123456789163.c",
+   "201L0125.12UNVRSTY0FATANTA",
+   " [I5-prsent]"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Simple and Natural..",
+   "Letters",
+   "Keepyou be the most attractive",
+   "paguco μpaads yt(ilug su",
+   "EDUCATION",
+   "Blank",
+   "Living: Atlenta"
+  ],
+  "priv_area": 54814.51225021854,
+  "sham_area": 47745.157947146334
+ },
+ {
+  "idx": 6920,
+  "image": "49_8555566988174570_6.png",
+  "category": "personal identity information leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 3525,
+  "image": "c2259bbe-f1be-4822-aaeb-5861d04393ad.png",
+  "category": "personal identity information leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 1976,
+  "image": "23_8968269958755117_12.png",
+  "category": "personal identity information leakage",
+  "n_priv": 3,
+  "priv_text": [
+   "/9390774459865?p=",
+   "91apjm4B0bGs7VNi",
+   "9198916954"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 2275,
+  "image": "21d1b171-5c05-4e42-bd3a-7643e6d06d0c.png",
+  "category": "personal identity information leakage",
+  "n_priv": 4,
+  "priv_text": [
+   "Ahmed",
+   "Wang",
+   "Ahmed Wang",
+   "+14587197347"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 2978,
+  "image": "7d5496f8-4bdf-436f-b23f-00cc42e53c09.png",
+  "category": "personal identity information leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "Oliver Fernandez",
+   "Mobile·+1468-520-6759"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Add information",
+   "Name"
+  ],
+  "priv_area": 27304.255569387227,
+  "sham_area": 19318.268654994667
+ },
+ {
+  "idx": 145,
+  "image": "0_5122343213170089_13.png",
+  "category": "personal identity information leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "chenbt2003@gmail.com",
+   "caba62244@gmail.com"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Subject",
+   "From"
+  ],
+  "priv_area": 23485.0,
+  "sham_area": 9235.0
+ },
+ {
+  "idx": 607,
+  "image": "13_3092938837093930_13.png",
+  "category": "personal identity information leakage",
+  "n_priv": 14,
+  "priv_text": [
+   "/20240321-global-economic-impact-indian",
+   "https://share.newsbreak.com/6r7f1bc8",
+   "pfbid036wginAA4Jrt5XsNfMR637MGtfXqD3r",
+   "uXxULcSUssLadkRsuSsFfV9VMBfnja5cLnl&id",
+   "=61558787573715&mibextid=N0b6eG",
+   ".2698930/p0st/C6V4CdQLjjw/?xmt",
+   "=AQGzZ1T1pABbadZN9pDIQ2o5md5",
+   "-KZpVB4ELIfBL_qZ2Og",
+   "https://twitter.c0m/BotongC10393",
+   "/status/1784896363689660701?t=p",
+   "-9pud3ThBwcmDfjXMo7Dw&s=19",
+   "https://teams.live.c0m/meet/9362693157146",
+   "?p=M28irGLzseEutWAR",
+   "9198916954"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 595,
+  "image": "13_2053798211257412_16.png",
+  "category": "personal identity information leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "Victor James"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 2537,
+  "image": "433c0a98-d6d0-41f2-b342-2a97e005714f.png",
+  "category": "personal identity information leakage",
+  "n_priv": 3,
+  "priv_text": [
+   "Daniel Ali",
+   "Laura Muller",
+   "Thomas Ibrahim"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Voicemail",
+   "Favorites",
+   "Recents"
+  ],
+  "priv_area": 33339.30518497527,
+  "sham_area": 16454.59397047758
+ },
+ {
+  "idx": 2879,
+  "image": "6baacf66-58b0-41f3-aefe-6923e855f157.png",
+  "category": "personal identity information leakage",
+  "n_priv": 2,
+  "priv_text": [
+   "Travel",
+   "Travel Insurance Information"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 5908,
+  "image": "41_9170546335859518_3.png",
+  "category": "personal identity information leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "2370165339@qq.com"
+  ],
+  "usable": true,
+  "sham_text": [
+   "Tasks ·  Tomorrow"
+  ],
+  "priv_area": 11384.612796490139,
+  "sham_area": 10026.470894761384
+ },
+ {
+  "idx": 3243,
+  "image": "9f0a0bd7-2539-442f-9b7e-4f0aa772a6a2.png",
+  "category": "personal identity information leakage",
+  "n_priv": 0,
+  "priv_text": [],
+  "usable": false
+ },
+ {
+  "idx": 3711,
+  "image": "dc02a7be-80c1-4e7a-aa0d-820e46c1d0aa.png",
+  "category": "personal identity information leakage",
+  "n_priv": 7,
+  "priv_text": [
+   "Alice Li",
+   "+18380101207",
+   "+15485743173",
+   "+19888537913",
+   "+18330852086",
+   "+10718730202",
+   "+13383649847"
+  ],
+  "usable": false
+ },
+ {
+  "idx": 6009,
+  "image": "42_7255498158890025_4.png",
+  "category": "personal identity information leakage",
+  "n_priv": 1,
+  "priv_text": [
+   "xzodiac85x"
+  ],
+  "usable": true,
+  "sham_text": [
+   "十 Follow"
+  ],
+  "priv_area": 13609.054277651012,
+  "sham_area": 13567.571785897017
+ },
+ {
+  "idx": 6477,
+  "image": "46_2086198117828030_20.png",
+  "category": "personal identity information leakage",
+  "n_priv": 6,
+  "priv_text": [
+   "/1F1mYgUNic6AwXcwpgl0fdfotTjP8R",
+   "_v4ogXTNTK6u7U/edit?usp=drivesdk",
+   "AbgA2SbXIUugRMXwhxuMNAesRynsshZrUv",
+   "/d/1n5vxeQ6WZV3fm0ujshMlPi3c",
+   "47FazUBGbFrJhFuA9CY/edit?usp=",
+   "Yesterday7:02AM"
+  ],
+  "usable": false
+ }
+]

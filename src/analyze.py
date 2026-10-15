@@ -217,7 +217,8 @@ def neg_table(prefix="neg", models=ALL_MODELS):
     检出率 = P(检出|sham)，误报率 = P(检出|masked)，判别力 = 两者之差（配对 bootstrap 95% CI），
     平衡准确率 = (检出率 + 1 - 误报率) / 2。总选同一选项的模型判别力为 0、平衡准确率为 50。
     prefix="ocrneg"：输入换成截图的 OCR 文字（感知 vs 推理诊断）。"""
-    title = {"neg": "看截图", "ocrneg": "读 OCR 文字（不给图）"}[prefix]
+    title = {"neg": "看截图", "ocrneg": "读 OCR 文字（不给图）",
+             "neg-blur": "看截图 · 消融：遮挡改为高斯模糊", "neg-black": "看截图 · 消融：遮挡改为纯黑块"}[prefix]
     print(f"\n== 配对负样本 · {title}（中性化指令；sham = 正，masked = 负）")
     print(f"  {'模型':6s} {'格式':15s} {'n':>4s} {'检出率':>7s} {'误报率':>7s} {'判别力 [95% CI]':>22s} {'平衡准确率':>9s}  McNemar p")
     for m in models:
@@ -268,6 +269,9 @@ if __name__ == "__main__":
     ra_table()
     neg_table()
     neg_table("ocrneg")
+    for fill in ("blur", "black"):  # 遮挡方式消融（scripts/run_mask_ablation.sh）
+        if any(n.startswith(f"neg-{fill}_") for n in os.listdir(RUNS)):
+            neg_table(f"neg-{fill}")
     summary()
     if FT_MODELS:
         print("\n######## 微调模型（finetune/，评测集与上面相同）")
