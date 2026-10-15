@@ -16,7 +16,7 @@ SAPA 只有正样本，"总选某个选项"和"真看出隐私"无法区分。�
 import json, os, re, sys, random
 import numpy as np
 from PIL import Image
-from paths import IMG_DIR, MASKED, SUBSET, OCR, MASK_META, MASK_VERIFY
+from paths import FILL, IMG_DIR, MASKED, SUBSET, OCR, MASK_META, MASK_VERIFY
 
 IMG, OUT = IMG_DIR, MASKED
 
@@ -99,9 +99,16 @@ def fill(im, box, pad=4):
     xs, ys = [p[0] for p in box], [p[1] for p in box]
     x0, x1 = max(int(min(xs)) - pad, 0), min(int(max(xs)) + pad, a.shape[1])
     y0, y1 = max(int(min(ys)) - pad, 0), min(int(max(ys)) + pad, a.shape[0])
-    ring = np.concatenate([a[max(y0 - 3, 0):y0, x0:x1].reshape(-1, 3), a[y1:y1 + 3, x0:x1].reshape(-1, 3),
-                           a[y0:y1, max(x0 - 3, 0):x0].reshape(-1, 3), a[y0:y1, x1:x1 + 3].reshape(-1, 3)])
-    a[y0:y1, x0:x1] = np.median(ring, 0) if len(ring) else 255
+    if FILL == "black":
+        a[y0:y1, x0:x1] = 0
+    elif FILL == "blur":  # 半径取框高，字形糊成色块、读不出但保留“这里有字”的痕迹
+        from PIL import ImageFilter
+        r = max(4, (y1 - y0) // 2)
+        a[y0:y1, x0:x1] = np.asarray(Image.fromarray(a[y0:y1, x0:x1]).filter(ImageFilter.GaussianBlur(r)))
+    else:
+        ring = np.concatenate([a[max(y0 - 3, 0):y0, x0:x1].reshape(-1, 3), a[y1:y1 + 3, x0:x1].reshape(-1, 3),
+                               a[y0:y1, max(x0 - 3, 0):x0].reshape(-1, 3), a[y0:y1, x1:x1 + 3].reshape(-1, 3)])
+        a[y0:y1, x0:x1] = np.median(ring, 0) if len(ring) else 255
     return Image.fromarray(a)
 
 

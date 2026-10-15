@@ -6,6 +6,8 @@
   SAPA_ART / SAPA_RUNS  派生产物与原始回答的目录（默认仓库内；复现核对时指到临时目录，避免覆盖）
   SAPA_SPLIT   test（默认，论文评测用的 320 个场景）或 train（微调用，见 finetune/）。
                train 的全部派生产物放在 artifacts/train/，文件名与 test 相同，所以 neutralize / mask 等脚本可直接复用。
+  SAPA_FILL    遮挡填充方式（消融）：median（默认，周围背景中位色）/ blur（强高斯模糊）/ black（纯黑块）。
+               非默认方式的配对图、残留检查与回答文件都带后缀，不覆盖主实验。
 """
 import os
 
@@ -22,13 +24,15 @@ ART = os.environ.get("SAPA_ART", os.path.join(ROOT, "artifacts"))
 if SPLIT == "train":
     ART = os.path.join(ART, "train")
 ADAPTERS = os.path.join(ROOT, "artifacts", "adapters")
-MASKED = os.path.join(ART, "masked_images")
+FILL = os.environ.get("SAPA_FILL", "median")
+_SFX = "" if FILL == "median" else f"_{FILL}"
+MASKED = os.path.join(ART, "masked_images" + _SFX)
 RUNS = os.environ.get("SAPA_RUNS", os.path.join(ROOT, "results", "runs"))
 
 SUBSET = os.path.join(ART, "subset320.json")
 NEUTRAL = os.path.join(ART, "neutral_7b.jsonl")
 OCR = os.path.join(ART, "ocr.json")
-MASK_META = os.path.join(ART, "mask_meta.json")
-MASK_VERIFY = os.path.join(ART, "mask_verify.json")
+MASK_META = os.path.join(ART, f"mask_meta{_SFX}.json")
+MASK_VERIFY = os.path.join(ART, f"mask_verify{_SFX}.json")
 OCR_PAIRS = os.path.join(ART, "ocr_pairs.json")
 SUMMARY = os.path.join(ART, "summary.json")

@@ -6,6 +6,7 @@
 # 环境变量：PY（解释器，默认 python），SAPA_DATA / SAPA_MODELS / SAPA_CODE（见 src/paths.py）
 set -e
 cd "$(dirname "$0")"
+[ -f env.local.sh ] && . ./env.local.sh  # 本机路径与解释器（见 README）
 ROOT=$(pwd)
 PY=${PY:-python}
 export PYTHONIOENCODING=utf-8
@@ -77,6 +78,7 @@ fi
 if has analyze; then
   src analyze.py 7b | tee logs/analyze.txt
   src paper_numbers.py | tee logs/paper_numbers.txt
+  src sdt_ci.py | tee logs/sdt_ci.txt
 fi
 
 if has figs; then

@@ -24,7 +24,8 @@ src/
   neg_eval.py         配对样本评测
   ocr_eval.py         感知 vs 推理：把截图换成 OCR 文字
   judge_ra.py         官方 RA 评分提示词 + 本地评委
-  analyze.py          全部统计表（bootstrap CI、McNemar、d′、c）
+  analyze.py          全部统计表（按近重复簇 bootstrap CI、McNemar、d′、c）
+  sdt_ci.py           d′、c 的置信区间与 corr(检出率, c/d′) 的置信区间
   paper_numbers.py    论文正文中不在表格里的数字
   dl_images.py / dl_model.py   下载数据与模型（版本固定）
 scripts/verify_spot.sh   复现抽查：截掉部分结果后重新生成并逐行比对
@@ -83,6 +84,7 @@ export SAPA_DATA=/path/to/SAPA-data SAPA_MODELS=/path/to/models SAPA_CODE=/path/
 | 表 4 | 感知 vs 推理 | `paper_numbers.py` 的 `[5.5]` 行，明细见 `analyze.py` 的“读 OCR 文字” |
 | §5.1–5.5 正文数字 | 首选项计数、相关系数、类别题翻转、RA 分项、OCR 保留率 | `paper_numbers.py`（每行标有章节号） |
 | §4 中性化质量 | 只看指令的分类器准确率 70.3% → 30.3% | `analyze.py` 的“中性化质量检查” |
+| §5 相关系数与 d′ 的 CI | corr(检出率, c) = −0.89 [−0.92, −0.84]；corr(检出率, d′) = 0.22 [−0.29, 0.48] | `sdt_ci.py` |
 
 ## 可复现性
 

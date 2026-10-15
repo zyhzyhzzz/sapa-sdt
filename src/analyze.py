@@ -3,7 +3,7 @@
 1. 中性化是否干净：用 SAPA 其余样本（排除本子集）训练"只看指令"的 TF-IDF+LR 分类器，
    比较它在原始/中性化指令上的类别准确率；另统计隐私关键词残留。
 2. 各任务 2x2 表：隐私检出率（level: 非 D；category: 非 I；agent: 警告/提及隐私）、类别准确率。
-   括号内为配对 bootstrap 95% CI（2000 次，样本级重采样，种子 0）。
+   括号内为配对 bootstrap 95% CI（2000 次，按近重复簇整簇重采样，种子 0）。
 3. 关键对比用精确 McNemar：
    截图效应 | 原始指令      = P(检出|orig,real)    - P(检出|orig,blank)
    截图效应 | 中性化指令    = P(检出|neutral,real) - P(检出|neutral,blank)
@@ -32,8 +32,8 @@ def letter(r, opts):
 
 
 # 评测集内部有近重复截图（finetune/check_leak.py 写出 artifacts/test_dups.json）。
-# SAPA_BOOT=cluster 时按近重复簇整簇重采样，否则按样本独立重采样（论文初稿的做法）。
-BOOT = os.environ.get("SAPA_BOOT", "iid")
+# 默认按近重复簇整簇重采样；SAPA_BOOT=iid 时按样本独立重采样（论文初稿的做法）。
+BOOT = os.environ.get("SAPA_BOOT", "cluster")
 
 
 def clusters():

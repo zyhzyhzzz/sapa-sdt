@@ -10,3 +10,5 @@ figs/*.pdf
 figs/*.png
 artifacts/adapters/
 artifacts/train/masked_images/
+env.local.sh
+artifacts/masked_images_*/

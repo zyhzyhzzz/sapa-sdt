@@ -7,7 +7,7 @@
   shuffle  与 pair 同样的输入，标签随机打乱（Yes/No 各半），检验“只是见过这些图”的效应
 三种条件的样本数相同、输入图片同分布，只差标签。
 用法：python finetune/train_lora.py --cond pair [--model 3b --epochs 2]
-产出：artifacts/adapters/<model>+<cond>/（LoRA 权重 + 训练日志）
+产出：artifacts/adapters/<model>+<cond>/（LoRA 权重 + 训练日志）；训练中每 --save_every 步写 ckpt/，中断后重跑同一命令即续训
 """
 import argparse, json, math, os, random, sys, time
 import torch
@@ -64,6 +64,7 @@ def main():
     ap.add_argument("--accum", type=int, default=8)
     ap.add_argument("--r", type=int, default=16)
     ap.add_argument("--seed", type=int, default=0)
+    ap.add_argument("--save_every", type=int, default=10, help="每多少个优化步存一次检查点")
     a = ap.parse_args()
     from peft import LoraConfig, get_peft_model
 
@@ -90,28 +91,48 @@ def main():
         opt, lambda s: min(1.0, (s + 1) / max(1, int(0.05 * steps))) * 0.5 * (1 + math.cos(math.pi * min(s, steps) / steps)))
     model.train()
     rng = random.Random(a.seed)
-    log, t0, k, run = [], time.time(), 0, 0.0
+    order = []  # 各 epoch 的样本顺序预先排好，续训时据此跳过已训练的样本
     for ep in range(a.epochs):
-        order = list(range(len(ex)))
-        rng.shuffle(order)
-        for i in order:
-            batch = encode(proc, *ex[i]).to("cuda:0")
-            with torch.autocast("cuda", dtype=torch.bfloat16):
-                loss = model(**batch).loss / a.accum
-            loss.backward()
-            run += loss.item()
-            k += 1
-            if k % a.accum == 0:
-                torch.nn.utils.clip_grad_norm_(params, 1.0)
-                opt.step(); sched.step(); opt.zero_grad(set_to_none=True)
-                step = k // a.accum
-                log.append(dict(step=step, epoch=ep, loss=run, lr=sched.get_last_lr()[0]))
-                if step % 10 == 0 or step == steps:
-                    print(f"step {step}/{steps} loss {run:.4f} lr {sched.get_last_lr()[0]:.2e} {time.time() - t0:.0f}s", flush=True)
-                run = 0.0
+        o = list(range(len(ex)))
+        rng.shuffle(o)
+        order += [(ep, i) for i in o]
+    log, t0, k, run = [], time.time(), 0, 0.0
+    ckpt = os.path.join(out, "ckpt")
+    if os.path.exists(os.path.join(ckpt, "state.pt")):  # 断点续训
+        from peft import set_peft_model_state_dict
+        from safetensors.torch import load_file
+        set_peft_model_state_dict(model, load_file(os.path.join(ckpt, "adapter_model.safetensors")))
+        st = torch.load(os.path.join(ckpt, "state.pt"), weights_only=False)
+        opt.load_state_dict(st["opt"]); sched.load_state_dict(st["sched"])
+        torch.set_rng_state(st["rng"]); torch.cuda.set_rng_state(st["cuda_rng"])
+        k, log, t0 = st["k"], st["log"], time.time() - st["seconds"]
+        print(f"从检查点续训：step {k // a.accum}/{steps}", flush=True)
+    for ep, i in order[k:]:
+        batch = encode(proc, *ex[i]).to("cuda:0")
+        with torch.autocast("cuda", dtype=torch.bfloat16):
+            loss = model(**batch).loss / a.accum
+        loss.backward()
+        run += loss.item()
+        k += 1
+        if k % a.accum == 0 or k == len(order):
+            torch.nn.utils.clip_grad_norm_(params, 1.0)
+            opt.step(); sched.step(); opt.zero_grad(set_to_none=True)
+            step = math.ceil(k / a.accum)
+            log.append(dict(step=step, epoch=ep, loss=run, lr=sched.get_last_lr()[0]))
+            if step % 10 == 0 or step == steps:
+                print(f"step {step}/{steps} loss {run:.4f} lr {sched.get_last_lr()[0]:.2e} {time.time() - t0:.0f}s", flush=True)
+            run = 0.0
+            if step % a.save_every == 0 and k < len(order):
+                model.save_pretrained(ckpt)
+                torch.save(dict(opt=opt.state_dict(), sched=sched.state_dict(), rng=torch.get_rng_state(),
+                                cuda_rng=torch.cuda.get_rng_state(), k=k, log=log, seconds=time.time() - t0),
+                           os.path.join(ckpt, "state.pt.tmp"))
+                os.replace(os.path.join(ckpt, "state.pt.tmp"), os.path.join(ckpt, "state.pt"))
     model.save_pretrained(out)
     json.dump(dict(args=vars(a), n_pairs=n_pairs, n_examples=len(ex), log=log, seconds=time.time() - t0),
               open(os.path.join(out, "train_log.json"), "w", encoding="utf-8"), indent=1)
+    import shutil
+    shutil.rmtree(ckpt, ignore_errors=True)
     print("saved", out, flush=True)
 
 

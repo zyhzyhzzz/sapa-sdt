@@ -1,13 +1,13 @@
 """在配对负样本上重测：中性化指令 × {sham 假遮挡（正样本）, masked 真遮挡（负样本）}。
 四种提问格式与前面相同；判别力 = P(检出|sham) - P(检出|masked)。总选同一个选项的模型，判别力为 0。
-用法：python neg_eval.py --model 7b --fmt level
+用法：python neg_eval.py --model 7b --fmt level（遮挡方式消融：SAPA_FILL=blur|black，见 paths.py）
 """
 import argparse, json, os, time
 from PIL import Image
 from common import load, generate
 from run_cf import LEVEL, LEVEL_EXPLICIT
 from format_probe import PROMPTS
-from paths import MASKED, RUNS, NEUTRAL, MASK_VERIFY
+from paths import FILL, MASKED, RUNS, NEUTRAL, MASK_VERIFY
 
 FMTS = {"level": LEVEL, "level_explicit": LEVEL_EXPLICIT, "dfirst": PROMPTS["dfirst"], "yn": PROMPTS["yn"]}
 
@@ -20,7 +20,7 @@ def main():
     # 只用重新 OCR 后读不到被遮隐私文字的样本（mask.py verify 的结果）
     meta = [r for r in json.load(open(MASK_VERIFY, encoding="utf-8")) if not r["residual"]]
     neu = {r["idx"]: r["neutral"] for r in map(json.loads, open(NEUTRAL, encoding="utf-8"))}
-    out = os.path.join(RUNS, f"neg_{a.fmt}_{a.model}.jsonl")
+    out = os.path.join(RUNS, f"neg{'' if FILL == 'median' else '-' + FILL}_{a.fmt}_{a.model}.jsonl")
     done = set()
     if os.path.exists(out):
         done = {(r["idx"], r["img"]) for r in map(json.loads, open(out, encoding="utf-8"))}

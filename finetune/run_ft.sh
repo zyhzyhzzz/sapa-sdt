@@ -3,12 +3,13 @@
 #   CONDS="pair" bash finetune/run_ft.sh     # 只跑一个条件
 set -e
 cd "$(dirname "$0")/.."
+[ -f env.local.sh ] && . ./env.local.sh  # 本机路径与解释器（见 README）
 ROOT=$(pwd); PY=${PY:-python}; export PYTHONIOENCODING=utf-8
 CONDS=${CONDS:-"pair pos shuffle"}; BASE=${BASE:-3b}
 mkdir -p logs
 for c in $CONDS; do
   m="$BASE+$c"
-  [ -f "artifacts/adapters/$m/adapter_model.safetensors" ] || "$PY" finetune/train_lora.py --cond $c --model $BASE > logs/ft_train_$c.txt 2>&1
+  [ -f "artifacts/adapters/$m/adapter_model.safetensors" ] || "$PY" finetune/train_lora.py --cond $c --model $BASE >> logs/ft_train_$c.txt 2>&1
   cd src
   # SAPA 式识别率（原始指令 + 原图）：两种多选格式只需真实截图；yn / dfirst 由 format_probe 跑（含不给图）
   "$PY" run_cf.py --model $m --task level --imgs real >> ../logs/ft_eval_$c.txt 2>&1
