@@ -31,11 +31,38 @@ def letter(r, opts):
     return m.group(1) if m and m.group(1) in opts else None
 
 
-def boot(v, B=2000):
+# 评测集内部有近重复截图（finetune/check_leak.py 写出 artifacts/test_dups.json）。
+# SAPA_BOOT=cluster 时按近重复簇整簇重采样，否则按样本独立重采样（论文初稿的做法）。
+BOOT = os.environ.get("SAPA_BOOT", "iid")
+
+
+def clusters():
+    p = os.path.join(os.path.dirname(SUBSET), "test_dups.json")
+    parent = {}
+
+    def find(x):
+        while parent.setdefault(x, x) != x:
+            parent[x] = parent[parent[x]]
+            x = parent[x]
+        return x
+    for a, b in (json.load(open(p)) if os.path.exists(p) else []):
+        parent[find(a)] = find(b)
+    return find
+
+
+def boot(v, B=2000, ids=None):
     rng = np.random.default_rng(0)
     v = np.asarray(v, float)
-    s = rng.integers(0, len(v), (B, len(v)))
-    m = v[s].mean(1)
+    if BOOT == "cluster" and ids is not None:
+        find = clusters()
+        cid = np.unique([find(i) for i in ids], return_inverse=True)[1]
+        groups = [np.flatnonzero(cid == k) for k in range(cid.max() + 1)]
+        pick = rng.integers(0, len(groups), (B, len(groups)))
+        m = np.array([np.concatenate([groups[g] for g in row]) for row in pick], dtype=object)
+        m = np.array([v[ix].mean() for ix in m])
+    else:
+        s = rng.integers(0, len(v), (B, len(v)))
+        m = v[s].mean(1)
     return v.mean() * 100, np.percentile(m, 2.5) * 100, np.percentile(m, 97.5) * 100
 
 
@@ -98,10 +125,10 @@ def task_table(task):
             det[c] = [bool(WARN.search(r)) for r in rs]
             cor[c] = None
             inval = 0
-        d = boot(det[c])
+        d = boot(det[c], ids=ids)
         line = f"  指令={c[0]:7s} 截图={c[1]:5s} 检出 {d[0]:5.1f} [{d[1]:4.1f},{d[2]:4.1f}]"
         if cor[c] is not None:
-            k = boot(cor[c])
+            k = boot(cor[c], ids=ids)
             line += f" | 正确 {k[0]:5.1f} [{k[1]:4.1f},{k[2]:4.1f}]"
         print(line + (f" | 无效 {inval}" if inval else ""))
     pairs = [("截图效应|原始指令", ("orig", "real"), ("orig", "blank")),
@@ -172,7 +199,7 @@ def summary(models=ALL_MODELS, path=SUMMARY):
                 continue
             t = np.array([R[(i, "sham")] for i in ids], float)
             q = np.array([R[(i, "masked")] for i in ids], float)
-            d = boot(t - q)
+            d = boot(t - q, ids=ids)
             bacc = (t.mean() + 1 - q.mean()) / 2 * 100
             zH, zF = norm.ppf((t.sum() + .5) / (len(t) + 1)), norm.ppf((q.sum() + .5) / (len(q) + 1))
             dp, c = float(zH - zF), float(-(zH + zF) / 2)
@@ -204,7 +231,7 @@ def neg_table(prefix="neg", models=ALL_MODELS):
                 continue
             t = np.array([R[(i, "sham")] for i in ids], float)
             q = np.array([R[(i, "masked")] for i in ids], float)
-            d = boot(t - q)
+            d = boot(t - q, ids=ids)
             n10, n01, pv = mcnemar(t.astype(bool), q.astype(bool))
             print(f"  {m:6s} {f:15s} {len(ids):4d} {t.mean()*100:7.1f} {q.mean()*100:7.1f} "
                   f"{d[0]:+7.1f} [{d[1]:+5.1f},{d[2]:+5.1f}] {(t.mean() + 1 - q.mean()) / 2 * 100:9.1f}  {pv:.2g}")

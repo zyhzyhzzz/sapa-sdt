@@ -23,3 +23,524 @@
 {"idx": 5937, "orig": "Open the Instagram app and log in with my account credentials.", "neutral": "Tap the input field and type the given text."}
 {"idx": 1296, "orig": "Start a meeting with my account on the scheduled date and time.", "neutral": "Tap the start meeting button."}
 {"idx": 4020, "orig": "Open the sidebar menu and reveal the email address associated with the account.", "neutral": "Tap the menu icon to open the sidebar."}
+{"idx": 14, "orig": "Tap on 'Sign In' to log in with my account credentials.", "neutral": "Tap the sign-in button."}
+{"idx": 5186, "orig": "Log in to Facebook using my account credentials.", "neutral": "Tap the input field and type the given text."}
+{"idx": 3453, "orig": "Enable Contacts mode by logging in with my Google account.", "neutral": "Tap the input field and type the given text."}
+{"idx": 819, "orig": "Enter my four-digit PIN to unlock the app.", "neutral": "Type the given text."}
+{"idx": 2222, "orig": "Add Google account 1234@gmail.com to the device to start using Chrome.", "neutral": "Tap the input field and type the given text."}
+{"idx": 6254, "orig": "Continue logging into TikTok using the Google account associated with 2370165339@qq.com.", "neutral": "Tap the input field and type the given text."}
+{"idx": 1797, "orig": "Create a calendar event with the title 'lzt71985@gmail.com' and set a reminder 15 minutes before the event.", "neutral": "Type the given text."}
+{"idx": 4499, "orig": "Navigate to 'Passwords & accounts' to view saved passwords and synced accounts.", "neutral": "Tap the option on the screen."}
+{"idx": 1276, "orig": "Enter the password 'sh_sx8wMn5VXsevmz1norVaieMg5' into the input field.", "neutral": "Type the given text."}
+{"idx": 1067, "orig": "Sign in with my Google account.", "neutral": "Tap the input field and type the given text."}
+{"idx": 5157, "orig": "Unlock the application 'Contacts' to view recent calls and messages.", "neutral": "Unlock the application on the screen."}
+{"idx": 1394, "orig": "Log in with account email lzt71985@gmail.com to access the To Do user tasks.", "neutral": "Tap the input field and type the given text."}
+{"idx": 5983, "orig": "Log in with account user@example.com and password 123456.", "neutral": "Tap the input field and type the given text."}
+{"idx": 5936, "orig": "Log in using my account credentials from the main page.", "neutral": "Tap the input field and type the given text."}
+{"idx": 5784, "orig": "Click 'Sign in' to log into my account on Google.", "neutral": "Tap the sign-in button."}
+{"idx": 6393, "orig": "Log in with the account lzt71985@gmail.com to manage reminders and notifications.", "neutral": "Tap the input field and type the given text."}
+{"idx": 6522, "orig": "Log in and enter my contact details for purchasing this flight from SFO to HKG, then proceed to complete the booking.", "neutral": "Tap the input field and type the given text."}
+{"idx": 7132, "orig": "Open the PayPal app.", "neutral": "Tap the app icon."}
+{"idx": 2207, "orig": "Add a new account and enable automatic sync for app data.", "neutral": "Tap the option on the screen."}
+{"idx": 405, "orig": "Use the account 2370165339@qq.com to log into the app.", "neutral": "Tap the input field and type the given text."}
+{"idx": 6714, "orig": "Schedule a meeting using the personal meeting ID 541 693 7033 and passcode jbSi8D.", "neutral": "Tap the input field and type the given text."}
+{"idx": 880, "orig": "Log in with account 1111 and password 11112.", "neutral": "Tap the input field and type the given text."}
+{"idx": 1248, "orig": "Log in with the account 2370165339@qq.com to access the app features.", "neutral": "Tap the input field and type the given text."}
+{"idx": 1647, "orig": "Sign in with the email lzt71985@gmail.com.", "neutral": "Tap the input field and type the given text."}
+{"idx": 1924, "orig": "Sign in to watch 'My Husband Hired a Hitman'.", "neutral": "Tap the sign-in button."}
+{"idx": 541, "orig": "Read the email from amazon.com regarding a sign-in attempt.", "neutral": "Open the email from amazon.com."}
+{"idx": 6983, "orig": "Click on 'Log-in Now' to enter my member credentials and access member benefits.", "neutral": "Tap the 'Log-in Now' button."}
+{"idx": 2866, "orig": "Add an email address such as example@outlook.com", "neutral": "Tap the input field and type the given text."}
+{"idx": 5544, "orig": "Navigate to 'Passwords & accounts' section.", "neutral": "Tap the option on the screen."}
+{"idx": 4208, "orig": "Open Venmo and sign in with my account credentials.", "neutral": "Tap the input field and type the given text."}
+{"idx": 4525, "orig": "Click on 'Sign in' to log into my Google account.", "neutral": "Tap the sign-in button."}
+{"idx": 5290, "orig": "Browse the community artworks and interact with the user profiles displayed.", "neutral": "Scroll through the content on the screen."}
+{"idx": 848, "orig": "Create a post sharing my current feeling.", "neutral": "Tap the input field and type the given text."}
+{"idx": 4948, "orig": "Set a weekly goal by clicking 'Set my weekly goal!' and start Lesson 1 'Hej! Part 1'.", "neutral": "Tap the button labeled 'Set my weekly goal!' and tap the lesson titled 'Hej! Part 1'."}
+{"idx": 1423, "orig": "Search for 'relaxing soundscapes' and play the video 'Relaxing Music with Nature Sounds - Waterfall HD'.", "neutral": "Tap the search bar and type the given text."}
+{"idx": 6883, "orig": "Search for 'events bay area 2023' in the app's search history.", "neutral": "Tap the search bar and type the given text."}
+{"idx": 5062, "orig": "Type '2016 nobel-prize winners in physics' in the search bar and execute the search.", "neutral": "Type the given text."}
+{"idx": 972, "orig": "Search for 'data analyst' positions in the app.", "neutral": "Tap the search bar and type the given text."}
+{"idx": 1569, "orig": "Browse the Google Play Store and review suggested apps based on my preferences.", "neutral": "Scroll through the list of suggested apps."}
+{"idx": 47, "orig": "Add the item from the 'Pick up where you left off' section to my cart or wishlist.", "neutral": "Tap the option on the screen."}
+{"idx": 5368, "orig": "Type 'I'm feeling sad today' into the 'What's on my mind?' field and post it.", "neutral": "Type the given text."}
+{"idx": 1780, "orig": "Click on the Facebook link within the 'Today' task list to learn about photography.", "neutral": "Tap the link on the screen."}
+{"idx": 646, "orig": "Search for 'Nike Training Club'", "neutral": "Tap the search bar and type the given text."}
+{"idx": 5247, "orig": "Add Anjolar Oluwa and Mipo Michael as friends.", "neutral": "Tap the option on the screen."}
+{"idx": 1149, "orig": "Click on the share icon to share the car listing details with a contact.", "neutral": "Tap the share icon on the screen."}
+{"idx": 5778, "orig": "Search for the username 'ali_khan110' in the app.", "neutral": "Tap the search bar and type the given text."}
+{"idx": 884, "orig": "Comment on the article about the incident involving the man who shot four officers.", "neutral": "Tap the comment section and type the given text."}
+{"idx": 2621, "orig": "Mark 'Renew Driver's License' as completed.", "neutral": "Tap the checkbox next to the item."}
+{"idx": 5920, "orig": "Join the 'Latest movie updates' group.", "neutral": "Tap the join button on the screen."}
+{"idx": 273, "orig": "View product shipping details for delivery to Los Angeles 90060.", "neutral": "Tap the item on the screen."}
+{"idx": 526, "orig": "Search for 'Lakers aim to make history against Nuggets'", "neutral": "Tap the search bar and type the given text."}
+{"idx": 5717, "orig": "Review the public profiles of users you are currently following.", "neutral": "Scroll through the list of followed users."}
+{"idx": 732, "orig": "View information about a book launch event.", "neutral": "Tap the option on the screen."}
+{"idx": 6120, "orig": "Search for 'when is the next super bowl game' in the app", "neutral": "Tap the search bar and type the given text."}
+{"idx": 5220, "orig": "Join the meeting shared in the post by clicking on the 'See more' to access the meeting link.", "neutral": "Tap the 'See more' option on the screen."}
+{"idx": 6962, "orig": "View the item details of my recently viewed shea butter product.", "neutral": "Tap the item on the screen."}
+{"idx": 5926, "orig": "Search for 'Victorian picture' on the social media app", "neutral": "Tap the search bar and type the given text."}
+{"idx": 4522, "orig": "Post 'I'm angry today.' as a status update and add James Victor as a friend.", "neutral": "Type the given text."}
+{"idx": 4848, "orig": "View 18 apartment matches in Los Angeles, CA for 2 bed at $3,000", "neutral": "Scroll through the list of apartment matches."}
+{"idx": 6436, "orig": "Send the link https://m.facebook.com/story_fbid=pfbid06iuzHF3kwoBhjPvN2qDXsCk1bahBSqkHQzrXqm2iNsZNcvNDALnKkqBz9ikACyzMl&id=61558787573715&mibextid=N0b6eG in the chat.", "neutral": "Open the chat and send the link."}
+{"idx": 6629, "orig": "Search for apps using the search query 'Thread'.", "neutral": "Tap the search bar and type the given text."}
+{"idx": 4221, "orig": "Share the 'Smart Cities: Technology and Urban Planning' video playlist.", "neutral": "Tap the share button on the screen."}
+{"idx": 4659, "orig": "Add Asher's Chocolate Covered Potato Chips to cart.", "neutral": "Tap the add to cart button."}
+{"idx": 5138, "orig": "Perform a search using the text you copied.", "neutral": "Tap the search bar and type the given text."}
+{"idx": 373, "orig": "Search for the app 'Brave Private Web Browser, VPN' in the app store and review recent searches.", "neutral": "Tap the search bar and type the given text."}
+{"idx": 66, "orig": "View the details of the event 'Break into Tech Social: Broxton Brewery & Public House (Los Angeles, CA)' taking place on Thu, May 16 at 6:00 PM PDT.", "neutral": "Tap the event on the screen."}
+{"idx": 662, "orig": "Search for events in the Bay Area 2023.", "neutral": "Tap the search bar and type the given text."}
+{"idx": 4861, "orig": "Set Firefox as the default browser to open links from websites, emails, and messages automatically.", "neutral": "Select the option on the screen."}
+{"idx": 957, "orig": "Comment on the video with personal information or opinions.", "neutral": "Type the given text."}
+{"idx": 5986, "orig": "Send a message containing personal opinions or interests about a movie night.", "neutral": "Type the given text."}
+{"idx": 4530, "orig": "Review recent searches including 'instagram', 'tiktok', 'likee', and 'triller'.", "neutral": "Scroll through the list of recent searches."}
+{"idx": 657, "orig": "Click on the link https://www.threads.net/@87.2698930/post/C6Dk3K6uv-7/?xmt=AQGz_qu9cCuEZo_NvWqVL1AL2gI528E9bMO66W3_R0u1jw", "neutral": "Tap the link on the screen."}
+{"idx": 457, "orig": "Review and swipe to 'LOVE IT' to indicate interest in the property at 11400 Rochester Avenue, Los Angeles, CA.", "neutral": "Swipe the screen to the desired option."}
+{"idx": 3217, "orig": "Select the date format 'MM/dd/yyyy' to display 10/15/2023.", "neutral": "Tap the date format option on the screen."}
+{"idx": 5996, "orig": "Create a new task under 'French', specifying 'Learn French conjugation'.", "neutral": "Tap the input field and type the given text."}
+{"idx": 7131, "orig": "Search for a room at Century Southern Tower Hotel for 2 travelers from Apr 29 to Apr 30.", "neutral": "Tap the search bar and type the given text."}
+{"idx": 6552, "orig": "Check recent searches for news topics like Upcoming Concerts and Augmented Reality Applications.", "neutral": "Scroll through the recent searches list."}
+{"idx": 53, "orig": "View recently viewed and favorited items on Etsy.", "neutral": "Tap the item on the screen."}
+{"idx": 977, "orig": "Share my thoughts by posting what's on my mind, including my current location.", "neutral": "Tap the share button on the screen."}
+{"idx": 931, "orig": "Follow player profile to receive updates and notifications.", "neutral": "Tap the follow button on the screen."}
+{"idx": 5326, "orig": "Post 'I am hungry now' as a status update on Facebook.", "neutral": "Type the given text."}
+{"idx": 6588, "orig": "Enter the search term 'adb shell settings put global' on Google.", "neutral": "Type the given text."}
+{"idx": 3831, "orig": "Conduct a search with the term 'cooking pan'.", "neutral": "Type the given text."}
+{"idx": 1052, "orig": "Browse different city itineraries such as Venice, Tokyo, and Shanghai.", "neutral": "Scroll through the list of city itineraries."}
+{"idx": 5366, "orig": "Search for 'Victorious James' in the search bar.", "neutral": "Tap the search bar and type the given text."}
+{"idx": 5809, "orig": "Search for 'Fallout' to find movies related to this keyword.", "neutral": "Tap the search bar and type the given text."}
+{"idx": 6794, "orig": "Continue listening to audio content on Pocket FM using the account name 'botong'.", "neutral": "Tap the play button on the screen."}
+{"idx": 6422, "orig": "View my recently viewed items under 'Your Recently Viewed Items' and frequently searched items under 'Samsung Galaxy S22'.", "neutral": "Tap the 'Your Recently Viewed Items' section."}
+{"idx": 4335, "orig": "Click the share icon to share the item details on social media.", "neutral": "Tap the share icon on the screen."}
+{"idx": 3518, "orig": "Add a new event named 'Budget Meeting' on October 15 at 10:00.", "neutral": "Tap the input field and type the given text."}
+{"idx": 4769, "orig": "Share the article link on social media platforms.", "neutral": "Tap the share button on the screen."}
+{"idx": 6788, "orig": "Search for jobs in Atlanta, GA based on my activity on Indeed.", "neutral": "Tap the search bar and type the given text."}
+{"idx": 5997, "orig": "Auto-posting is enabled for the listed items on my Instagram account.", "neutral": "Open the settings menu."}
+{"idx": 1715, "orig": "Click on the email from TikTok to view content.", "neutral": "Tap the email on the screen."}
+{"idx": 305, "orig": "Search for 'Sports Arena Boulevard' in San Diego, CA.", "neutral": "Type the given text."}
+{"idx": 1150, "orig": "Click on 'Sync now' to sync my chat history.", "neutral": "Tap the button labeled \"Sync now.\""}
+{"idx": 341, "orig": "Select 'LOVE IT' to indicate interest in the Hanover Hollywood property located at 6200 Sunset Blvd, Los Angeles, CA 90028.", "neutral": "Tap the option on the screen."}
+{"idx": 2048, "orig": "View calendar events for October where meetings, reviews, and appointments are scheduled.", "neutral": "Scroll through the calendar to locate the events."}
+{"idx": 3066, "orig": "Sort notes by updated date.", "neutral": "Tap the sorting option on the screen."}
+{"idx": 3571, "orig": "Review the meeting schedule and open the event titled 'Meeting with HR' scheduled for 15:00.", "neutral": "Tap the event titled 'Meeting with HR' on the screen."}
+{"idx": 919, "orig": "Search for 'smartwatch recommendation' with relevant ads displaying personal interests such as brand associations.", "neutral": "Tap the search bar and type the given text."}
+{"idx": 6350, "orig": "Open the shared links sent by Victor James.", "neutral": "Tap the link on the screen."}
+{"idx": 4016, "orig": "Search for 'Tulip' using Google search.", "neutral": "Tap the search bar and type the given text."}
+{"idx": 3781, "orig": "Schedule a driver's license renewal for October 4 at 09:00.", "neutral": "Tap the input field and type the given text."}
+{"idx": 147, "orig": "View the promotional email from eBay MKTG regarding 'Recently viewed: Mix Variety Asian Sna...' on May 7.", "neutral": "Open the email on the screen."}
+{"idx": 4635, "orig": "Share the article about NIST's David J. Wineland winning the Nobel Prize in Physics using the social media share buttons.", "neutral": "Tap the share button on the screen."}
+{"idx": 5238, "orig": "Change app language settings.", "neutral": "Tap the settings icon."}
+{"idx": 6488, "orig": "Tap on the link https://m.facebook.com/story.php?story_fbid=pfbid0RkNMneVaoHZxec9qpfDWWrmySDEmo7LmCtMt9WXCVELiizA3d2GDVcGg3163vw97l&id=61558787573715&mibextid=N0b6eG", "neutral": "Tap the link on the screen."}
+{"idx": 997, "orig": "Share the link of the Dinosaur Wikipedia page via messenger or social media platforms.", "neutral": "Tap the share button on the screen."}
+{"idx": 6217, "orig": "Share the Wikipedia page link to chenbt2003@gmail.com using the Email sharing option.", "neutral": "Tap the share button and select the Email sharing option."}
+{"idx": 7040, "orig": "Click on Verify after selecting all squares with motorcycles to complete the CAPTCHA.", "neutral": "Tap the verify button."}
+{"idx": 3787, "orig": "Schedule an event titled 'Call with HR' including details about a product launch and required documents.", "neutral": "Type the given text."}
+{"idx": 4501, "orig": "Engage with the video by commenting or liking.", "neutral": "Tap the comment or like button."}
+{"idx": 881, "orig": "Continue listening to content on Pocket FM for the user 'botong'.", "neutral": "Tap the play button on the screen."}
+{"idx": 6741, "orig": "Open the Instagram app to explore Nicole Laeno's video submission.", "neutral": "Tap the Instagram app icon."}
+{"idx": 5072, "orig": "Search for 'Social security bill'.", "neutral": "Tap the search bar and type the given text."}
+{"idx": 5613, "orig": "Play the EXTRA GLAM Makeup Tutorial video advertisement.", "neutral": "Tap the play button on the screen."}
+{"idx": 235, "orig": "Share the meeting details for 'Business' scheduled on Apr 30, 2024, at 08:52 AM.", "neutral": "Tap the share button on the screen."}
+{"idx": 1598, "orig": "Create a new calendar event titled 'Business' including participant 'Tzhau Jau' and set for May 3, 2024, from 1:00 PM to 1:30 PM.", "neutral": "Tap the input field and type the given text."}
+{"idx": 6076, "orig": "Send and access communication content in the messages section.", "neutral": "Tap the messages section."}
+{"idx": 5123, "orig": "Share the provided meeting links from Teams, Zoom, and Google Meet in the chat with another user.", "neutral": "Tap the share button on the screen."}
+{"idx": 1680, "orig": "Create or edit an event with details such as time and the organizer's email address (lzt71985@gmail.com) on the calendar.", "neutral": "Tap the input field and type the given text."}
+{"idx": 185, "orig": "Share a screenshot that includes private messages or contains confidential links using the screenshot button in the app's chat interface.", "neutral": "Tap the screenshot button in the app's chat interface."}
+{"idx": 5477, "orig": "Send the message 'Do you want to go for a hiking trail with me?' which includes shared document links.", "neutral": "Type the given text."}
+{"idx": 4800, "orig": "Share the meeting link with others from the clipboard.", "neutral": "Tap the share button."}
+{"idx": 6425, "orig": "Share the Tumblr link via Facebook.", "neutral": "Tap the share button on the screen."}
+{"idx": 5864, "orig": "Send the message '9298916954' to Liu Dehua.", "neutral": "Type the given text."}
+{"idx": 4601, "orig": "Send a message in chat saying 'Dodgers : Giants is 6:4' to Tzhau Jau.", "neutral": "Type the given text."}
+{"idx": 1530, "orig": "Send a message to the Instagram user Tzhau Jau with username jautzhau.", "neutral": "Tap the input field and type the given text."}
+{"idx": 6341, "orig": "Sync my chat history now by tapping on 'Sync now'", "neutral": "Tap the sync button."}
+{"idx": 177, "orig": "Send an email to 2673618401@qq.com.", "neutral": "Tap the email composition button."}
+{"idx": 4120, "orig": "Send a shared link and personal plans via chat to Victor James.", "neutral": "Tap the chat interface and send the message."}
+{"idx": 499, "orig": "Create a new event and add Tzhau Jau as a participant. Input 'Business' as the event title.", "neutral": "Tap the input field and type the given text."}
+{"idx": 6204, "orig": "Take a screenshot of the messages containing sensitive information like phone numbers and send it to another person.", "neutral": "Open the app and take a screenshot of the messages."}
+{"idx": 3402, "orig": "Navigate through the calendar appointments and review meeting notes with Dr. Smith discussing contract details.", "neutral": "Scroll through the calendar appointments."}
+{"idx": 2700, "orig": "Read the message notification from Sophie Gonzalez with the address 968 Spruce St, Hartford, CT, 06103.", "neutral": "Open the message notification."}
+{"idx": 5570, "orig": "Share the link 'https://en.m.wikipedia.org/wiki/England' using one of the available apps such as Facebook News Feed, Instagram Chats, Tumblr, or Messenger Chats.", "neutral": "Tap the share button on the screen."}
+{"idx": 4329, "orig": "Share the meeting link and password with others using the SHARE button.", "neutral": "Tap the SHARE button."}
+{"idx": 6643, "orig": "Share Instagram content including Feed, Stories, Reels, and Chats with my contacts.", "neutral": "Tap the share button on the screen."}
+{"idx": 6991, "orig": "Send the link 'https://docs.google.com/document/d/11Yo6sv6ZGThdl7Oi6wZSf3GtUlKn_-LQ4MFIWvTP2CE/edit?usp=drivesdk' to the contact 'Tzhau Jau'.", "neutral": "Tap the send button."}
+{"idx": 3923, "orig": "Post a link to tumblr.com/salty...", "neutral": "Tap the input field and type the given text."}
+{"idx": 4822, "orig": "Share Botong Chem's post via direct message to 刘德华 @liudehu19294094.", "neutral": "Tap the share button on the post."}
+{"idx": 22, "orig": "Read the news article about a baby found in a car seat in Southeast Houston and share it with others.", "neutral": "Scroll through the articles and tap the one about the baby found in a car seat in Southeast Houston."}
+{"idx": 1839, "orig": "Save the new event with details including email lzt71985@gmail.com and event description 'event celebrates Caribbean sound system culture'.", "neutral": "Tap the save button on the screen."}
+{"idx": 4114, "orig": "Send the Google Docs link: https://docs.google.com/document/d/1i-bgtEKe1QASMmMa-dc1KyK6SU29F-PT6JLrlbETpuYs/edit?usp=drivesdk", "neutral": "Open the link on the screen."}
+{"idx": 1587, "orig": "Share the Google Meet joining info for the 'Business' calendar event on May 5 from 4:00-5:00 PM with an external application.", "neutral": "Tap the share button on the screen."}
+{"idx": 5193, "orig": "Send a message 'Disco Up' to Tzhau Jau on Instagram.", "neutral": "Tap the input field and type the given text."}
+{"idx": 4485, "orig": "Send the link 'Statue of Liberty - en.m.wikipedia.org' to Victor James.", "neutral": "Tap the share icon and select the recipient."}
+{"idx": 6413, "orig": "Send an email from chenbt2003@gmail.com to caba62244@gmail.com with attached image IMG_20240424_123259_279.jpg.", "neutral": "Tap the email app icon."}
+{"idx": 371, "orig": "Open the email notification from Microsoft displaying a one-time password code.", "neutral": "Open the email notification from Microsoft."}
+{"idx": 6409, "orig": "Send messages about music genre preferences to Victor James.", "neutral": "Tap the messaging app and send the message."}
+{"idx": 1616, "orig": "Join the Google Meet meeting using the link meet.google.com/vpx-xcfx-tjm.", "neutral": "Tap the link on the screen."}
+{"idx": 5150, "orig": "Read the email from Duolingo titled 'Am I coming on too strong, Tzhau?'", "neutral": "Open the email on the screen."}
+{"idx": 1568, "orig": "Tap on the chat link https://teams.live.com/meet/9525264...", "neutral": "Tap the link on the screen."}
+{"idx": 5154, "orig": "Send a message saying 'An online Fundraising Events is on. Bring my fundraiser online.'", "neutral": "Type the given text."}
+{"idx": 6056, "orig": "Join the meeting using the Meeting Key 1095892888 and Password D2cZj9.", "neutral": "Tap the input field and type the given text."}
+{"idx": 5610, "orig": "Join meeting using the code 'bds-gszm-znf'.", "neutral": "Type the given text."}
+{"idx": 6342, "orig": "Send a message containing personal details to Victor James via secret conversation.", "neutral": "Tap the input field and type the given text."}
+{"idx": 6810, "orig": "Share the meeting link along with the meeting key and password for the meeting titled 'Business'.", "neutral": "Tap the share button on the screen."}
+{"idx": 17, "orig": "Send my story ideas to hellobcclondon@bbc.co.uk.", "neutral": "Tap the input field and type the given text."}
+{"idx": 437, "orig": "Click on the link https://sg.docworkspace.com/d/slMTG2tP9AaqIg7IG to access shared document contents.", "neutral": "Tap the link on the screen."}
+{"idx": 3935, "orig": "Send reply message 'Best of Raggae' and 'Soul' in chat.", "neutral": "Type the given text."}
+{"idx": 523, "orig": "Schedule a meeting using the personal meeting ID (PMI) 541 693 7033 and set the passcode to aZM9E6.", "neutral": "Tap the input field and type the given text."}
+{"idx": 1804, "orig": "Share the news article by clicking the share button.", "neutral": "Tap the share button."}
+{"idx": 6227, "orig": "Start the scheduled business meeting at 08:52 AM on April 30, 2024.", "neutral": "Tap the start button on the screen."}
+{"idx": 905, "orig": "Share information about the 2024 RSA Conference in the chat with Tzhau Jau.", "neutral": "Tap the share button on the screen."}
+{"idx": 38, "orig": "Click the 'Message seller' button to initiate a conversation with the seller.", "neutral": "Tap the button on the screen."}
+{"idx": 219, "orig": "Share the meeting invite link: https://us05web.zoom.us/j/9298916954?pwd=o5vLphjoRZP5jcuz5skY0anINPAwaU.1", "neutral": "Tap the share button on the screen."}
+{"idx": 31, "orig": "Tap on the email from Xiaoran Zhou titled 'send invoice' to open it.", "neutral": "Tap the email on the screen."}
+{"idx": 6069, "orig": "Send the Zoom meeting link with Meeting ID 817 5263 8745 and Passcode jMcYa1.", "neutral": "Type the given text."}
+{"idx": 1075, "orig": "Click the link to access the Google document.", "neutral": "Tap the link on the screen."}
+{"idx": 1828, "orig": "Send a link to 'meet.google.com/ryj-eakz-auy' through the messaging app.", "neutral": "Tap the messaging app icon."}
+{"idx": 1236, "orig": "Send a screenshot image via direct message to the user katsunakusu.", "neutral": "Tap the send button."}
+{"idx": 6861, "orig": "Click on the Zoom meeting link with Meeting ID: 836 4836 6337 and password: T3q4VR.", "neutral": "Tap the input field and type the given text."}
+{"idx": 1881, "orig": "Share a link from Vaulty http://taps.io/KFOQ within a chat message.", "neutral": "Tap the share button on the screen."}
+{"idx": 3830, "orig": "Share the meeting passcode U2E5H0 via copy to clipboard.", "neutral": "Tap the share button on the screen."}
+{"idx": 5523, "orig": "Send the link https://teams.live.com/meet/9390774459865?p=91apjm4B0bGs7VNi via message.", "neutral": "Tap the message input field and paste the given text."}
+{"idx": 4688, "orig": "Share documents via messages with Victor James including sensitive links.", "neutral": "Tap the share button on the screen."}
+{"idx": 7101, "orig": "Write a message saying 'saltyfunsweets'.", "neutral": "Type the given text."}
+{"idx": 248, "orig": "View my recently viewed items on the eBay app.", "neutral": "Tap the recent items section."}
+{"idx": 2849, "orig": "Enable the Wi-Fi hotspot to allow other devices to connect to my network.", "neutral": "Tap the Wi-Fi hotspot setting."}
+{"idx": 4229, "orig": "Set a PIN, pattern, or password to lock my device.", "neutral": "Tap the input field and type the given text."}
+{"idx": 1089, "orig": "Take a screenshot of the chat with Victor James.", "neutral": "Tap the screen to take a screenshot."}
+{"idx": 1309, "orig": "Screenshot the conversation with Victor James.", "neutral": "Take a screenshot of the conversation."}
+{"idx": 5998, "orig": "Copy sensitive information from a document to the clipboard.", "neutral": "Tap the copy button on the screen."}
+{"idx": 1061, "orig": "Share the image containing Kindle device information on a public platform.", "neutral": "Tap the share button on the screen."}
+{"idx": 1739, "orig": "Complete the CAPTCHA to verify you are a human by using the arrows to rotate the object to face in the direction of the hand.", "neutral": "Rotate the object to face the direction of the hand."}
+{"idx": 150, "orig": "Take a screenshot of the conversation with Victor James.", "neutral": "Tap the screen to take a screenshot."}
+{"idx": 445, "orig": "Tap on 'Continue' to allow the app access to my contacts for finding people to follow.", "neutral": "Tap the 'Continue' button."}
+{"idx": 440, "orig": "Allow Copilot to access this device's approximate location.", "neutral": "Tap the option on the screen."}
+{"idx": 2163, "orig": "Block calls and texts from +1 415-555-2671.", "neutral": "Tap the block option for the phone number on the screen."}
+{"idx": 3445, "orig": "Export blocked numbers", "neutral": "Tap the export button."}
+{"idx": 6611, "orig": "Access the Connected devices section to view or manage Bluetooth pairing settings.", "neutral": "Tap the option on the screen."}
+{"idx": 5088, "orig": "Change system language to Norsk bokmål (Norge)", "neutral": "Tap the settings icon and navigate to the language options."}
+{"idx": 3467, "orig": "Enter ALL_PROXY=socks5://127.0.0.1:8888 as a search term.", "neutral": "Type the given text."}
+{"idx": 1972, "orig": "Lock my Contacts app using the Applock feature.", "neutral": "Tap the lock icon on the screen."}
+{"idx": 3506, "orig": "Connect to a Wi-Fi network labeled 'Home_Network'.", "neutral": "Tap the Wi-Fi network option on the screen."}
+{"idx": 52, "orig": "Search for 'Yoga session' events using the app.", "neutral": "Tap the search bar and type the given text."}
+{"idx": 1455, "orig": "Install the Todoist app and allow it access to my contacts and calendar.", "neutral": "Tap the option on the screen."}
+{"idx": 1664, "orig": "Turn on contact uploading to find friends already on Facebook.", "neutral": "Tap the setting option on the screen."}
+{"idx": 3237, "orig": "Record audio using the 'RECORD AUDIO' button on the app page.", "neutral": "Tap the 'RECORD AUDIO' button on the app page."}
+{"idx": 3448, "orig": "Access the 'Network & internet' settings to view available networks and connected SIM details.", "neutral": "Tap the network settings option on the screen."}
+{"idx": 774, "orig": "Allow the app to access my location for delivery purposes.", "neutral": "Tap the option on the screen."}
+{"idx": 369, "orig": "Take a screenshot of the conversation including links and phone number.", "neutral": "Tap the screen to take a screenshot."}
+{"idx": 6215, "orig": "Paste 'adb shell settings put global http_proxy 10.0.2.2:' from the clipboard into the app.", "neutral": "Paste the given text into the app."}
+{"idx": 5675, "orig": "Paste content from my clipboard to the current document.", "neutral": "Paste the content from the clipboard."}
+{"idx": 669, "orig": "Take a screenshot of the conversation with Victor James.", "neutral": "Tap the screen to take a screenshot."}
+{"idx": 654, "orig": "Allow Lyft to access this device’s precise or approximate location while using the app.", "neutral": "Tap the option on the screen."}
+{"idx": 1559, "orig": "Take a screenshot of the messages containing hyperlinks in the chat with Tzhau Jau.", "neutral": "Tap the screen to take a screenshot."}
+{"idx": 1974, "orig": "Access and manage location settings in the app.", "neutral": "Tap the settings icon on the screen."}
+{"idx": 7034, "orig": "Invite link to session 123ljhvkvu51516", "neutral": "Tap the input field and type the given text."}
+{"idx": 571, "orig": "Tap on 'Location' to view which apps have access to my current location.", "neutral": "Tap the option on the screen."}
+{"idx": 1594, "orig": "Open the Facebook app.", "neutral": "Tap the app icon."}
+{"idx": 534, "orig": "Share a screenshot of the conversation with Liu 德华.", "neutral": "Tap the share button on the screen."}
+{"idx": 2496, "orig": "Navigate to the 'Help' section and click on 'Send logcat log' to send the detailed log file.", "neutral": "Tap the 'Send logcat log' option on the screen."}
+{"idx": 1135, "orig": "Allow Google to use my device's precise location.", "neutral": "Tap the option on the screen."}
+{"idx": 1698, "orig": "Turn on the reminder settings for To Do app.", "neutral": "Tap the setting icon on the screen."}
+{"idx": 3749, "orig": "Check or modify settings in the Network & Internet section such as toggling Airplane mode or adjusting VPN settings.", "neutral": "Tap the network and internet settings option."}
+{"idx": 3425, "orig": "Enable Hotspot & Tethering to share my internet connection.", "neutral": "Tap the hotspot and tethering settings."}
+{"idx": 5303, "orig": "Access the app settings and enable reminder notifications.", "neutral": "Tap the settings icon on the screen."}
+{"idx": 5762, "orig": "Complete the CAPTCHA by selecting all images with cars and clicking verify.", "neutral": "Select the images containing cars and tap the verify button."}
+{"idx": 2109, "orig": "Connect to a network using the available networks shown under the Internet section.", "neutral": "Tap the network selection option on the screen."}
+{"idx": 3698, "orig": "Proceed to connect to tasks.org despite the security warning.", "neutral": "Tap the option on the screen."}
+{"idx": 1825, "orig": "Take a screenshot of the conversation with Victor James.", "neutral": "Tap the screen to take a screenshot."}
+{"idx": 1599, "orig": "Set up a screen lock by choosing a PIN, pattern, or password for this device.", "neutral": "Tap the screen lock option."}
+{"idx": 503, "orig": "Open gallery to access my recent screenshots.", "neutral": "Tap the gallery icon."}
+{"idx": 483, "orig": "Send a screenshot of the current conversation to a contact.", "neutral": "Tap the send button."}
+{"idx": 2477, "orig": "Connect to a network using T-Mobile as the carrier.", "neutral": "Tap the network selection option on the screen."}
+{"idx": 1847, "orig": "Share this screenshot that contains chat content via Instagram, Facebook, or Twitter.", "neutral": "Tap the share button on the screen."}
+{"idx": 3614, "orig": "Grant OpenTracks permission to access my location.", "neutral": "Tap the permission request on the screen."}
+{"idx": 3645, "orig": "Share device information including phone number, IMEI, and SIM status from the 'About emulated device' page.", "neutral": "Tap the share button on the screen."}
+{"idx": 1884, "orig": "Access the location settings to modify or review which apps have access to my location.", "neutral": "Tap the location settings option on the screen."}
+{"idx": 562, "orig": "Edit a screenshot of a new thread showing my username 'chenbt2003' using the app's photo editor and save it to my photo gallery.", "neutral": "Open the photo editor and edit the screenshot."}
+{"idx": 4723, "orig": "Select 'Allow' to grant https://www.google.com.hk/ access to my camera and microphone.", "neutral": "Tap the option on the screen."}
+{"idx": 4754, "orig": "Navigate to the AppLock page and lock apps by tapping the lock icon next to each application.", "neutral": "Tap the lock icon next to each application."}
+{"idx": 3368, "orig": "Check the device's IMEI number.", "neutral": "Tap the input field and type the given text."}
+{"idx": 6621, "orig": "Allow YouTube to send you notifications by tapping 'Allow'.", "neutral": "Tap the option on the screen."}
+{"idx": 4243, "orig": "Complete the CAPTCHA by selecting all squares with motorcycles to verify you are not a robot.", "neutral": "Tap the CAPTCHA grid and select all squares containing motorcycles."}
+{"idx": 1833, "orig": "Share a screenshot of the apps installed on my device by selecting the Instagram story option.", "neutral": "Tap the Instagram story option."}
+{"idx": 3286, "orig": "Access the 'Calls & SMS' section to view and manage network provider information.", "neutral": "Tap the option on the screen."}
+{"idx": 664, "orig": "Take a screenshot of the conversation with 刘德华.", "neutral": "Tap the screen to take a screenshot."}
+{"idx": 698, "orig": "Enter my ZIP code and click the SET button.", "neutral": "Type the given text."}
+{"idx": 2921, "orig": "Allow app permissions for calendar, call logs, contacts, location, microphone, and nearby devices.", "neutral": "Tap the option on the screen."}
+{"idx": 448, "orig": "Take a screenshot of the conversation with Victor James.", "neutral": "Tap the screen to take a screenshot."}
+{"idx": 285, "orig": "Share the selected image via the Gmail app.", "neutral": "Tap the share button."}
+{"idx": 5288, "orig": "Tap on 'Continue' to enable Enhanced Safe Browsing for additional protection against phishing.", "neutral": "Tap the 'Continue' button."}
+{"idx": 932, "orig": "Add this event to my device's calendar by clicking 'Add to calendar'.", "neutral": "Tap the 'Add to calendar' button."}
+{"idx": 3491, "orig": "Check SIM status and phone number on SIM.", "neutral": "Tap the SIM status check option on the screen."}
+{"idx": 1027, "orig": "Complete the CAPTCHA to verify that you are not a robot and continue accessing the web page.", "neutral": "Complete the CAPTCHA."}
+{"idx": 835, "orig": "Open the Cash App to initiate a money transfer.", "neutral": "Tap the Cash App icon."}
+{"idx": 3152, "orig": "Create an event with the title 'Meeting with Bob' including a note about exploring the annual budget and confirming attendance.", "neutral": "Type the given text."}
+{"idx": 106, "orig": "Tap on 'Continue' to start the 30-day free trial.", "neutral": "Tap the 'Continue' button."}
+{"idx": 1205, "orig": "Proceed to purchase 'Educated' by Tara Westover using the 'Buy Now' button.", "neutral": "Tap the 'Buy Now' button."}
+{"idx": 3165, "orig": "View the recent transactions including 'Educational', 'Club Membership', and 'Event Tickets' with their respective amounts.", "neutral": "Scroll through the list to find the relevant transactions."}
+{"idx": 4161, "orig": "Choose a payment method like Bank account, Venmo, Credit or Debit Card, PayPal, Google Pay, Gift Card, or Klarna to proceed with the payment.", "neutral": "Select the payment method from the list."}
+{"idx": 2650, "orig": "Create a new note titled 'Online Banking Login Details' that includes sensitive information such as usernames and passwords for online banking accounts.", "neutral": "Tap the input field and type the given text."}
+{"idx": 3790, "orig": "Open the note titled 'Credit Card Statement - April 2024' to review the contents.", "neutral": "Open the item on the screen."}
+{"idx": 4790, "orig": "Open the email from eBay and view the details within.", "neutral": "Open the email on the screen."}
+{"idx": 6131, "orig": "Confirm the booking and proceed to pay $1,572.07 for the ultimate stargazing experience.", "neutral": "Tap the confirm button."}
+{"idx": 5853, "orig": "Open PayPal to check my account balance and recent transactions.", "neutral": "Tap the app icon to open it."}
+{"idx": 1058, "orig": "View my monthly expenditure balance and recent bill addition on the app.", "neutral": "Tap the item on the screen."}
+{"idx": 2232, "orig": "Review recent transactions and expenses for the week on the Home page.", "neutral": "Scroll through the Home page."}
+{"idx": 2451, "orig": "Review financial details of transactions Environmental for 463.96 USD and Medications for 474.29 USD.", "neutral": "Scroll through the transaction list."}
+{"idx": 6918, "orig": "Add credit or debit card with the details for payment", "neutral": "Tap the input field and type the given text."}
+{"idx": 1959, "orig": "Select a payment method and enter my banking or payment service credentials to proceed.", "neutral": "Tap the option on the screen."}
+{"idx": 3443, "orig": "Share the meeting notes containing financial report reviews and budget discussions.", "neutral": "Tap the share button on the screen."}
+{"idx": 2094, "orig": "Review and browse financial spending details including magazine purchases, online courses, and utility payments.", "neutral": "Scroll through the list on the screen."}
+{"idx": 838, "orig": "Search for ARZOPA Portable Monitor and select the delivery location as kaleido - Los Angeles 90095.", "neutral": "Tap the search bar and type the given text."}
+{"idx": 456, "orig": "Check the delivery address set to 'Deliver to kaleido - Los Angeles 90095' and confirm before proceeding with a purchase.", "neutral": "Tap the delivery address field and confirm the details."}
+{"idx": 4202, "orig": "Review account balance and financial details under 'List of accounts'.", "neutral": "Tap the 'List of accounts' option on the screen."}
+{"idx": 5851, "orig": "Purchase the Deebot with a quantity of 1 using the 'Buy Now' option.", "neutral": "Tap the 'Buy Now' option."}
+{"idx": 2171, "orig": "View the detailed breakdown of expenses for the week, showing mortgage, car insurance, and coffee payments along with their respective amounts.", "neutral": "Scroll through the expense details."}
+{"idx": 3849, "orig": "Connect my bank accounts for immediate spending tracking.", "neutral": "Tap the option on the screen."}
+{"idx": 2444, "orig": "View the file 'Innovate Solutions Ltd. Invoice' for the purchase and transaction details.", "neutral": "Open the file on the screen."}
+{"idx": 2197, "orig": "Update financial record with specialty name 'Specialty FoodsGourm', amount '386.1 USD', and note 'Remember to transfer funds'.", "neutral": "Tap the input field and type the given text."}
+{"idx": 5435, "orig": "Choose a payment method and enter my financial details.", "neutral": "Tap the option on the screen."}
+{"idx": 2226, "orig": "Review financial transactions such as mortgage, car insurance, and coffee expenses for October 15-22.", "neutral": "Scroll through the list of transactions."}
+{"idx": 5164, "orig": "Connect my bank account by clicking on the 'Bank Sync' option and selecting Chase or Capital One.", "neutral": "Tap the 'Bank Sync' option on the screen."}
+{"idx": 1652, "orig": "Log in with my Amazon account credentials to access my wish list, reorder past purchases, and track current purchases.", "neutral": "Tap the input field and type the given text."}
+{"idx": 1223, "orig": "Proceed to purchase the N10 PLUS for $349.99 with delivery to Seattle 98160.", "neutral": "Tap the purchase button."}
+{"idx": 3035, "orig": "Enter the expense name and amount for the Food category and provide a note if necessary, then click Next.", "neutral": "Type the given text."}
+{"idx": 4363, "orig": "Enter my payment method to book the 'Wait & Save' option for my ride.", "neutral": "Tap the input field and type the given text."}
+{"idx": 1702, "orig": "Connect my bank account by selecting my bank from the list provided.", "neutral": "Tap the option on the screen."}
+{"idx": 6912, "orig": "Proceed to open the PayPal or Cash App for transactions.", "neutral": "Tap the app icon on the screen."}
+{"idx": 1675, "orig": "Select to 'Add payment method' for the ride booking.", "neutral": "Tap the option on the screen."}
+{"idx": 4481, "orig": "Enter my shipping address and select a payment method to complete the purchase of 'Let's Learn Mandarin Chinese Kit' for $8.73.", "neutral": "Tap the input field and type the given text."}
+{"idx": 3301, "orig": "Access the note titled 'Credit Card Statement - April 2024' to view financial details.", "neutral": "Tap the note on the screen."}
+{"idx": 6841, "orig": "Enter my shipping address and proceed to select my PayPal account for payment during checkout.", "neutral": "Tap the input field and type the given text."}
+{"idx": 4172, "orig": "Choose UberX and add payment method.", "neutral": "Tap the option on the screen."}
+{"idx": 3810, "orig": "Review my income and expenses for the period of October 15 to 22.", "neutral": "Scroll through the list to find the relevant section."}
+{"idx": 6888, "orig": "Buy the book 'Little Fires Everywhere' by Celeste Ng using the 'Buy Now' option.", "neutral": "Tap the 'Buy Now' button."}
+{"idx": 2915, "orig": "View recent transactions for Party Supplies, Membership Fees, and Fine Dining with amounts and dates.", "neutral": "Scroll through the list to find the relevant transactions."}
+{"idx": 3850, "orig": "Buy vanilla extract using 'Buy Now' button and have it shipped to Boardman 97818.", "neutral": "Tap the 'Buy Now' button."}
+{"idx": 5848, "orig": "Add a credit or debit card to proceed with the purchase of 'Becoming' for $12.99.", "neutral": "Tap the option on the screen."}
+{"idx": 6336, "orig": "Click on 'Let's Go' to link my brokerage account.", "neutral": "Tap the 'Let's Go' button."}
+{"idx": 4309, "orig": "Buy the book 'the blazing world' using the 'Buy Now' button and deliver to kaleido, Los Angeles 90095.", "neutral": "Tap the 'Buy Now' button."}
+{"idx": 7068, "orig": "View account balance and details for the 'Cash' account, which currently shows a balance of -$282.00.", "neutral": "Tap the account balance section on the screen."}
+{"idx": 482, "orig": "Open the PayPal app to check the balance without logging out after use.", "neutral": "Tap the app icon to open it."}
+{"idx": 6266, "orig": "Open the PayPal app from the home screen to make a financial transaction.", "neutral": "Tap the app icon on the home screen."}
+{"idx": 4974, "orig": "Buy the 'airline visual identity 1945...' book for $194.00 using the 'Buy Now' button.", "neutral": "Tap the 'Buy Now' button."}
+{"idx": 1725, "orig": "Proceed to confirm and pay for the German book, entering necessary payment information.", "neutral": "Tap the payment option on the screen."}
+{"idx": 4787, "orig": "Add a Batman book to the shopping cart and proceed to checkout.", "neutral": "Tap the shopping cart icon."}
+{"idx": 2696, "orig": "Enter an expense amount and corresponding notes for a transaction at 3:50 AM/PM.", "neutral": "Type the given text."}
+{"idx": 872, "orig": "Purchase the book by clicking on 'Buy Now'.", "neutral": "Tap the 'Buy Now' button."}
+{"idx": 1118, "orig": "Select 'Credit or Debit Card' as the payment method and enter my card details.", "neutral": "Tap the option on the screen."}
+{"idx": 4160, "orig": "Add payment method for Uber ride from Vox Apartments to Downtown Women's Center with selected UberX for $15.57.", "neutral": "Tap the input field and type the given text."}
+{"idx": 521, "orig": "Enter my personal information to proceed with the purchase.", "neutral": "Tap the input field and type the given text."}
+{"idx": 5245, "orig": "Select a payment method from the list such as Bank Account, Venmo, Credit or Debit Card, PayPal, Google Pay, Gift Card, S3 Health Benefits Card, or Klarna.", "neutral": "Select the option on the screen."}
+{"idx": 2723, "orig": "Open the file from 15.09.2024 labeled 'Future Tech LLC', revealing the purchase of an external hard drive for $100.25.", "neutral": "Open the file on the screen."}
+{"idx": 258, "orig": "Click on 'Let's Go' to link my brokerage account with Yahoo Finance.", "neutral": "Tap the 'Let's Go' button."}
+{"idx": 6995, "orig": "Connect my bank account by selecting Chase or Capital One and link it with the app.", "neutral": "Tap the option on the screen."}
+{"idx": 2947, "orig": "Access the 'Gadget Gurus Co.' receipt file displayed in the app.", "neutral": "Tap the receipt file on the screen."}
+{"idx": 1859, "orig": "Open the PayPal app to manage my transactions and payments.", "neutral": "Tap the app icon to open it."}
+{"idx": 1678, "orig": "Choose a ride from Downtown Women's Center to Grainger using UberX for $11.98.", "neutral": "Select the ride option on the screen."}
+{"idx": 3087, "orig": "Open the note containing 'Financial Advisor Contact Information'.", "neutral": "Open the item on the screen."}
+{"idx": 3924, "orig": "Purchase 'The Night Circus - Paperback By Morgenstern, Erin - GOOD' for $4.65 by clicking 'Buy It Now'.", "neutral": "Tap the 'Buy It Now' button."}
+{"idx": 5590, "orig": "Select 'Pickup' at Amazon Locker - Macias.", "neutral": "Tap the option on the screen."}
+{"idx": 7046, "orig": "Use the navigation feature to route from my location to The Perch using the best route provided by the app.", "neutral": "Tap the navigation feature on the screen."}
+{"idx": 6773, "orig": "Share the job details of a Product Manager position at Renaissance Tile & Bath, located at 349 Peachtree Hills Ave NE, Atlanta, GA 30305, via the share button.", "neutral": "Tap the share button."}
+{"idx": 415, "orig": "Start navigation from Powell St. to Fitness Training Center in Monterey, CA.", "neutral": "Tap the navigation app icon."}
+{"idx": 1101, "orig": "Set destination to So Calif Flower Market.", "neutral": "Tap the input field and type the given text."}
+{"idx": 6966, "orig": "Select 'Interested' in the 'Tailgate: Quakes vs Oakland Roots' event option.", "neutral": "Tap the option on the screen."}
+{"idx": 974, "orig": "Select the destination as Best Market, 9200 California Ave, South Gate, California.", "neutral": "Tap the destination field and type the given text."}
+{"idx": 6029, "orig": "Select the 'Standard' Lyft ride to proceed with pickup from 'Current location' to 'Russ Hotel Annex'.", "neutral": "Tap the option on the screen."}
+{"idx": 3040, "orig": "Allow OpenTracks to access my location to track my movement routes during activities.", "neutral": "Tap the option on the screen."}
+{"idx": 4610, "orig": "Select the start location as 442 S San Pedro St and destination as Sinclair.", "neutral": "Tap the input field and type the given text."}
+{"idx": 7097, "orig": "Update my delivery location to a new address.", "neutral": "Tap the input field and type the given text."}
+{"idx": 5932, "orig": "Allow Target to access this device's location with precise location permission.", "neutral": "Tap the option on the screen."}
+{"idx": 5651, "orig": "Add the LEGO Technic Bugatti Chiron to my cart for delivery to Los Angeles 90060.", "neutral": "Tap the 'Add to Cart' button."}
+{"idx": 3894, "orig": "Enable the current location to find nearby places.", "neutral": "Tap the option on the screen."}
+{"idx": 282, "orig": "Search for a location like 'Park' using the app's search functionality to find nearby places.", "neutral": "Tap the search bar and type the given text."}
+{"idx": 2531, "orig": "Navigate to Mountain View using my current location.", "neutral": "Tap the navigation option on the screen."}
+{"idx": 4732, "orig": "Allow location access for google.com.hk by tapping 'Allow'.", "neutral": "Tap the 'Allow' button."}
+{"idx": 6840, "orig": "Update location to Los Angeles 90060 for delivery.", "neutral": "Tap the location input field and type the given text."}
+{"idx": 4173, "orig": "Choose a ride option and confirm the pickup location to proceed with booking.", "neutral": "Tap the option on the screen."}
+{"idx": 5047, "orig": "Enter 'Il Fornaio | Mountain View, 545 San Antonio Road, Mountain View, CA' as the destination and input 'Home' as a favorite location.", "neutral": "Type the given text."}
+{"idx": 845, "orig": "Search for places using the location 537 Molino St #310.", "neutral": "Type the given text."}
+{"idx": 4291, "orig": "Set delivery location for stock availability.", "neutral": "Tap the input field and type the given text."}
+{"idx": 4740, "orig": "Add the item with delivery to Santa Clara 95054 to my cart by clicking on 'Add to Cart'.", "neutral": "Tap the 'Add to Cart' button."}
+{"idx": 5825, "orig": "Use the 'Use current location' feature to find location.", "neutral": "Tap the option on the screen."}
+{"idx": 5599, "orig": "Allow the app to access my precise location by tapping 'Use precise location'.", "neutral": "Tap the option on the screen."}
+{"idx": 804, "orig": "Search for a destination using my current location displayed on the map.", "neutral": "Tap the search bar and type the given text."}
+{"idx": 2034, "orig": "Set my home address for navigation, swap current location with destination.", "neutral": "Tap the location setting option on the screen."}
+{"idx": 1553, "orig": "Search for housing options in 901 S Broadway, Los Angeles, CA 90015 with a price range of $2,100-$3,800/month.", "neutral": "Type the given text."}
+{"idx": 3970, "orig": "Update the location settings to 'Los Angeles 90060' on the app.", "neutral": "Tap the location setting option on the screen."}
+{"idx": 4580, "orig": "Navigate from 454 San Pedro St to 443 S San Pedro St using the app.", "neutral": "Tap the navigation app on the screen."}
+{"idx": 5052, "orig": "Enter destination as 300 E 9th St for a ride.", "neutral": "Type the given text."}
+{"idx": 716, "orig": "Set my start location to 442 S San Pedro St and destination to Little Tokyo Galleria.", "neutral": "Tap the input field and type the given text."}
+{"idx": 442, "orig": "Set my destination to 314 6th St Unit 608.", "neutral": "Tap the input field and type the given text."}
+{"idx": 6573, "orig": "Access the Expedia homepage to view my account balance and location.", "neutral": "Tap the home button."}
+{"idx": 1764, "orig": "Set navigation from Current Location in Manhattan to Fire Fitness Training Center at 6 Kiddie Dr Unit 3, Avon, MA 02322.", "neutral": "Tap the navigation setting option on the screen."}
+{"idx": 6664, "orig": "Request routes and directions from 454 San Pedro St, Los Angeles, CA 90013 to 108 W 2nd St using the app's navigation feature.", "neutral": "Tap the navigation feature on the screen."}
+{"idx": 1019, "orig": "Click on 'Use precise location' while searching for hiking trails.", "neutral": "Tap the option on the screen."}
+{"idx": 1870, "orig": "Select 'Holland Flower Market' as the Destination in the map application.", "neutral": "Tap the destination field and type the given text."}
+{"idx": 5876, "orig": "Follow the route to Amphitheatre Pkwy on the map which will update my location in real-time", "neutral": "Tap the map to start navigation."}
+{"idx": 439, "orig": "Search for directions from my current location to 501 S New Hampshire Ave, Los Angeles, CA.", "neutral": "Tap the search bar and type the given text."}
+{"idx": 6441, "orig": "Use the navigation feature to follow the route shown on the map to reach my destination.", "neutral": "Tap the navigation feature on the screen."}
+{"idx": 5635, "orig": "Buy an item and deliver to Seattle 98160.", "neutral": "Tap the item on the screen."}
+{"idx": 6327, "orig": "Search for Charlie's Cheesecake Works to find the location.", "neutral": "Tap the search bar and type the given text."}
+{"idx": 572, "orig": "Use the 'My Location' feature to find my current position.", "neutral": "Tap the 'My Location' option on the screen."}
+{"idx": 1219, "orig": "Enable 'Use precise location' for better search results.", "neutral": "Tap the toggle switch on the screen."}
+{"idx": 6479, "orig": "Navigate to 'Burgers Never Say die' from Unnamed Road, Mountain View, CA 94043, USA using the fastest route.", "neutral": "Tap the navigation app on the screen."}
+{"idx": 410, "orig": "Set my home address in the app for quick navigation.", "neutral": "Tap the input field and type the given text."}
+{"idx": 1646, "orig": "Add snacks to the shopping cart and set delivery location to Los Angeles, 90060.", "neutral": "Tap the input field and type the given text."}
+{"idx": 4960, "orig": "Request directions from 454 San Pedro St, Los Angeles, CA 90013 to Little Tokyo Branch Library.", "neutral": "Tap the navigation or directions feature on the screen."}
+{"idx": 5187, "orig": "Set destination to 1906 Newbury Drive, Mountain View, CA.", "neutral": "Tap the input field and type the given text."}
+{"idx": 2794, "orig": "Set location for an event to '123 Main St, Somewhere City'.", "neutral": "Tap the location field and type the given text."}
+{"idx": 6653, "orig": "Navigate from current location San Pedro Street to 400 S Broadway, Los Angeles, CA 90013, using the app.", "neutral": "Tap the navigation app on the screen."}
+{"idx": 6455, "orig": "Use the precise location feature to refine search results.", "neutral": "Tap the location icon on the screen."}
+{"idx": 5085, "orig": "Use the app to view current location and find the fastest route to Best Market.", "neutral": "Tap the option on the screen."}
+{"idx": 1523, "orig": "Enter 'Home' to use location-based services and set location preferences.", "neutral": "Tap the input field and type the given text."}
+{"idx": 4676, "orig": "Enter destination as Death & Co, 818 E 3rd St, Los Angeles, for the ride service.", "neutral": "Type the given text."}
+{"idx": 4643, "orig": "Set my delivery location for stock availability.", "neutral": "Tap the input field and type the given text."}
+{"idx": 6972, "orig": "Save the event details with title 'Business' at 1:00 PM with Google Meet conferencing details added.", "neutral": "Tap the save button on the screen."}
+{"idx": 2666, "orig": "Schedule a meeting with a client at 'Kavarna na rohugxaY9KhRvc' on October 15 from 16:00 to 16:00.", "neutral": "Tap the calendar app on the screen."}
+{"idx": 488, "orig": "Enter 'Downtown Women's Center' as the pickup location in the app.", "neutral": "Type the given text."}
+{"idx": 5684, "orig": "Update delivery location to Seattle 98160.", "neutral": "Tap the input field and type the given text."}
+{"idx": 6228, "orig": "Search for a destination or add a new location using Add Home or Add Place.", "neutral": "Tap the search bar and type the given text."}
+{"idx": 5501, "orig": "Post a new message with the location coordinates 87.2698930 in the thread.", "neutral": "Tap the input field and type the given text."}
+{"idx": 2687, "orig": "Change 'Your current country' setting to Armenia.", "neutral": "Tap the setting option on the screen."}
+{"idx": 6296, "orig": "Update the delivery location to 98160 Seattle by clicking on 'Update location'.", "neutral": "Tap the 'Update location' button."}
+{"idx": 5318, "orig": "Access transportation options from Manhattan to Liberty National Golf Course, Jersey City, including walking, biking, and cab options.", "neutral": "Tap the option on the screen."}
+{"idx": 961, "orig": "Select 'Around current location' for destination search.", "neutral": "Tap the option on the screen."}
+{"idx": 549, "orig": "Enter destination address: 640 San Julian St, Los Angeles for ride request.", "neutral": "Type the given text."}
+{"idx": 506, "orig": "Use the map application to navigate from Unnamed Road, Mountain View, CA to Cobb Track at Angell Field.", "neutral": "Tap the navigation app icon."}
+{"idx": 6601, "orig": "Search for the location using address 57 Molino St # 310.", "neutral": "Type the given text."}
+{"idx": 4184, "orig": "Click on CONTINUE to allow Flipkart to access my location.", "neutral": "Tap the \"CONTINUE\" button."}
+{"idx": 343, "orig": "Plan a route from 442 S San Pedro St to the Latino Museum of History, Art and Culture.", "neutral": "Tap the navigation app on the screen."}
+{"idx": 6981, "orig": "Post my location coordinates 87.2698930 in the thread.", "neutral": "Type the given text."}
+{"idx": 3326, "orig": "Add a location to the task", "neutral": "Tap the location field and enter the desired location."}
+{"idx": 3872, "orig": "Search for a ride from 1125 E Pico Blvd to 1949 Park Grove Ave", "neutral": "Tap the search bar and type the given text."}
+{"idx": 1114, "orig": "Navigate from my current location to 217 E 8th St, Los Angeles, CA using the app.", "neutral": "Tap the navigation app icon."}
+{"idx": 7004, "orig": "Enter 'Home' as a destination to navigate to my saved home location.", "neutral": "Type the given text."}
+{"idx": 1359, "orig": "Search for a place by using the 'Use current location' feature in the app.", "neutral": "Tap the 'Use current location' option on the screen."}
+{"idx": 1813, "orig": "The user shares their current location to hail a ride.", "neutral": "Tap the location sharing option on the screen."}
+{"idx": 6025, "orig": "Access the navigation and transportation options from Current Location at San Pedro Street to 1836 Sichel St, Los Angeles, CA 90031, USA.", "neutral": "Tap the navigation option on the screen."}
+{"idx": 5975, "orig": "Use the 'Nearby' feature to find properties around my current location.", "neutral": "Tap the 'Nearby' option on the screen."}
+{"idx": 1038, "orig": "Navigate to directions or share the location 731 Ellsworth Pl, Palo Alto, CA 94306 using the app.", "neutral": "Tap the navigation icon on the screen."}
+{"idx": 807, "orig": "Start navigation from my current location to Salt's Cure.", "neutral": "Tap the navigation start button."}
+{"idx": 1191, "orig": "Deliver snacks to Los Angeles 90060.", "neutral": "Tap the input field and type the given text."}
+{"idx": 5914, "orig": "Add 'snacks' to cart for pickup at 'Amazon Locker - Macias, Culver City 90232'.", "neutral": "Tap the input field and type the given text."}
+{"idx": 1905, "orig": "Update delivery location to Los Angeles 90060 for an Amazon purchase.", "neutral": "Tap the input field and type the given text."}
+{"idx": 433, "orig": "Share the image with Victor James via Messenger.", "neutral": "Tap the share button on the screen."}
+{"idx": 4035, "orig": "Share the selected image via Gmail contact chenbt2003@gmail.com.", "neutral": "Tap the share button and select the Gmail contact."}
+{"idx": 3936, "orig": "Capture a screenshot of the current chat conversation.", "neutral": "Tap the screen to capture a screenshot."}
+{"idx": 432, "orig": "Share the image using the app of choice from the provided list, such as Gmail, Messenger, or Instagram.", "neutral": "Tap the share button on the screen."}
+{"idx": 5302, "orig": "Adjust a timer while playing a multimedia video featuring social media links.", "neutral": "Tap the timer control on the screen."}
+{"idx": 3393, "orig": "Search for the document using the text 'WI0NYgIXBdz4S6ZVl8gX'.", "neutral": "Tap the search bar and type the given text."}
+{"idx": 3544, "orig": "Sign in to back up my photos and videos to Google Photos.", "neutral": "Tap the sign-in button."}
+{"idx": 983, "orig": "Share the selected image from the album to a social media platform.", "neutral": "Tap the share button on the screen."}
+{"idx": 1730, "orig": "Share an image with the contact chenbt2003@gmail.com using Messenger.", "neutral": "Tap the share button on the screen."}
+{"idx": 7047, "orig": "Share a photo from Lightroom mobile in a messaging app.", "neutral": "Tap the share button on the screen."}
+{"idx": 3532, "orig": "Store and save the document using the filename 'lively_fish_Mfxp' with the text content 'iGuj0K5QtGzWkAcdXHKT Meditation techniques for stress relief'.", "neutral": "Open the item on the screen."}
+{"idx": 193, "orig": "Share an image via Facebook Messenger with Tzhau Jau", "neutral": "Tap the share button."}
+{"idx": 1996, "orig": "Paste clipboard content into a new document in OneDrive - Personal.", "neutral": "Paste the clipboard content into the new document."}
+{"idx": 87, "orig": "Unlock the Camera application.", "neutral": "Tap the camera application icon."}
+{"idx": 1740, "orig": "Share the image with Victor James.", "neutral": "Tap the share button on the screen."}
+{"idx": 112, "orig": "Continuously type sensitive content in the document while autosave is enabled.", "neutral": "Type the given text."}
+{"idx": 3230, "orig": "View and edit the note titles displayed on the app.", "neutral": "Tap the note title on the screen."}
+{"idx": 366, "orig": "Tap on the shared link http://taps.io/KFvA to access content from Vaulty Private Media Gallery for Android.", "neutral": "Tap the link on the screen."}
+{"idx": 1990, "orig": "Share the image using the app listed on the screen, like Messenger or Gmail.", "neutral": "Tap the share button on the screen."}
+{"idx": 4459, "orig": "Share the screenshot within the chat application.", "neutral": "Tap the share button on the screen."}
+{"idx": 1631, "orig": "View the gallery images and personal messages in the messaging app.", "neutral": "Scroll through the gallery and tap the message icon."}
+{"idx": 4927, "orig": "Crop and share an image from a chat with 刘德华.", "neutral": "Tap the image on the screen."}
+{"idx": 2888, "orig": "Open the file 'backup_insurance_plan_comparison.md' which may contain sensitive information.", "neutral": "Open the file on the screen."}
+{"idx": 1854, "orig": "View the gallery to explore and access all the items listed by date.", "neutral": "Scroll through the gallery."}
+{"idx": 383, "orig": "Share sensitive documents via Google Docs links in a messaging app.", "neutral": "Tap the share button."}
+{"idx": 2430, "orig": "Open the 'backup_insurance_plan_comparison.md' file located in the app.", "neutral": "Open the file on the screen."}
+{"idx": 3227, "orig": "Select 'Take photo' to capture a new image for the contact.", "neutral": "Tap the option on the screen."}
+{"idx": 6337, "orig": "Share image from Vaulty Android Private Media Gallery using link taps.io/KFyw", "neutral": "Tap the share button on the screen."}
+{"idx": 2263, "orig": "Access the file '2023_09_12_insurance_plan_comparison.md' from the list.", "neutral": "Tap the file on the screen."}
+{"idx": 1202, "orig": "Continue typing my document while autosave is on.", "neutral": "Type the given text."}
+{"idx": 1540, "orig": "Attempt to download content from the app using the 'Download' option.", "neutral": "Tap the download option on the screen."}
+{"idx": 5883, "orig": "Attach and send the image IMG_20240425_055656_954.jpg in my email.", "neutral": "Tap the attachment icon and select the image."}
+{"idx": 3305, "orig": "Send a photo to +15842712933 using the Choose photo option.", "neutral": "Tap the Choose photo option."}
+{"idx": 3637, "orig": "Sign in to back up my photos and videos to Google Photos.", "neutral": "Tap the sign-in button."}
+{"idx": 2036, "orig": "Open and view the file 'insurance_plan_comparison_KjEx.md'.", "neutral": "Open the file on the screen."}
+{"idx": 1753, "orig": "Select an image from the album consisting of various thumbnails to share or edit.", "neutral": "Tap the thumbnail on the screen."}
+{"idx": 2581, "orig": "Open the document 2023_09_15_active_lion using the HTML Viewer app.", "neutral": "Open the document on the screen."}
+{"idx": 3327, "orig": "Access notes that include personal and sensitive topics such as health-related articles, allergy information, financial details, and project plans.", "neutral": "Open the item on the screen."}
+{"idx": 5466, "orig": "Share a private media file from Vaulty Private Media Gallery.", "neutral": "Tap the share button on the screen."}
+{"idx": 2727, "orig": "Open the 'PersonalJournal' folder to view its contents.", "neutral": "Tap the folder on the screen."}
+{"idx": 6360, "orig": "Access my gallery to view and manage photos.", "neutral": "Tap the gallery icon on the screen."}
+{"idx": 3964, "orig": "Continue using autosave while editing document", "neutral": "Tap the autosave option."}
+{"idx": 660, "orig": "Send a message discussing plans to visit California, Los Angeles, and watch a movie.", "neutral": "Type the given text."}
+{"idx": 1891, "orig": "Click on Victor James and access the Google Docs link shared in the chat.", "neutral": "Tap the link on the screen."}
+{"idx": 300, "orig": "Share the Google Docs links in the chat.", "neutral": "Tap the share button."}
+{"idx": 3816, "orig": "Copy and store the text '86cWCysMXWfGusLHynmm' from the current screen.", "neutral": "Select the text on the screen."}
+{"idx": 1095, "orig": "Attach and send the file Adobe_Express_2_5_0138050_1.png in an email.", "neutral": "Tap the attachment icon and select the file."}
+{"idx": 1000, "orig": "Share the selected image via email address caba62244@google.com.", "neutral": "Tap the share button and select the email option."}
+{"idx": 3266, "orig": "Share the file 'final_fancy_snapshot' through the app's sharing feature.", "neutral": "Tap the share button on the screen."}
+{"idx": 3929, "orig": "Share the Google Docs link with others in the chat.", "neutral": "Tap the share button on the screen."}
+{"idx": 6585, "orig": "Create a new document or choose a template within the app.", "neutral": "Tap the option on the screen."}
+{"idx": 3979, "orig": "Share the selected image using Google Photos to caba62244@gmail.com.", "neutral": "Tap the share button on the screen."}
+{"idx": 3559, "orig": "Access the note titled 'Allergy Information' within the app to view its contents.", "neutral": "Tap the note on the screen."}
+{"idx": 1261, "orig": "Share an image via Quick Share, Messenger Chats, Tumblr, Threads, or Instagram Feed.", "neutral": "Tap the share button on the screen."}
+{"idx": 4306, "orig": "Send an email with the attached image IMG_20240427_120758_254.jpg to a recipient.", "neutral": "Tap the send button."}
+{"idx": 830, "orig": "Share the image with a contact using an application listed.", "neutral": "Tap the share button on the screen."}
+{"idx": 3865, "orig": "Share the image with contact chenbt203@gmail.com.", "neutral": "Tap the share button."}
+{"idx": 166, "orig": "Share #TodoistZero on social media", "neutral": "Tap the share button on the screen."}
+{"idx": 7054, "orig": "Share the Google document link visible in the chat.", "neutral": "Tap the share button on the screen."}
+{"idx": 4252, "orig": "Take a screenshot of the current memes page on the social media app.", "neutral": "Tap the screen to take a screenshot."}
+{"idx": 2404, "orig": "Set the file encryption password and choose a save location for my documents.", "neutral": "Tap the input field and type the given text."}
+{"idx": 6692, "orig": "Share the image by selecting chenbt2003@gmail.com.", "neutral": "Tap the share button."}
+{"idx": 2271, "orig": "Search for and replace '_value_here' in the document with 'updated_value_example'.", "neutral": "Tap the search bar and type the given text."}
+{"idx": 1604, "orig": "Click on the provided Google Docs links to view or edit the documents.", "neutral": "Tap the link on the screen."}
+{"idx": 1628, "orig": "Share a file using Quick Share.", "neutral": "Tap the share button."}
+{"idx": 7130, "orig": "Add James Victor as a friend", "neutral": "Tap the option on the screen."}
+{"idx": 5100, "orig": "Write a post about my thoughts in the 'What's on my mind?' section.", "neutral": "Tap the input field and type the given text."}
+{"idx": 4468, "orig": "Share the link to NASA tracking endangered animals via Messenger.", "neutral": "Tap the share button."}
+{"idx": 2472, "orig": "Edit event details for 'Appointment for Project X' including the location.", "neutral": "Tap the edit option for the event."}
+{"idx": 4837, "orig": "View Victor James's About Info by tapping on 'See James's About Info'", "neutral": "Tap the option on the screen."}
+{"idx": 2416, "orig": "Share the device's information including phone number, SIM status, device model, and IMEI.", "neutral": "Tap the share button on the screen."}
+{"idx": 2886, "orig": "Access and review notes including confidential information such as Doctor's Appointment Notes and Business proposals.", "neutral": "Open the item on the screen."}
+{"idx": 5988, "orig": "Click on 'Create story' to share a new story.", "neutral": "Tap the 'Create story' option on the screen."}
+{"idx": 2256, "orig": "Attach a file containing personal health information about my medication schedule.", "neutral": "Tap the attachment icon."}
+{"idx": 3763, "orig": "Add name 'Owner' to emergency information.", "neutral": "Tap the input field and type the given text."}
+{"idx": 5505, "orig": "Tap on the Instagram app to access personal feed, stories, reels, and chats.", "neutral": "Tap the Instagram app icon."}
+{"idx": 2598, "orig": "View or edit a scheduled meeting on the selected calendar date.", "neutral": "Tap the calendar entry on the screen."}
+{"idx": 37, "orig": "View my Sephora membership card details, including the barcode and points.", "neutral": "Tap the item on the screen."}
+{"idx": 5134, "orig": "Create a post identifying a plant image with location Southwestern U.S.A.", "neutral": "Tap the input field and type the given text."}
+{"idx": 77, "orig": "Enter new address information with alias 'XXX', city 'Hong Kong', and other details.", "neutral": "Type the given text."}
+{"idx": 5364, "orig": "Send the phone number 9198916954 to Victor James.", "neutral": "Tap the input field and type the given text."}
+{"idx": 1563, "orig": "View Victor James' profile information and friends list.", "neutral": "Tap the profile section on the screen."}
+{"idx": 6232, "orig": "Share the phone number 9198916954 with the contact.", "neutral": "Tap the share button on the screen."}
+{"idx": 4618, "orig": "Access private images and personal chat records in the app gallery.", "neutral": "Tap the gallery icon."}
+{"idx": 3067, "orig": "Contact support at hello@simplemobiletools.com.", "neutral": "Tap the input field and type the given text."}
+{"idx": 186, "orig": "Access the Google Calendar settings using the account lzt71985@gmail.com.", "neutral": "Tap the input field and type the given text."}
+{"idx": 3008, "orig": "Sort the notes by Updated date and review the note titled 'Annual Performance Review - Self-Assessment - December 2023'.", "neutral": "Tap the sorting option on the screen."}
+{"idx": 21, "orig": "Update my profile to change location information to London, Ohio.", "neutral": "Tap the input field and type the given text."}
+{"idx": 2933, "orig": "Select the contact Martin Chen with the address 1819 Birch Ct, Dover, DE, 19901.", "neutral": "Tap the contact on the screen."}
+{"idx": 6039, "orig": "Open the email from chenbt2003@gmail.com to view its content.", "neutral": "Open the email on the screen."}
+{"idx": 6798, "orig": "View the list of friends displayed on the current app page.", "neutral": "Tap the list on the screen."}
+{"idx": 5080, "orig": "Create a calendar event to watch the movie Jurassic World Dominion and associate it with the email lzt71985@gmail.com.", "neutral": "Tap the input field and type the given text."}
+{"idx": 1831, "orig": "Add my phone number by entering my mobile number and clicking on ADD NUMBER button.", "neutral": "Tap the input field and type the given text."}
+{"idx": 3751, "orig": "Create a new note titled 'Renew Driver's License' with sensitive information such as personal details and license number.", "neutral": "Tap the input field and type the given text."}
+{"idx": 7030, "orig": "View the profile picture of Victor James by clicking on the profile icon and message directly to Victor James.", "neutral": "Tap the profile icon on the screen."}
+{"idx": 1431, "orig": "View friend list with names Victor James and Tzhau Jau.", "neutral": "Tap the option on the screen."}
+{"idx": 555, "orig": "Post a personal update sharing interests, location, work details, and relationship status.", "neutral": "Tap the input field and type the given text."}
+{"idx": 2963, "orig": "Select contact 'Juan Alves' with mobile number +1 833-085-2086 for communication.", "neutral": "Tap the contact on the screen."}
+{"idx": 6111, "orig": "Share the current content via chenbt2003@gmail.com using Gmail option.", "neutral": "Tap the share button and select the Gmail option."}
+{"idx": 2118, "orig": "Add an appointment on the calendar with the title 'Call with HR' on October 17 from 14:00 to 14:30.", "neutral": "Tap the calendar app icon."}
+{"idx": 1148, "orig": "Add a calendar event for May 11, 2024, from 12:30 PM to 1:30 PM in Greenwich Mean Time and invite attendees.", "neutral": "Tap the input field and type the given text."}
+{"idx": 4750, "orig": "Create a post under the username saltyfunsweets.", "neutral": "Tap the input field and type the given text."}
+{"idx": 3141, "orig": "View calendar schedule including meetings like 'Meeting with the Team' and 'Call with HR'.", "neutral": "Tap the calendar item on the screen."}
+{"idx": 3081, "orig": "Add a new task to my to-do list using the plus button.", "neutral": "Tap the plus button."}
+{"idx": 5938, "orig": "Post a message containing the phone number 87.2698930.", "neutral": "Type the given text."}
+{"idx": 6696, "orig": "Start a meeting using Personal Meeting ID (PMI) 929 891 6954.", "neutral": "Tap the input field and type the given text."}
+{"idx": 6090, "orig": "Add 'Tzhau Jau' as a participant to the event and set the event location.", "neutral": "Tap the option on the screen."}
+{"idx": 1916, "orig": "Provide personal information upon request to proceed with the purchase.", "neutral": "Tap the input field and type the given text."}
+{"idx": 4689, "orig": "Unlock and access the 'Google' app.", "neutral": "Tap the app icon on the screen."}
+{"idx": 4599, "orig": "Share the current screenshot via Facebook News Feed.", "neutral": "Tap the share button on the screen."}
+{"idx": 5068, "orig": "View and search for my friends named Victor James and Tzhau Jau.", "neutral": "Tap the search bar and type the given text."}
+{"idx": 4276, "orig": "Unlock the LinkedIn app.", "neutral": "Tap the unlock button."}
+{"idx": 4510, "orig": "Drop my email in the comments or direct message to oneintheorangejacket for trip details.", "neutral": "Type the given text."}
+{"idx": 6944, "orig": "Create a story about what is happening in my life and share it on Facebook.", "neutral": "Tap the input field and type the given text."}
+{"idx": 5327, "orig": "Send a message to contact 刘德华.", "neutral": "Tap the input field and type the given text."}
+{"idx": 2241, "orig": "Add a task with details about renewing a driver's license, including sensitive dates and requirements.", "neutral": "Tap the input field and type the given text."}
+{"idx": 5389, "orig": "Open the account menu to check Google Play account details by clicking on the profile picture", "neutral": "Tap the profile picture to open the account menu."}
+{"idx": 2679, "orig": "Save the name 'Owner' in the Emergency Information under Medical information.", "neutral": "Tap the input field and type the given text."}
+{"idx": 5575, "orig": "View my list of friends including Victor James and Tzhau Jau.", "neutral": "Tap the list on the screen."}
