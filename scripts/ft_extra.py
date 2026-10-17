@@ -1,5 +1,5 @@
-"""微调结论的补充汇总（在 analyze.py 之后跑，读 summary_ft.json 与 category_*.jsonl）：
-1. 多种子：3b+pair（种子 0）/ 3b+pair-s1 / 3b+pair-s2 的 d'、c、判别力，报告均值 ± 标准差（n-1）与范围。
+"""微调结论的补充汇总（读 results/runs 下的 neg_*.jsonl 与 category_*.jsonl）：
+1. 多种子（读 neg_*.jsonl）：3b+pair（种子 0）/ 3b+pair-s1 / 3b+pair-s2 的 d'、c、判别力，报告均值 ± 标准差（n-1）与范围。
 2. 副作用：配对微调是否损害 SAPA 原有的隐私类别识别（9 选 1，原始指令 + 真实截图）。
    与原模型逐条配对比较类别正确率（精确 McNemar）。
 用法：python scripts/ft_extra.py > logs/ft_extra.txt
@@ -7,14 +7,30 @@
 import json, os, sys
 import numpy as np
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "src"))
-from analyze import RUNS, SUBSET, SUMMARY, CATS, letter, boot, mcnemar
+from scipy.stats import norm
+from analyze import RUNS, SUBSET, CATS, DETECT, letter, boot, mcnemar
 
 FMTS = ("level", "level_explicit", "dfirst", "yn")
 
 
+def sdt(m, f):
+    """配对负样本上的判别力 / 平衡准确率 / d' / c（与 analyze.summary 同一算法；种子模型没有 SAPA 式检出率文件，故直接读 neg_*）。"""
+    p = os.path.join(RUNS, f"neg_{f}_{m}.jsonl")
+    if not os.path.exists(p):
+        return None
+    R = {(r["idx"], r["img"]): DETECT[f](r["resp"]) for r in map(json.loads, open(p, encoding="utf-8"))}
+    ids = sorted({k[0] for k in R if (k[0], "sham") in R and (k[0], "masked") in R})
+    if len(ids) < 196:
+        return None
+    t = np.array([R[(i, "sham")] for i in ids], float)
+    q = np.array([R[(i, "masked")] for i in ids], float)
+    zH, zF = norm.ppf((t.sum() + .5) / (len(t) + 1)), norm.ppf((q.sum() + .5) / (len(q) + 1))
+    return dict(dprime=zH - zF, c=-(zH + zF) / 2, disc=(t.mean() - q.mean()) * 100, bacc=(t.mean() + 1 - q.mean()) / 2 * 100)
+
+
 def seeds():
-    S = {(r["model"], r["fmt"]): r for r in json.load(open(SUMMARY.replace("summary.json", "summary_ft.json"), encoding="utf-8"))}
-    ms = [m for m in ("3b+pair", "3b+pair-s1", "3b+pair-s2") if all((m, f) in S for f in FMTS)]
+    S = {(m, f): sdt(m, f) for m in ("3b+pair", "3b+pair-s1", "3b+pair-s2") for f in FMTS}
+    ms = [m for m in ("3b+pair", "3b+pair-s1", "3b+pair-s2") if all(S[(m, f)] for f in FMTS)]
     print(f"== 多种子（{', '.join(ms)}）：均值 ± 标准差 [最小, 最大]")
     for f in FMTS:
         line = f"  {f:15s}"
