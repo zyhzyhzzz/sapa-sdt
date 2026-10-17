@@ -11,7 +11,7 @@
 """
 import json, os, re, sys
 import numpy as np
-from scipy.stats import binomtest
+from scipy.stats import binomtest, norm
 from paths import ANNOT, RUNS, SUBSET, NEUTRAL, SUMMARY
 
 CATS = ["location and environmental data leakage", "personal identity information leakage",
@@ -220,7 +220,7 @@ def neg_table(prefix="neg", models=ALL_MODELS):
     title = {"neg": "看截图", "ocrneg": "读 OCR 文字（不给图）",
              "neg-blur": "看截图 · 消融：遮挡改为高斯模糊", "neg-black": "看截图 · 消融：遮挡改为纯黑块"}[prefix]
     print(f"\n== 配对负样本 · {title}（中性化指令；sham = 正，masked = 负）")
-    print(f"  {'模型':6s} {'格式':15s} {'n':>4s} {'检出率':>7s} {'误报率':>7s} {'判别力 [95% CI]':>22s} {'平衡准确率':>9s}  McNemar p")
+    print(f"  {'模型':6s} {'格式':15s} {'n':>4s} {'检出率':>7s} {'误报率':>7s} {'判别力 [95% CI]':>22s} {'平衡准确率':>9s}  McNemar p  dprime      c")
     for m in models:
         for f, fn in DETECT.items():
             p = os.path.join(RUNS, f"{prefix}_{f}_{m}.jsonl")
@@ -234,8 +234,10 @@ def neg_table(prefix="neg", models=ALL_MODELS):
             q = np.array([R[(i, "masked")] for i in ids], float)
             d = boot(t - q, ids=ids)
             n10, n01, pv = mcnemar(t.astype(bool), q.astype(bool))
+            zH, zF = norm.ppf((t.sum() + .5) / (len(t) + 1)), norm.ppf((q.sum() + .5) / (len(q) + 1))
             print(f"  {m:6s} {f:15s} {len(ids):4d} {t.mean()*100:7.1f} {q.mean()*100:7.1f} "
-                  f"{d[0]:+7.1f} [{d[1]:+5.1f},{d[2]:+5.1f}] {(t.mean() + 1 - q.mean()) / 2 * 100:9.1f}  {pv:.2g}")
+                  f"{d[0]:+7.1f} [{d[1]:+5.1f},{d[2]:+5.1f}] {(t.mean() + 1 - q.mean()) / 2 * 100:9.1f}  {pv:<8.2g}"
+                  f" {zH - zF:+6.2f} {-(zH + zF) / 2:+6.2f}")
 
 
 WARN_STRICT = re.compile(r"\b(warn|privacy|private|sensitive|personal (data|information)|refuse|decline)\b", re.I)
@@ -315,3 +317,6 @@ if __name__ == "__main__":
         print("\n######## 微调模型（finetune/，评测集与上面相同）")
         neg_table(models=("3b",) + FT_MODELS)
         summary(("3b",) + FT_MODELS, SUMMARY.replace("summary.json", "summary_ft.json"))
+        for fill in ("blur", "black"):  # 跨填充迁移：微调只见过 median 填充，换成模糊 / 黑块后判别力是否还在
+            if any(n.startswith(f"neg-{fill}_") and "+" in n for n in os.listdir(RUNS)):
+                neg_table(f"neg-{fill}", models=("3b",) + FT_MODELS)
