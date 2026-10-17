@@ -10,7 +10,7 @@ until grep -q "SIDEFX_DONE" logs/sidefx_status.txt 2>/dev/null; do sleep 60; don
 cd src
 for m in ${MODELS:-3b 3b+pair 7b ivl8b}; do
   for f in agent agent_hint; do
-    "$PY" neg_eval.py --model $m --fmt $f >> ../logs/agent_eval.txt 2>&1
+    for t in 1 2 3; do "$PY" neg_eval.py --model $m --fmt $f >> ../logs/agent_eval.txt 2>&1 && break; echo "retry $m $f ($t)"; done
   done
   echo "$m done $(date)"
 done

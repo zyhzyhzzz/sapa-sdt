@@ -13,7 +13,8 @@ cd src
 for fill in blur black; do
   for m in ${MODELS:-3b 7b ivl2b ivl8b 3b+pair}; do
     for f in level level_explicit dfirst yn; do
-      SAPA_FILL=$fill "$PY" neg_eval.py --model $m --fmt $f >> ../logs/mask_ablation_eval.txt 2>&1
+      # 偶发加载权重时段错误：neg_eval 支持断点续跑，失败重试最多 3 次
+      for t in 1 2 3; do SAPA_FILL=$fill "$PY" neg_eval.py --model $m --fmt $f >> ../logs/mask_ablation_eval.txt 2>&1 && break; echo "retry $fill $m $f ($t) $(date)" >> ../logs/mask_ablation_eval.txt; done
     done
   done
   echo "$fill done $(date)" >> ../logs/mask_ablation_eval.txt
