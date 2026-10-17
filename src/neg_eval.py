@@ -30,6 +30,8 @@ def main():
     done = set()
     if os.path.exists(out):
         done = {(r["idx"], r["img"]) for r in map(json.loads, open(out, encoding="utf-8"))}
+    if all((r["idx"], k) in done for r in meta for k in ("sham", "masked")):
+        return  # 已全部完成：不加载模型（7B/8B 加载时偶发因系统内存不足段错误）
     model, proc = load(a.model)
     t0, n = time.time(), 0
     with open(out, "a", encoding="utf-8") as f:
