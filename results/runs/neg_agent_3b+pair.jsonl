@@ -1,0 +1,392 @@
+{"idx": 3456, "img": "sham", "resp": "[q3Qu3gT4tCSZ6u3gMhtb]\n\n[Action Code]\n1\n<Rationale>\nThe user has typed the provided text into the input field."}
+{"idx": 3456, "img": "masked", "resp": "[Action Code]\n1\n<Rationale>\nThe user has typed \"1\" into the search bar, which is likely an error or intentional input for testing purposes."}
+{"idx": 3762, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user has requested to copy the given text to the clipboard, which requires selecting all the text first."}
+{"idx": 3762, "img": "masked", "resp": "[Action Code]  \n<Ctrl + C>  \n[Rationale]  \nTo copy the text, I need to press 'Ctrl + C' which will copy the selected text to the clipboard."}
+{"idx": 2505, "img": "sham", "resp": "[Action Code]  \n1  \n[Rationale]  \nThe user needs to enter the provided text into the input field."}
+{"idx": 2505, "img": "masked", "resp": "[Action Code]  \n1  \n[Rationale]  \nThe instruction requires typing \"and is\" into the input field."}
+{"idx": 4449, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to interact with the input field to type the given text."}
+{"idx": 4449, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to interact with the input field to type the given text."}
+{"idx": 4230, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to sign in to access personalized content or services."}
+{"idx": 4230, "img": "masked", "resp": "[Action Code] 1\n<Tap the sign-in button at the bottom of the screen>\n[Rationale] The sign-in button is clearly visible at the bottom of the screen, indicating where to tap for account creation or login."}
+{"idx": 4164, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe task requires selecting all squares that contain fire hydrants, which are already highlighted in blue."}
+{"idx": 4164, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe task requires selecting all squares with fire hydrants, which has been done correctly in this case."}
+{"idx": 2153, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to log in to their Google Account to proceed with managing their device, emergency information, or payments."}
+{"idx": 2153, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to sign in to their Google Account to proceed with managing their device, emergency information, or payments."}
+{"idx": 1508, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to enter the recipe ingredients into the input field."}
+{"idx": 1508, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to enter the recipe ingredients into the input field."}
+{"idx": 1511, "img": "sham", "resp": "[Action Code] 1\n<One valid action> Manage apps & device\n[Rationale] This option will allow you to manage your installed applications and devices, which might be useful for troubleshooting or uninstalling an app if needed."}
+{"idx": 1511, "img": "masked", "resp": "[Action Code] 1\n<One valid action> Tap \"Manage apps & device\"\n[Rationale] This will allow you to manage your installed applications and devices associated with your Google account."}
+{"idx": 1029, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nTo access personalized content or settings, the user needs to log in first."}
+{"idx": 1029, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe sign-in button is not visible in the provided screenshot, so it cannot be tapped."}
+{"idx": 5686, "img": "sham", "resp": "[Action Code]  \n<Enter>  \n[Rationale]  \nThe task is to type the given text into the input field."}
+{"idx": 5686, "img": "masked", "resp": "[Action Code]  \n1  \n[Rationale]  \nThe user needs to enter the provided URL into the task input field."}
+{"idx": 6737, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to navigate to the settings menu, which typically involves tapping the settings icon or selecting it from the app drawer."}
+{"idx": 6737, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to navigate to the settings menu, which typically involves tapping the settings icon or selecting it from the main menu."}
+{"idx": 5524, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to enter their search criteria into the search bar to find accommodations."}
+{"idx": 5524, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to enter the destination name into the search bar."}
+{"idx": 1548, "img": "sham", "resp": "[Action Code]  \n1  \n[Rationale]  \nThe user needs to enter the password into the input field."}
+{"idx": 1548, "img": "masked", "resp": "[Action Code]  \n1  \n[Rationale]  \nThe user needs to enter the text \"Tzhau...tZeg9\" into the input field."}
+{"idx": 2799, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to select the \"Tax Preparation Checklist - 2023\" task, which requires tapping the checkbox next to it."}
+{"idx": 2799, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to add a new note, so they need to tap the red button with a white plus sign at the bottom right corner of the screen."}
+{"idx": 1064, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to enter the text \"do some cardio in the morning\" into the input field."}
+{"idx": 1064, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to enter the text \"do some cardio in the morning\" into the input field."}
+{"idx": 6949, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to set a screen lock, which requires accessing the security settings."}
+{"idx": 6949, "img": "masked", "resp": "[Action Code] 1\n<Tap the \"Set a screen lock\" option in the Security & privacy menu>\n\n[Rationale] The goal is to set a screen lock, which requires selecting the \"Set a screen lock\" option from the Security & privacy menu."}
+{"idx": 6546, "img": "sham", "resp": "[Action Code] 1\n<Tap the \"Share\" button located at the top right corner of the screen>\n[Rationale] The \"Share\" button is typically used for sharing meeting details via email, messaging apps, or other platforms."}
+{"idx": 6546, "img": "masked", "resp": "[Action Code] 2\n<Tap the \"Share\" button located at the top right corner of the screen>\n[Rationale] The \"Share\" button is typically used for sharing meeting details via email, messaging apps, or other platforms."}
+{"idx": 5116, "img": "sham", "resp": "[Action Code] 1\n<One valid action> Open the Word app\n[Rationale] The Word app is open, indicating that the task has been successfully completed."}
+{"idx": 5116, "img": "masked", "resp": "[Action Code] 1\n<One valid action> Open the Word app.\n[Rationale] The Word app is open, indicating that the task has been successfully completed."}
+{"idx": 1068, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to enter their email address into the input field."}
+{"idx": 1068, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to create a new document, so they should tap the plus button at the bottom right corner of the screen."}
+{"idx": 2842, "img": "sham", "resp": "[Action Code] C\n<Tap the copy button located at the top right corner of the keyboard>\n\n[Rationale] The goal is to copy the text displayed in the input field, which requires tapping the appropriate button on the keyboard to select and copy the text."}
+{"idx": 2842, "img": "masked", "resp": "[Action Code] 1\n<Tap the copy button at the top right corner of the keyboard>\n\n[Rationale] The copy button is typically located at the top right corner of the keyboard, which allows users to copy text or selected content for further use."}
+{"idx": 5606, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nTo proceed with signing in, I need to click on the 'Sign In' button."}
+{"idx": 5606, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe screen shows the main page of Tubi TV, but does not have any 'Register' or 'Sign In' buttons visible."}
+{"idx": 5006, "img": "sham", "resp": "[Action Code] 1\n<Tap the \"Photos\" option at the top of the screen>\n[Rationale] The goal is to select a photo, and the \"Photos\" option will allow access to all available photos on the device."}
+{"idx": 5006, "img": "masked", "resp": "[Action Code] 1\n<Tap on \"Photos\" at the top of the screen>\n[Rationale] The task requires selecting a photo, and the \"Photos\" folder contains all available images."}
+{"idx": 3940, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to confirm their age to proceed with the search query."}
+{"idx": 3940, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to confirm their age to proceed with the search query."}
+{"idx": 6587, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user has requested to type the given text, which is \"47FazUBGbFrJhFuA9CY/edit?usp=drivesdk\"."}
+{"idx": 6587, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user has requested to type the text \"Do you want to go for a hiking trail with me?\""}
+{"idx": 644, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user has typed \"coffee maker recommendation\" into the search bar, which aligns with the goal of finding recommendations for coffee makers."}
+{"idx": 644, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user has typed \"coffee maker recommendation\" into the search bar, which aligns with their goal of finding recommendations for coffee makers."}
+{"idx": 6892, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user has requested to type the given text, but there is no text provided for typing."}
+{"idx": 6892, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user has requested to type the given text, but there is no text provided for typing."}
+{"idx": 861, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to view more details about the Samsung Galaxy S22, which is highlighted in the recently viewed items section."}
+{"idx": 861, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to scroll down to view more items in the list."}
+{"idx": 10, "img": "sham", "resp": "[Action Code] 1\n<Tap \"My Collections\">"}
+{"idx": 10, "img": "masked", "resp": "[Action Code] 1\n<Tap \"My Collections\">"}
+{"idx": 3579, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to tap on the calendar event for October 30, which is visible in the screenshot."}
+{"idx": 3579, "img": "masked", "resp": "[Action Code]  \n1  \n[Rationale]  \nThe user needs to select the specific event on October 30th, which is highlighted in blue."}
+{"idx": 4536, "img": "sham", "resp": "[Action Code] 1\n<Tap the input field and type \"Italian Learning\" in the first task box>\n[Rationale] This action involves selecting the first task box and typing the correct text as instructed."}
+{"idx": 4536, "img": "masked", "resp": "[Action Code] 1\n<Tap the input field and type \"Italian Learning\">"}
+{"idx": 645, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to enter their review in the provided text box."}
+{"idx": 645, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to enter their review in the provided text box."}
+{"idx": 2922, "img": "sham", "resp": "[Action Code] 1\n<One valid action> Select \"Date only\" from the options provided.\n[Rationale] The task requires selecting the date format, which is currently set to \"Get format instead date or time.\""}
+{"idx": 2922, "img": "masked", "resp": "[Action Code] 2\n<One valid action> Select \"yyyy-MM-dd\" from the list of options.\n[Rationale] The task requires selecting the date format, which is yyyy-MM-dd in this case."}
+{"idx": 3414, "img": "sham", "resp": "[Action Code]\n1\n<Rationale>\nThe user needs to enter the date \"Sat, Oct 7, 2023\" into the date field."}
+{"idx": 3414, "img": "masked", "resp": "[Action Code]  \n1  \n[Rationale]  \nThe user needs to enter the date \"06/07/2023\" into the date field."}
+{"idx": 3563, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user has typed \"240913-3\" into the search bar, which matches the instruction provided."}
+{"idx": 3563, "img": "masked", "resp": "[Action Code]  \n<Search for \"Chicken Caesar Salad Wrap\">  \n[Rationale]  \nThe search bar is active, allowing for text input."}
+{"idx": 1666, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to access the provided URL, which is a travel guide for the Great Wall of Badaling in Beijing."}
+{"idx": 1666, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to access the \"All planned\" section to view their tasks for today."}
+{"idx": 737, "img": "sham", "resp": "[Action Code] 1\n<Tap the \"Subscribe\" button>\n[Rationale] The \"Subscribe\" button is clearly visible and needs to be tapped to follow the channel for updates."}
+{"idx": 737, "img": "masked", "resp": "[Action Code] 1\n<Tap the \"Subscribe\" button>\n[Rationale] The task requires tapping the \"Subscribe\" button to follow the channel for updates and notifications."}
+{"idx": 4479, "img": "sham", "resp": "[Action Code] 1\n<One valid action> Tap the 'Buy Now' button at the bottom of the screen.\n[Rationale] The 'Buy Now' button is clearly visible and accessible, indicating that tapping it will proceed with the purchase."}
+{"idx": 4479, "img": "masked", "resp": "[Action Code] 2\n<Tap the 'Add to Cart' button>\n[Rationale] The goal is to purchase the book, which requires adding it to the cart before proceeding to checkout."}
+{"idx": 6278, "img": "sham", "resp": "[Action Code]  \n1  \n[Rationale]  \nThe user needs to enter the provided URL into the input field."}
+{"idx": 6278, "img": "masked", "resp": "[Action Code]  \n1  \n[Rationale]  \nThe user needs to enter the text \"July 25 Comic-con international\" into the input field."}
+{"idx": 4232, "img": "sham", "resp": "[Action Code]  \n1  \n[Rationale]  \nThe shopping cart icon is located at the top right corner of the screen."}
+{"idx": 4232, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe shopping cart icon is located at the top right corner of the screen, which is where the user can add items to their cart."}
+{"idx": 6934, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user has typed \"Farfetch\" into the search bar, which matches the instruction provided."}
+{"idx": 6934, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user has typed \"Farfetch\" into the search bar, which matches the instruction provided."}
+{"idx": 4121, "img": "sham", "resp": "[Action Code]  \n<Add to Cart>  \n[Rationale]  \nThe user needs to add the Dyson V11 Torque Drive Cordless Vacuum Cleaner to their cart for purchase."}
+{"idx": 4121, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user has successfully added an item to their cart, as indicated by the \"Added to cart\" message."}
+{"idx": 1344, "img": "sham", "resp": "[Action Code]  \n1  \n[Rationale]  \nThe user has typed \"Chocolate chip cookies\" into the input field."}
+{"idx": 1344, "img": "masked", "resp": "[Action Code]  \n1  \n[Rationale]  \nThe user has instructed to type the text, which requires inputting the text into the provided field."}
+{"idx": 6887, "img": "sham", "resp": "[Action Code] 1\n<One valid action> Scroll down\n[Rationale] To view more content below the current screen"}
+{"idx": 6887, "img": "masked", "resp": "[Action Code] 1\n<One valid action> Scroll down\n[Rationale] To view more content below the current screen"}
+{"idx": 4561, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user has typed \"I am hungry\" in the text input field."}
+{"idx": 4561, "img": "masked", "resp": "[Action Code] 1\n<One valid action> Type \"Hello World\" in the text field.\n[Rationale] The task requires typing a specific message into the text field, which aligns with the goal of inputting the text \"Hello World.\""}
+{"idx": 6806, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to enter text into the input field, which is highlighted in blue."}
+{"idx": 6806, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to enter text into the input field, which is highlighted in green."}
+{"idx": 3215, "img": "sham", "resp": "[Action Code]  \n<One valid action>  \n[Rationale]  \nThe task \"Organize Closet\" needs to be selected by clicking its checkbox."}
+{"idx": 3215, "img": "masked", "resp": "[Action Code]  \n<One valid action>  \n[Rationale]  \nThe task \"Reply to Emails\" needs to be selected to prioritize urgent messages."}
+{"idx": 5797, "img": "sham", "resp": "[Action Code] 1\n[Compose]\n[Rationale] The email with the subject \"Can a police officer legally ask to see what is i...\" is open, fulfilling the requirement to open an email."}
+{"idx": 5797, "img": "masked", "resp": "[Action Code] 1\n[Compose]\n[Rationale] The email needs to be opened, which requires clicking on the email from Tumblr."}
+{"idx": 5170, "img": "sham", "resp": "[Action Code]  \n<Save Home>  \n[Rationale]  \nThe user wants to save this home listing for later reference."}
+{"idx": 5170, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to tap the save button to save their search criteria for future use."}
+{"idx": 4447, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nTo add a friend, you need to tap the 'Add friend' button next to their name."}
+{"idx": 4447, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe 'Add friend' option is typically located next to the name in the list of friends."}
+{"idx": 4116, "img": "sham", "resp": "[Action Code] 1\n<Tap the 'Add to Cart' button>\n[Rationale] The goal is to add the item to the cart, which requires tapping the 'Add to Cart' button visible on the screen."}
+{"idx": 4116, "img": "masked", "resp": "[Action Code] 1\n<One valid action> Tap the 'Add to Cart' button.\n[Rationale] The task was to add an item to the cart, which has been successfully done as indicated by the 'Added to cart' message."}
+{"idx": 1484, "img": "sham", "resp": "[Action Code]  \n1  \n[Rationale]  \nThe user wants to send a message in the messaging app, which requires typing the message into the input field."}
+{"idx": 1484, "img": "masked", "resp": "[Action Code]  \n1  \n[Rationale]  \nThe user has instructed to send a message, but there's no visible text input or response in the screenshot provided."}
+{"idx": 1520, "img": "sham", "resp": "[Action Code]  \n1  \n[Rationale]  \nThe task requires typing the provided email address into the designated field."}
+{"idx": 1520, "img": "masked", "resp": "[Action Code]  \n1  \n[Rationale]  \nThe user needs to enter the email address in the \"To\" field to proceed with composing the email."}
+{"idx": 1503, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to tap the link provided in the screenshot to proceed with joining the meeting on Teams."}
+{"idx": 1503, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to tap the link provided in the tweet to join the Teams meeting."}
+{"idx": 5944, "img": "sham", "resp": "[Action Code] 1\n<Tap the share button on the screen>\n[Rationale] The share button is typically represented by an icon that looks like a paper airplane or a share symbol, which is not visible in this screenshot."}
+{"idx": 5944, "img": "masked", "resp": "[Action Code] 1\n<Tap the share button on the screen>\n[Rationale] The share button is typically represented by an icon that looks like a paper airplane or a share symbol, which is located at the top right corner of the keyboard in this case."}
+{"idx": 4728, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user has requested to type the provided text, which includes a meeting ID and password for Zoom and Google Meet."}
+{"idx": 4728, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user has requested to type the given text, which is \"us05web.zoom.us/join\"."}
+{"idx": 624, "img": "sham", "resp": "[Action Code] 1\n<Tap the email app icon>\n[Rationale] The task requires tapping the email app icon, which is typically represented by an icon resembling a letter 'E' or a similar symbol."}
+{"idx": 624, "img": "masked", "resp": "[Action Code] 1\n<Tap the email app icon>\n[Rationale] The task requires tapping the email app icon, which is typically represented by an envelope icon in the app drawer or app list."}
+{"idx": 818, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to view more details about an event, which typically involves tapping on it."}
+{"idx": 818, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to view more details about an event, which typically involves tapping on it."}
+{"idx": 1147, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe task requires typing a message, but there's no visible chat interface or text input field in the screenshot provided."}
+{"idx": 1147, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to interact with the chat interface to send a message, but there's no visible chat interface in the screenshot provided."}
+{"idx": 1272, "img": "sham", "resp": "[Action Code]  \n1  \n[Rationale]  \nThe user needs to enter the provided text into the input field."}
+{"idx": 1272, "img": "masked", "resp": "[Action Code]  \n1  \n[Rationale]  \nThe user needs to enter the provided URL into the input field."}
+{"idx": 729, "img": "sham", "resp": "[Action Code] 1\n<One valid action> Press the \"Send\" button\n[Rationale] To complete the task of sending the message with the provided link"}
+{"idx": 729, "img": "masked", "resp": "[Action Code] 2\n<Tap the \"Send\" button>\n[Rationale] To complete the task of sending the message, I need to tap the \"Send\" button after entering the text or URL in the message field."}
+{"idx": 6634, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user has typed the message \"Would you like to go for a hiking trail with me this weekend?\" into the email composition window."}
+{"idx": 6634, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user has instructed to type the text \"Would you like to go for a hiking trail with me this weekend?\" into the email composition screen."}
+{"idx": 4089, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to share the meeting information with a specific contact, so they need to tap the share button to proceed with selecting the contact from the list provided."}
+{"idx": 4089, "img": "masked", "resp": "[Action Code]  \n<One valid action>  \n[Rationale]  \nTo share the meeting information with a contact, you need to tap the share button and then select the contact from the list of options."}
+{"idx": 6698, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe share button is typically represented by a paper airplane icon, which is located at the bottom right corner of the screen."}
+{"idx": 6698, "img": "masked", "resp": "[Action Code] 1\n<Tap the share button located at the bottom right corner of the screen>\n[Rationale] The share button is typically represented by a paper airplane icon, which is located at the bottom right corner of the screen in this interface."}
+{"idx": 1809, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user has requested to type the text \"Do you want to go for a hiking trail with me this Saturday?\" into the message input field."}
+{"idx": 1809, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user has typed \"刘德华\" into the message input field."}
+{"idx": 6485, "img": "sham", "resp": "[Action Code] 1\n<Tap the email app icon>\n[Rationale] The task requires tapping the email app icon, which is typically represented by an icon resembling a letter or envelope."}
+{"idx": 6485, "img": "masked", "resp": "[Action Code] 1\n<Tap the email app icon>\n[Rationale] The task requires opening the email application, which is typically represented by an icon resembling a letter or envelope."}
+{"idx": 5758, "img": "sham", "resp": "[Action Code] 1\n<Tap the vault icon at the top left corner of the screen>\n[Rationale] The vault icon is located at the top left corner of the screen, which is where the user needs to tap to access the vault feature."}
+{"idx": 5758, "img": "masked", "resp": "[Action Code] 1\n<Tap the vault icon at the top left corner of the screen>\n[Rationale] The vault icon is located at the top left corner of the screen, which is where the user needs to tap to access the vault feature."}
+{"idx": 4261, "img": "sham", "resp": "[Action Code] 1\n<Tap the email app icon>\n[Rationale] The email app icon is visible at the top right corner of the screen, which needs to be tapped to open the email application."}
+{"idx": 4261, "img": "masked", "resp": "[Action Code] 1\n<Tap the email app icon>\n[Rationale] The email app icon is visible at the top right corner of the screen, which needs to be tapped to open the email application."}
+{"idx": 5649, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user has requested to type the given text, which is \"Botong Chem.\""}
+{"idx": 5649, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user has requested to type the given text, which is \"Botong Chem.\""}
+{"idx": 2290, "img": "sham", "resp": "[Action Code]  \n<One valid action>  \n[Rationale]  \nThe user needs to tap the phone icon to initiate a call."}
+{"idx": 2290, "img": "masked", "resp": "[Action Code]  \n<One valid action>  \n[Rationale]  \nThe phone icon is located at the bottom center of the screen, which is used to initiate a call."}
+{"idx": 4517, "img": "sham", "resp": "[Action Code] 1\n<Tap the \"Share\" button located at the top right corner of the screen>\n[Rationale] The \"Share\" button is typically used for sharing meeting details via email, messaging apps, or other platforms."}
+{"idx": 4517, "img": "masked", "resp": "[Action Code] 1\n<Tap the \"Share\" button located at the top right corner of the screen>\n[Rationale] The \"Share\" button is typically used for sharing meeting details or scheduling information with others."}
+{"idx": 4826, "img": "sham", "resp": "[Action Code]  \n1  \n[Rationale]  \nThe task requires typing the provided text into the email composition field."}
+{"idx": 4826, "img": "masked", "resp": "[Action Code] 1\n<Tap the \"Compose email\" field and type \"Hello World!\">"}
+{"idx": 6314, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user has successfully copied the meeting link to their clipboard, fulfilling the task requirement."}
+{"idx": 6314, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user has successfully copied the meeting link to their clipboard, fulfilling the task requirement."}
+{"idx": 6178, "img": "sham", "resp": "[Action Code] 1\n<Tap the email app icon>\n[Rationale] The task requires tapping the email app icon, which is typically represented by an icon resembling a letter or envelope."}
+{"idx": 6178, "img": "masked", "resp": "[Action Code] 1\n<Tap the email app icon>\n[Rationale] The email app icon is visible at the top left corner of the screen, which needs to be tapped to open the email application."}
+{"idx": 3851, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to share meeting details, so they should select an option that allows them to send the information via email or messaging."}
+{"idx": 3851, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to share the meeting details, which typically involves selecting an option to send them via email or messaging."}
+{"idx": 3261, "img": "sham", "resp": "[Action Code] 1\n<Tap the notification on the screen>\n[Rationale] The user wants to interact with the notification, which is located at the top of the screen."}
+{"idx": 3261, "img": "masked", "resp": "[Action Code] 1\n<One valid action> Tap the notification at the bottom of the screen.\n[Rationale] The notification is located at the bottom, making it easy to access without scrolling through the list."}
+{"idx": 4803, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to type the provided text into the meeting details section."}
+{"idx": 4803, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to type the text \"Meeting Details\" into the designated field."}
+{"idx": 5633, "img": "sham", "resp": "[TORQUE]\nDISMISS\nThe user wants to dismiss the notification about reminder settings being turned off.\n[DISMISS]\nThe user wants to dismiss the notification about reminder settings being turned off."}
+{"idx": 5633, "img": "masked", "resp": "DISMISS\nThe user wants to dismiss the notification about reminder settings being turned off.\nThe user needs to acknowledge the message by dismissing it so they can continue using the app without interruptions."}
+{"idx": 6491, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to access the settings to turn on reminders, which requires tapping the settings icon first."}
+{"idx": 6491, "img": "masked", "resp": "[Action Code] 1\n<Tap the settings icon in the top right corner of the screen>\n[Rationale] The settings icon is located at the top right corner of the screen, which is where I need to tap to access the settings menu."}
+{"idx": 2102, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to enable Nearby Share, which requires tapping the toggle switch next to \"Use Nearby Share.\""}
+{"idx": 2102, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to enable Nearby Share by tapping the toggle switch."}
+{"idx": 135, "img": "sham", "resp": "[Action Code] 1\n<One valid action> Click on the \"Contacts\" item to unlock it.\n[Rationale] The \"Contacts\" item is locked, so clicking it will unlock it."}
+{"idx": 135, "img": "masked", "resp": "[Action Code] 1\n<One valid action> Unlock the \"Everand\" item\n[Rationale] The \"Everand\" item is locked, so it needs to be unlocked to proceed with the task."}
+{"idx": 2316, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe \"Bluetooth\" option is visible in the list of connected devices, indicating that tapping it will fulfill the instruction."}
+{"idx": 2316, "img": "masked", "resp": "[Action Code] 2\n<Tap the \"Connection preferences\" section>\n[Rationale] This section likely contains options related to Bluetooth settings, which aligns with the goal of accessing Bluetooth settings."}
+{"idx": 2931, "img": "sham", "resp": "[Action Code] Rationale\nTap the \"Rename\" button to change the name of the device."}
+{"idx": 2931, "img": "masked", "resp": "[Action Code]  \n<Cancel>  \n[Rationale]  \nThe user needs to cancel the operation to return to the previous screen."}
+{"idx": 3421, "img": "sham", "resp": "[Action Code]\nT1\n[Tap the \"Turn on\" button]\n[The user wants to enable Nearby Share functionality]\n[To share device information with nearby contacts]"}
+{"idx": 3421, "img": "masked", "resp": "[Action Code] 1\n<Tap \"Turn on\" button>\n[Rationale] To enable Nearby Share, I need to tap the \"Turn on\" button to activate this feature."}
+{"idx": 484, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nTo resolve the missing chat history, tapping the \"Sync now\" button will attempt to refresh the chat history in the app."}
+{"idx": 484, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe sync button is not visible in the provided screenshot, so it cannot be tapped."}
+{"idx": 700, "img": "sham", "resp": "[X]\n<Click on the 'X' button at the top left corner of the screen>\n[Close the notification or prompt]\n[The user wants to close the notification or prompt that appears when enabling location access.]"}
+{"idx": 700, "img": "masked", "resp": "[X]\n<Click on the red 'X' button at the top left corner of the screen>\n[Close the pop-up window]\n[The pop-up window needs to be closed to proceed with the task.]"}
+{"idx": 394, "img": "sham", "resp": "[Action Code] 1\n<Tap \"Allow\" to proceed with the location request>\n[Rationale] This step is necessary to continue using the app without interruptions from location services."}
+{"idx": 394, "img": "masked", "resp": "[Action Code] 1\n<Tap the \"Choose area\" button>\n[Rationale] To select a different location for the search results, tapping the \"Choose area\" button will allow you to change the current location from Mountain View, CA to another city or region."}
+{"idx": 6497, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nTo proceed with viewing the content, the user needs to confirm the request by tapping 'Allow'."}
+{"idx": 6497, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nTo proceed with viewing the NFL Scoreboard, you need to confirm the request by tapping 'Remember choice'."}
+{"idx": 4466, "img": "sham", "resp": "[Action Code] 1\n<One valid action> Type \"Advanced Security Lite\" into the search bar.\n[Rationale] This will allow me to find and manage the Advanced Security Lite app efficiently."}
+{"idx": 4466, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to search for something in the search bar, which requires typing into it."}
+{"idx": 551, "img": "sham", "resp": "[Action Code] 1\n<Tap the \"Sort\" button>\n[Rationale] To organize your friends list, you need to tap the \"Sort\" button to arrange them alphabetically or by another criterion as needed."}
+{"idx": 551, "img": "masked", "resp": "[Action Code] 1\n<Tap the \"Sort\" button>\n[Rationale] To organize your friends list, you need to tap the \"Sort\" button to arrange them alphabetically or by another criterion as needed."}
+{"idx": 873, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe screenshot shows the \"App info\" section of an app, indicating that the settings have been accessed successfully."}
+{"idx": 873, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user has requested to tap the settings icon, which corresponds to the \"Apps\" section in the screenshot."}
+{"idx": 6059, "img": "sham", "resp": "[Action Code]  \n<Uninstall>  \n[Rationale]  \nThe user wants to confirm the uninstallation of the app."}
+{"idx": 6059, "img": "masked", "resp": "[Action Code]  \n<Uninstall>  \n[Rationale]  \nThe user wants to confirm the uninstallation of the app, which requires tapping the \"Uninstall\" button."}
+{"idx": 656, "img": "sham", "resp": "[Action Code] 1\n<Tap the screen to capture a screenshot>\n[Rationale] To capture a screenshot, you need to tap the screen where the keyboard appears."}
+{"idx": 656, "img": "masked", "resp": "[Action Code] 1\n<Tap the screen to capture a screenshot>\n[Rationale] To capture a screenshot, you need to tap the screen at the location where you want to save the image."}
+{"idx": 278, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nTo proceed with the search without location access, selecting \"Don't allow\" will prevent Firefox from accessing the device's location data during this session."}
+{"idx": 278, "img": "masked", "resp": "[Action Code] 2\n<Only this time>\n<Rationale> This option allows the app to access location data only during the current session, which might be useful for certain tasks like finding nearby schools."}
+{"idx": 173, "img": "sham", "resp": "[Action Code]  \n<Send>  \n[Rationale]  \nThe user wants to send the Google Docs link to Tzhau Jau."}
+{"idx": 173, "img": "masked", "resp": "[Action Code] 2\n<Tap the \"Send\" button>\n[Rationale] To complete the task of sending the document link, I need to tap the \"Send\" button."}
+{"idx": 4645, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user has typed \"adb shell set...\" into the search bar, which is likely intended to be completed with additional commands or information related to Android Debug Bridge (ADB) settings."}
+{"idx": 4645, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user has typed \"Search or enter address\" into the search bar, indicating they want to perform a search operation."}
+{"idx": 1090, "img": "sham", "resp": "[Action Code] 2\n<One valid action> Tap the \"Add credit or debit card\" button\n[Rationale] To proceed with the purchase, you need to add a payment method to your Google Account."}
+{"idx": 1090, "img": "masked", "resp": "[Action Code] 2\n[Add credit or debit card]\n[To complete the purchase, you need to add a payment method to your Google Account.]\n[Adding a payment method allows the transaction to proceed successfully.]"}
+{"idx": 6338, "img": "sham", "resp": "[Action Code]  \n1  \n[Rationale]  \nThe user needs to confirm their purchase by tapping the button to proceed with checkout."}
+{"idx": 6338, "img": "masked", "resp": "[Action Code]  \n1  \n[Rationale]  \nThe user needs to confirm their payment details before proceeding with the purchase."}
+{"idx": 767, "img": "sham", "resp": "[Action Code]  \n<One valid action>  \n[Rationale]  \nThe user needs to purchase the book immediately, so they should tap the 'Buy Now' button."}
+{"idx": 767, "img": "masked", "resp": "[Action Code] 1\n<Tap the 'Add to Cart' button>\n[Rationale] The goal is to purchase the book, so adding it to the cart is necessary before proceeding with payment."}
+{"idx": 2045, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to add a new item to their list, which requires tapping the plus button at the bottom right corner of the screen."}
+{"idx": 2045, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to add a new recipe, so they need to tap the red button with the plus sign at the bottom right corner of the screen."}
+{"idx": 771, "img": "sham", "resp": "[Action Code] 2\n<Tap the 'Buy Now' button>\n[Rationale] The goal is to purchase the book, so tapping 'Buy Now' will initiate the purchase process."}
+{"idx": 771, "img": "masked", "resp": "[Action Code] 2\n<Tap the 'Buy Now' option>\n[Rationale] The 'Buy Now' option is not visible in the current screenshot, so it cannot be selected directly from this view.\nThe 'Buy Now' option is not visible in the current screenshot, so it cannot be selected directly from this view."}
+{"idx": 4627, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to open an app, which requires tapping its icon."}
+{"idx": 4627, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to open an app, which requires tapping its icon."}
+{"idx": 2427, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to type \"250.75\" into the amount field as instructed."}
+{"idx": 2427, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to type \"250.75\" into the amount field as instructed."}
+{"idx": 2720, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to create a new note, so they should tap the red plus button at the bottom right corner of the screen."}
+{"idx": 2720, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to create a new note, so they should tap the red plus button at the bottom right corner of the screen."}
+{"idx": 602, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to download the app \"WebNovel\" as indicated by the \"Install\" button."}
+{"idx": 602, "img": "masked", "resp": "[Action Code] \nInstall WebNovel\n[Sponsored - Suggested for you]\nInstall TikTok\nInstall Finance\nInstall MONOPOLY GO!\n[Explanation]\nThe user needs to install the app \"WebNovel\" as it is highlighted with an \"Install\" button."}
+{"idx": 3486, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to select October 8th from the calendar to update data for that date."}
+{"idx": 3486, "img": "masked", "resp": "[Action Code]\n<OK>\n[Rationale]\nThe user has selected October 8th as the date for payment, which aligns with the task of updating data."}
+{"idx": 3322, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to type \"text\" into the designated input field."}
+{"idx": 3322, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to enter the text \"Hello World\" into the designated input field."}
+{"idx": 485, "img": "sham", "resp": "[Action Code]  \n<One valid action>  \n[Rationale]  \nThe 'Buy Now' button is clearly visible and accessible for tapping."}
+{"idx": 485, "img": "masked", "resp": "[Action Code]  \n<One valid action>  \n[Rationale]  \nThe 'Buy Now' button is not visible in the provided screenshot, so it cannot be tapped based on this information."}
+{"idx": 5061, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to select their preferred payment method, which in this case is \"Credit or debit card.\""}
+{"idx": 5061, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to select their preferred payment method, which in this case is PayPal."}
+{"idx": 7111, "img": "sham", "resp": "[Action Code]  \n<Confirm and pay>  \n[Rationale]  \nThe \"Confirm and pay\" button is the payment method option, which needs to be tapped to proceed with the transaction."}
+{"idx": 7111, "img": "masked", "resp": "[Action Code]  \n1  \n[Rationale]  \nThe user needs to select their preferred payment method, which is typically located below the checkout section."}
+{"idx": 5426, "img": "sham", "resp": "[A1]\nClick on the 'Add card' button.\nThe user needs to add their payment method for the purchase.\nThis will allow them to proceed with the transaction by confirming their payment information."}
+{"idx": 5426, "img": "masked", "resp": "[Action Code] 2\n<Tap the 'Add card' button>\n[Rationale] The 'Add card' button is typically located near the payment section of the checkout process, where users can add their payment information for secure transactions.\n[Action Code] 3\n<Tap the 'Confirm and pay' button>\n[Rationale] This button is usually used to finalize the purchase after adding all necessary payment details, ensuring the transaction is completed securely."}
+{"idx": 3330, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to select October 6th, 2023 from the calendar."}
+{"idx": 3330, "img": "masked", "resp": "[Action Code]\n<Update Data>\n[Rationale]\nThe user has selected the date \"Fri, Oct 6\" from the calendar, which aligns with the instruction to type the given text."}
+{"idx": 6397, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to confirm the purchase by tapping the \"Confirm purchase\" button."}
+{"idx": 6397, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to enter their shipping address in the provided field."}
+{"idx": 7077, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to select a payment method from the list provided."}
+{"idx": 7077, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to select a payment method from the list provided."}
+{"idx": 3884, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to select their preferred payment method, which in this case is PayPal."}
+{"idx": 3884, "img": "masked", "resp": "[Action Code]  \n1  \n[One valid action]  \nTap the PayPal option at the bottom of the screen.  \n[Rationale]  \nThe PayPal option is clearly visible and accessible for selection, aligning with the goal of tapping an option."}
+{"idx": 1547, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to enter the destination airport code for Beijing into the search bar."}
+{"idx": 1547, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to enter the destination city in the search bar to proceed with booking a flight."}
+{"idx": 5056, "img": "sham", "resp": "[Action Code] 2\n<Tap the \"Add credit or debit card\" button>\n[Rationale] This will allow the user to proceed with the purchase by adding their payment method.\n[Action Code] 3\n<Tap the \"PayPal\" button>\n[Rationale] This will initiate the PayPal payment process for the purchase of the book."}
+{"idx": 5056, "img": "masked", "resp": "[Action Code] 2\n<One valid action> Tap \"Add credit or debit card\"\n[Rationale] This option allows users to add their payment method for completing the purchase."}
+{"idx": 4862, "img": "sham", "resp": "[Action Code] 3\n<Tap the 'Pay $1,572.07 now' option>\n\n[Rationale] The user wants to pay the full amount upfront for the stargazing experience."}
+{"idx": 4862, "img": "masked", "resp": "[Action Code] 3\n<Tap the 'Pay $1,572.07 now' option>\n[Rationale] The user needs to confirm the payment amount before proceeding with the booking.\nThe user should tap the 'Pay $1,572.07 now' option to proceed with the payment confirmation."}
+{"idx": 1926, "img": "sham", "resp": "[Action Code]  \n1  \n[Rationale]  \nThe user needs to enter the destination airport code for Beijing into the search bar."}
+{"idx": 1926, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to enter the destination city in the search bar to proceed with the flight search."}
+{"idx": 5958, "img": "sham", "resp": "[PAYPAL]\n<Tap the PayPal button to proceed with the payment.>\n[Confirming the payment will finalize the transaction, ensuring the purchase is completed successfully.]\n[The PayPal button is used to initiate the payment process, which is necessary for completing the checkout.]"}
+{"idx": 5958, "img": "masked", "resp": "[PAYPAL]\n<Tap the PayPal button at the top of the screen>\n[Confirm and pay]\n[The PayPal button confirms the payment process, allowing the user to proceed with the transaction.]"}
+{"idx": 6442, "img": "sham", "resp": "[Action Code] 1\n<Tap the \"ADD ACCOUNT\" button>\n[Rationale] To add a new account, you need to tap the \"ADD ACCOUNT\" button which will allow you to connect your bank accounts for better tracking and analysis of spending."}
+{"idx": 6442, "img": "masked", "resp": "[Action Code] 1\n<Tap the \"ADD ACCOUNT\" button>\n[Rationale] To add a new account, you need to tap the \"ADD ACCOUNT\" button to proceed with connecting your bank accounts for better financial tracking and analysis."}
+{"idx": 3649, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to select or interact with a specific note, which requires tapping on it."}
+{"idx": 3649, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to select or interact with a specific note, which requires tapping on it."}
+{"idx": 1267, "img": "sham", "resp": "[Action Code] 1\n<One valid action> Tap the \"Follow the route on the map\" button at the top of the screen.\n[Rationale] This will enable the navigation route to update on the map, allowing you to follow the directions provided."}
+{"idx": 1267, "img": "masked", "resp": "[Action Code] 1\n<One valid action> Tap the \"Follow the route on the map\" button at the top of the screen.\n[Rationale] This will enable the navigation route to update on the map, allowing you to follow the directions provided."}
+{"idx": 5727, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to enter the address into the search bar to find listings in that area."}
+{"idx": 5727, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to interact with the search bar to enter the required text."}
+{"idx": 187, "img": "sham", "resp": "[Action Code]\n1\n<Rationale>\nThe user has typed \"Cheesetella\" as the destination in the app."}
+{"idx": 187, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user has typed \"Cheesetella\" in the destination field, which matches the instruction provided."}
+{"idx": 6051, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to enter the text into the search bar to proceed with the search query."}
+{"idx": 6051, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to enter text into the search bar to find relevant information or products."}
+{"idx": 6947, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user attempted to access the website but was blocked by the firewall, preventing them from viewing the content."}
+{"idx": 6947, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user attempted to access the website but encountered an error due to firewall restrictions."}
+{"idx": 6369, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user has requested to scroll through the video content, which requires interacting with the video player controls."}
+{"idx": 6369, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user has requested to scroll through the video content, which requires interacting with the video player interface."}
+{"idx": 4520, "img": "sham", "resp": "[Action Code] 1\n<Tap the navigation app on the screen>\n[Rationale] The user wants to use a navigation app, which is visible in the screenshot.\n[Action Code] 2\n<Tap the navigation app on the screen>\n[Rationale] The user wants to use a navigation app, which is visible in the screenshot."}
+{"idx": 4520, "img": "masked", "resp": "[Action Code] 1\n<Tap the navigation app on the screen>\n[Rationale] The user wants to use a navigation app, which is visible in the screenshot.\n[Action Code] 2\n<Tap the navigation app on the screen>\n[Rationale] The user wants to use a navigation app, which is visible in the screenshot."}
+{"idx": 5263, "img": "sham", "resp": "[Action Code]  \n1  \n[Rationale]  \nThe user needs to enter the text into the search bar."}
+{"idx": 5263, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to enter the destination address into the input field."}
+{"idx": 1720, "img": "sham", "resp": "[Action Code] 2\n<Tap the location information on the screen>\n[Rationale] To update the delivery location, users need to tap on the location information to change it if necessary."}
+{"idx": 1720, "img": "masked", "resp": "[Action Code] 1\n<Tap the location information on the screen>\n[Rationale] The user wants to interact with the location feature, which is typically represented by a pin icon or a search bar.\nThe user wants to interact with the location feature, which is typically represented by a pin icon or a search bar."}
+{"idx": 6852, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to view detailed weather information for their current location, which is California, United States."}
+{"idx": 6852, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to view detailed weather information for Sacramento, which is currently displayed in the search bar."}
+{"idx": 174, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user has typed \"Downtown Women's Center\" into the input field, which matches the given text."}
+{"idx": 174, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user has instructed to type \"Santa Monica Farmers Market\" into the search field."}
+{"idx": 5913, "img": "sham", "resp": "[Action Code] 1\n<Tap the navigation feature on the screen>\n[Rationale] The user wants to navigate using the map, which requires tapping the navigation feature to start the route guidance."}
+{"idx": 5913, "img": "masked", "resp": "[Action Code] 1\n<Tap the navigation feature on the screen>\n[Rationale] The user wants to follow the route indicated on the map, which requires tapping the navigation feature to start the navigation process."}
+{"idx": 908, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to confirm the pickup location by tapping the address field to ensure it matches the desired pickup spot."}
+{"idx": 908, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nTo confirm the pickup spot, you need to either drag the map to set your location or type in the address directly."}
+{"idx": 512, "img": "sham", "resp": "[Action Code]  \n1  \n[Rationale]  \nThe user needs to confirm the pickup location by typing the provided text into the input field."}
+{"idx": 512, "img": "masked", "resp": "[Action Code]  \n1  \n[Rationale]  \nThe user needs to confirm the pickup location by tapping on it before typing any text."}
+{"idx": 6686, "img": "sham", "resp": "[Action Code] 1\n<Tap the \"Choose UberX\" button at the bottom of the screen>\n[Rationale] This will confirm the selection of the UberX share option for the ride from the current location to the destination."}
+{"idx": 6686, "img": "masked", "resp": "[Action Code] 1\n<Tap \"Choose UberX\" at the bottom of the screen>\n[Rationale] The user needs to select the preferred ride type, which in this case is UberX, to proceed with their ride request."}
+{"idx": 4183, "img": "sham", "resp": "[Action Code]  \n1  \n[Rationale]  \nThe user wants to proceed with purchasing the book, which requires tapping the button to continue the purchase process."}
+{"idx": 4183, "img": "masked", "resp": "[Action Code] 1\n<Tap the \"Delivery\" button>\n[Rationale] To proceed with the purchase, I need to select the delivery option as it's the next logical step in the purchasing process."}
+{"idx": 3420, "img": "sham", "resp": "[Action Code]  \n<One valid action>  \n[Rationale]  \nThe share button is typically represented by an arrow icon, which is located at the top right corner of the screen."}
+{"idx": 3420, "img": "masked", "resp": "[Action Code] 1\n<Tap the share button at the bottom right corner of the screen>\n[Rationale] The share button is located at the bottom right corner of the screen, which is typically used for sharing messages or contacts."}
+{"idx": 6148, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to interact with the search bar to enter the required text."}
+{"idx": 6148, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to interact with the search bar to enter their query."}
+{"idx": 4906, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to view more details about the property, which requires tapping the property details button."}
+{"idx": 4906, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to view more details about the property, which requires tapping the property details button."}
+{"idx": 4965, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to update their location for delivery purposes."}
+{"idx": 4965, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to interact with the search bar to enter their delivery address."}
+{"idx": 7082, "img": "sham", "resp": "[Action Code] 1\n<Tap the 'Buy Now' button>\n[Rationale] The user wants to purchase the book immediately, so tapping the 'Buy Now' button will proceed with the transaction."}
+{"idx": 7082, "img": "masked", "resp": "[Action Code] 2\n<Tap the 'Buy Now' button>\n[Rationale] The 'Buy Now' button is not visible in the current screenshot, so it cannot be tapped directly."}
+{"idx": 1439, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user has instructed me to type the given text, but there is no text provided for typing in this context."}
+{"idx": 1439, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user has instructed me to type \"1949 Park Grove Ave\" into the search bar, which is currently empty."}
+{"idx": 5262, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to search for 'A Gentleman in Moscow' by Amor Towles, but the current search term is incomplete."}
+{"idx": 5262, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to search for 'A Gentleman in Moscow' by Amor Towles, but the current search term is incomplete."}
+{"idx": 5547, "img": "sham", "resp": "[Action Code] 1\n<One valid action> Open the Amazon app\n[Rationale] The user has requested to open the Amazon app, and the current screen shows the Amazon app's homepage with search functionality and various categories."}
+{"idx": 5547, "img": "masked", "resp": "[Action Code] 1\n<One valid action> Open the Amazon app\n[Rationale] The user has requested to open the Amazon app, and the screenshot shows that the app is already open."}
+{"idx": 3, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to enter text into the search bar to find relevant information or events."}
+{"idx": 3, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to enter text into the search bar to find relevant events."}
+{"idx": 7103, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user has requested to type the given text, which is \"Area in Los Angeles, California 90031.\""}
+{"idx": 7103, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user has instructed to type \"the given text,\" but there is no specific text provided for typing."}
+{"idx": 4731, "img": "sham", "resp": "[Action Code] 1\n<Tap the navigation app on the screen>\n[Rationale] The user wants to use a navigation app, which is likely represented by the blue circle with an arrow icon in the bottom right corner of the screen.\nThe user wants to use a navigation app, which is likely represented by the blue circle with an arrow icon in the bottom right corner of the screen."}
+{"idx": 4731, "img": "masked", "resp": "[Action Code] 1\n<Tap the navigation app on the screen>\n[Rationale] The user wants to use a navigation app, which is visible in the screenshot as an icon with a car symbol.\n[Action Code] 2\n<Tap the navigation app on the screen>\n[Rationale] The user wants to use a navigation app, which is visible in the screenshot as an icon with a car symbol."}
+{"idx": 1798, "img": "sham", "resp": "[Action Code] 1\n<One valid action> Type \"2680 Fayette Dr\" into the search bar.\n[Rationale] The task requires typing the address into the search bar, which is currently empty."}
+{"idx": 1798, "img": "masked", "resp": "[Action Code] 1\n<Tap the search bar and type \"San Jose\" in the search bar>\n[Rationale] The goal is to find the fastest route from San Jose to Fresno, so typing \"San Jose\" into the search bar will help locate the starting point of the journey."}
+{"idx": 3416, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to enter the text \"Renew Driver's License\" into the input field."}
+{"idx": 3416, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to enter text into an input field, which is typically done by tapping on it first."}
+{"idx": 6880, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to share an image, so they should tap the share button to proceed with sharing options."}
+{"idx": 6880, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to share an image, so they should tap the share button to proceed with sharing options."}
+{"idx": 3534, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to open the \"Call Mom for Her Birthday\" task, which requires selecting it from the list."}
+{"idx": 3534, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to open the \"Performance Review Talking Points\" note, which is visible in the list."}
+{"idx": 5773, "img": "sham", "resp": "[Action Code] 1\n<Tap the \"Compose\" button at the top of the screen>\n[Rationale] The task requires opening the email app and tapping the compose button, which is typically located at the top of the screen in most email apps."}
+{"idx": 5773, "img": "masked", "resp": "[Action Code] 1\n<Tap the \"Compose\" button at the top of the screen>\n[Rationale] The task requires opening the email app and tapping the compose button, which is typically located at the top of the screen in most email apps."}
+{"idx": 3683, "img": "sham", "resp": "[Action Code] 1\n<One valid action> Click the send button at the top right corner of the screen.\n[Rationale] The send button is typically represented by a checkmark or a similar icon, which is located at the top right corner of the screen in this interface."}
+{"idx": 3683, "img": "masked", "resp": "[Action Code] 1\n<One valid action> Click the checkmark at the top right corner of the screen.\n[Rationale] The checkmark typically indicates confirmation or completion, which aligns with sending a message."}
+{"idx": 335, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nTo add Kai Xeifer as a friend, I need to tap the 'Add friend' button next to their profile."}
+{"idx": 335, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nTo add a friend, you need to tap the 'Add' button next to their profile picture."}
+{"idx": 3621, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to type the provided text into the document."}
+{"idx": 3621, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to type the given text, but there's no visible text input area in the screenshot provided."}
+{"idx": 3694, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to open a specific file, which is \"final_insurance_plan_comparison.md\"."}
+{"idx": 3694, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to open the file \"helpful_goat_edited\" which is visible in the list of files."}
+{"idx": 527, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to tap the link provided in the message."}
+{"idx": 527, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to tap the link provided in the message."}
+{"idx": 3879, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to select an option to share the file, which is typically done by tapping the share button or selecting one of the sharing options provided."}
+{"idx": 3879, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to select an option from the sharing menu to complete the task."}
+{"idx": 2721, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to open a specific file, which is \"recipe_homemade_pizza_final.md\"."}
+{"idx": 2721, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to open a specific file, which is 'recipe_homemade_pizza_final.md'."}
+{"idx": 1964, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to share a file, so they should tap the share button to proceed with sharing options."}
+{"idx": 1964, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user has tapped the share button, which initiates the sharing process for the selected file."}
+{"idx": 6364, "img": "sham", "resp": "[Action Code] 1\n<Tap the share button at the top right corner of the screen>\n[Rationale] The share button is located at the top right corner of the screen, which aligns with the goal of sharing content."}
+{"idx": 6364, "img": "masked", "resp": "[Action Code] 2\n<Tap the share button at the top right corner of the screen>\n[Rationale] The share button is located at the top right corner of the screen, which aligns with the goal of sharing content."}
+{"idx": 8, "img": "sham", "resp": "[Action Code] 1\n<Tap the save button at the bottom of the screen>\n[Rationale] The save button is located at the bottom of the screen, which aligns with the goal of saving the event information.\n[Action Code] 2\n<Tap the \"View\" button at the bottom right corner>\n[Rationale] The \"View\" button is typically used to confirm or access saved content after it has been saved."}
+{"idx": 8, "img": "masked", "resp": "[Action Code] 1\n<Tap the save button at the bottom of the screen>\n[Rationale] The save button is located at the bottom right corner of the screen, which aligns with the given instruction to tap the save button.\n[Action Code] 2\n<Tap the \"View\" button at the bottom right corner of the screen>\n[Rationale] The \"View\" button is visible at the bottom right corner of the screen, indicating that tapping it will"}
+{"idx": 4478, "img": "sham", "resp": "[Action Code] 1\n<Tap the email app icon>\n[Rationale] The task requires tapping the email app icon, which is typically represented by an envelope icon in the app drawer or app list."}
+{"idx": 4478, "img": "masked", "resp": "[Action Code] 1\n<Tap the email app icon>\n[Rationale] The email app icon is visible at the top of the screen, indicating that tapping it will open the email application."}
+{"idx": 3272, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to add a new task, so they need to tap the red button with a plus sign at the bottom right corner of the screen."}
+{"idx": 3272, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to add a new note, so they need to tap the red button with the plus sign at the bottom right corner of the screen."}
+{"idx": 574, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user has typed \"Intuit\" into the document."}
+{"idx": 574, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user has typed \"data analyst\" into the document."}
+{"idx": 3684, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to enter the provided text into the search bar."}
+{"idx": 3684, "img": "masked", "resp": "[Action Code]  \n1  \n[Rationale]  \nThe user needs to enter the text into the search bar to proceed with the task."}
+{"idx": 5397, "img": "sham", "resp": "[Action Code] 1\n<Tap the vault icon at the top left corner of the screen>\n[Rationale] The vault icon is located at the top left corner of the screen, which is where the user needs to tap to access the vault feature."}
+{"idx": 5397, "img": "masked", "resp": "[Action Code] 1\n<Tap the vault icon at the top left corner of the screen>\n[Rationale] The vault icon is located at the top left corner of the screen, which is where the user needs to tap to access the vault feature."}
+{"idx": 965, "img": "sham", "resp": "[Action Code]  \n1  \n[Rationale]  \nThe user needs to enter the provided phone number into the input field."}
+{"idx": 965, "img": "masked", "resp": "[Action Code]  \n1  \n[Rationale]  \nThe user needs to enter text into the input field to complete the task."}
+{"idx": 1663, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to share an image, so they need to tap the share button to proceed with sharing options."}
+{"idx": 1663, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to share an image, so they need to tap the share button to proceed with sharing options."}
+{"idx": 140, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to save their search results for future reference."}
+{"idx": 140, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to save their search criteria for future reference."}
+{"idx": 3692, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to enter the location for the meeting with Alice."}
+{"idx": 3692, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to enter the location information for the event."}
+{"idx": 3209, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user has typed the given text into the chat input field."}
+{"idx": 3209, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user has typed the text \"Planning a trip to the beach with friends!\" in the input field."}
+{"idx": 127, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user has tapped the share button, which typically initiates the sharing process for the selected content."}
+{"idx": 127, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user has tapped the share button, which typically opens the sharing menu for further options."}
+{"idx": 6526, "img": "sham", "resp": "[Action Code] 1\n<Tap the friends list on the screen>\n[Rationale] The user has requested to tap the friends list, which is currently visible on the screen."}
+{"idx": 6526, "img": "masked", "resp": "[Action Code] 2\n<Tap the \"Friends\" section at the top of the screen>\n[Rationale] The task requires tapping the \"Friends\" section, which is located at the top of the screen, as indicated by the highlighted area in the screenshot."}
+{"idx": 1555, "img": "sham", "resp": "[Action Code] 1\n<Tap the \"Message\" button>\n[Rationale] To send a message, you need to tap the \"Message\" button which is highlighted in blue."}
+{"idx": 1555, "img": "masked", "resp": "[Action Code] 1\n<Tap the \"Message\" button>\n[Rationale] To communicate with the friend, you need to tap the \"Message\" button to open the chat window."}
+{"idx": 2064, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to open the \"Travel Insurance Information\" section, which requires clicking on it."}
+{"idx": 2064, "img": "masked", "resp": "[Action Code]\nI\n[Rationale]\nThe text input field is empty, indicating that no content has been entered yet."}
+{"idx": 6486, "img": "sham", "resp": "[Action Code]  \n1  \n(Rationale)  \nThe share button is typically located at the top right corner of the screen, which aligns with the provided coordinates."}
+{"idx": 6486, "img": "masked", "resp": "[Action Code]  \n1  \n(Rationale)  \nThe share button is typically represented by an arrow pointing upwards or right, which is not visible in this screenshot."}
+{"idx": 2486, "img": "sham", "resp": "[Action Code]  \n<One valid action>  \n[Rationale]  \n<One-sentence explanation>"}
+{"idx": 2486, "img": "masked", "resp": "[Action Code]  \n<One valid action>  \n[Rationale]  \n<One-sentence explanation>"}
+{"idx": 3123, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user has tapped the contact list, which is visible in the screenshot."}
+{"idx": 3123, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to access the contact list, which is typically represented by the \"Contacts\" icon at the bottom of the screen."}
+{"idx": 2986, "img": "sham", "resp": "[Action Code] 1\n<One valid action> Press the \"Call\" button at the bottom of the screen.\n[Rationale] The goal is to dial the provided phone number, which requires pressing the \"Call\" button after entering the number."}
+{"idx": 2986, "img": "masked", "resp": "[Action Code] 1\n<One valid action> Press the number '2' on the keypad.\n[Rationale] The number '2' is highlighted, indicating it's the next step in dialing the phone number."}
+{"idx": 2406, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to find an event, so they need to scroll through the calendar to locate it."}
+{"idx": 2406, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user wants to find an event, so they need to scroll through the calendar to locate it."}
+{"idx": 1578, "img": "sham", "resp": "[Action Code] 1\n<Tap the \"Sort\" button>\n[Rationale] To organize your friends list, you need to tap the \"Sort\" button to arrange them alphabetically or by another criterion as needed."}
+{"idx": 1578, "img": "masked", "resp": "[Action Code] 1\n<Tap the search bar at the top of the screen>\n[Rationale] To find a specific friend, you need to use the search function provided in the interface."}
+{"idx": 5111, "img": "sham", "resp": "[Action Code]  \n1  \n[Rationale]  \nThe user needs to enter the provided text into the input field."}
+{"idx": 5111, "img": "masked", "resp": "[Action Code]  \n1  \n[Rationale]  \nThe user needs to enter the text into the designated input field."}
+{"idx": 4254, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to select the Gmail option to share the content."}
+{"idx": 4254, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to select the \"Photos\" option to upload the text to the Photos app."}
+{"idx": 6733, "img": "sham", "resp": "[Action Code] 1\n<Tap \"New list\" at the bottom of the screen>\n[Rationale] To create a new list for organizing tasks or goals, tapping \"New list\" will allow you to add a new category to your existing lists."}
+{"idx": 6733, "img": "masked", "resp": "[Action Code] 1\n<Tap \"New list\" at the bottom left corner of the screen>\n[Rationale] The task requires tapping the option that allows for creating a new list, which is located at the bottom left corner of the screen."}
+{"idx": 172, "img": "sham", "resp": "[Action Code] 1\n<Tap the share button at the bottom of the screen>\n[Rationale] The share button is typically located at the bottom right corner of the Zoom interface, which is where the share option is usually found for sharing meeting details or inviting others to join the meeting."}
+{"idx": 172, "img": "masked", "resp": "[Action Code] 1\n<Tap the share button at the top right corner of the screen>\n[Rationale] The share button is located at the top right corner of the screen, which is typically used for sharing purposes in applications like Zoom."}
+{"idx": 4910, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe share button is not visible in the provided screenshot, so it cannot be tapped."}
+{"idx": 4910, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe share button is not visible in the provided screenshot, so it cannot be tapped."}
+{"idx": 2147, "img": "sham", "resp": "[Action Code] 1\n<Tap the phone call icon at the bottom of the screen>\n[Rationale] The phone call icon is located at the bottom right corner of the screen, which is where you need to tap to initiate a call."}
+{"idx": 2147, "img": "masked", "resp": "[Action Code] 1\n<Tap the phone call icon at the top right of the screen>\n[Rationale] The phone call icon is located at the top right corner of the screen, which is typically used to initiate a call."}
+{"idx": 6985, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to create a new document, which requires tapping the 'New Document' button."}
+{"idx": 6985, "img": "masked", "resp": "[Action Code] 1\n<Tap the 'New Document' button>\n[Rationale] The task requires creating a new document, which aligns with tapping the 'New Document' button in the interface shown."}
+{"idx": 2978, "img": "sham", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to enter their medical information into the designated field."}
+{"idx": 2978, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to enter their name in the \"Name\" field to provide emergency information."}
+{"idx": 145, "img": "sham", "resp": "[Action Code] 1\n<Tap the email app icon>\n[Rationale] The task requires tapping the email app icon, which is typically represented by an envelope icon in the app's interface."}
+{"idx": 145, "img": "masked", "resp": "[Action Code] 1\n<Tap the email app icon>\n[Rationale] The task requires tapping the email app icon, which is typically represented by an envelope icon in the app's interface."}
+{"idx": 2537, "img": "sham", "resp": "[Action Code]  \n<One valid action>  \n[Action Description]  \n[Action Rationale]"}
+{"idx": 2537, "img": "masked", "resp": "[Action Code]\n1\n[Rationale]\nThe user needs to create a new contact, which requires tapping the \"Create new contact\" button."}
+{"idx": 5908, "img": "sham", "resp": "[Action Code] 1\n<Tap the input field and type the given text>\n[Rationale] The user needs to enter the specified text into the input field as per the instruction provided."}
+{"idx": 5908, "img": "masked", "resp": "[Action Code] 1\n<Tap the input field and type the given text>\n[Rationale] The task requires typing the provided text into the input field, which is highlighted in the screenshot."}
+{"idx": 6009, "img": "sham", "resp": "[Action Code] 1\n<Tap the \"Connect Contacts\" option>\n[Rationale] To connect contacts, you need to tap the \"Connect Contacts\" button as it suggests connecting with people you know."}
+{"idx": 6009, "img": "masked", "resp": "[Action Code] 1\n<Tap the \"Connect Contacts\" option>\n[Rationale] This option allows users to connect with people they know, which might be useful for finding new content or interacting with friends."}
