@@ -85,6 +85,12 @@ export SAPA_DATA=/path/to/SAPA-data SAPA_MODELS=/path/to/models SAPA_CODE=/path/
 | §5.1–5.5 正文数字 | 首选项计数、相关系数、类别题翻转、RA 分项、OCR 保留率 | `paper_numbers.py`（每行标有章节号） |
 | §4 中性化质量 | 只看指令的分类器准确率 70.3% → 30.3% | `analyze.py` 的“中性化质量检查” |
 | §5 相关系数与 d′ 的 CI | corr(检出率, c) = −0.89 [−0.92, −0.84]；corr(检出率, d′) = 0.22 [−0.29, 0.48] | `sdt_ci.py` |
+| §5.6 训练数据隔离 | 按 episode、近重复指令、近重复截图三重隔离 | `src/make_train_split.py`、`finetune/check_leak.py`；训练数据由 `finetune/prep_train.sh` 构造 |
+| 表 5、图 3 | 配对微调（pair / pos / shuffle） | 训练与评测 `finetune/run_ft.sh`（GPU）；表来自 `analyze.py` 的“微调模型”段，存为 `artifacts/summary_ft.json`；图 `paper/figs/make_fig_ft.py` |
+| §5.6 正文：遮挡方式消融、跨填充迁移 | 模糊 / 黑块下的 d′ | `scripts/run_mask_ablation.sh`、`scripts/run_deepen.sh`（GPU）；`analyze.py` 的“消融”段 |
+| §5.6 正文：种子、副作用 | 3 个种子的均值 ± 标准差；类别识别 30.6 → 24.4 | `scripts/run_deepen.sh`、`scripts/run_sidefx.sh`（GPU）；`scripts/ft_extra.py` |
+| §5.6 正文：捷径与泄露检验 | 面积捷径；放宽判重阈值后 d′ 1.31 | `scripts/ft_shortcut.py`、`scripts/ft_near_dup.py` |
+| 表 6 | 智能体模式 | `scripts/run_agent.sh`（GPU）；`analyze.py` 的“智能体模式”段，存为 `artifacts/summary_agent.json` |
 
 ## 可复现性
 
