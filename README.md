@@ -91,6 +91,7 @@ export SAPA_DATA=/path/to/SAPA-data SAPA_MODELS=/path/to/models SAPA_CODE=/path/
 | §5.6 正文：种子、副作用 | 3 个种子的均值 ± 标准差；类别识别 30.6 → 24.4 | `scripts/run_deepen.sh`、`scripts/run_sidefx.sh`（GPU）；`scripts/ft_extra.py` |
 | §5.6 正文：捷径与泄露检验 | 面积捷径；放宽判重阈值后 d′ 1.31 | `scripts/ft_shortcut.py`、`scripts/ft_near_dup.py` |
 | 表 6 | 智能体模式 | `scripts/run_agent.sh`（GPU）；`analyze.py` 的“智能体模式”段，存为 `artifacts/summary_agent.json` |
+| 投稿版（未进论文）：ROC / AUC | 连续分数下的 AUC、同屏配对 AUC、zROC 斜率；面积捷径检验 | `scripts/run_score.sh`（GPU，每张图一次前向）→ `src/roc.py`（存为 `artifacts/summary_roc.json`）；`scripts/roc_shortcut.py` |
 
 ## 可复现性
 

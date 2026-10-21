@@ -58,19 +58,43 @@ def generate(model, proc, text, image=None, system=None, max_new_tokens=64):
     return proc.batch_decode(o[:, inp["input_ids"].shape[1]:], skip_special_tokens=True)[0].strip()
 
 
+def _head_rows(head, ids):
+    """输出层中候选词那几行权重（fp32），按 ids 缓存。InternVL 设置 llm_int8_skip_modules 后
+    默认跳过列表被覆盖，输出层也被量化成 4-bit，需要先解量化（整层解一次后只留这几行）。"""
+    key = tuple(ids)
+    cache = head.__dict__.setdefault("_rows", {})
+    if key not in cache:
+        w = head.weight
+        if hasattr(w, "quant_state"):
+            import bitsandbytes.functional as F
+            w = F.dequantize_4bit(w.data, w.quant_state)
+        cache[key] = w[list(ids)].float().clone()
+        del w
+        torch.cuda.empty_cache()
+    return cache[key]
+
+
 @torch.no_grad()
 def next_logprobs(model, proc, text, words, image=None, system=None):
     """与 generate 相同的输入，只做一次前向：返回第一个生成位置上各候选词（首个 token）的对数概率，
     以及贪心会选的 token（用来核对与 generate 的第一个 token 一致）。
     模型输出的 logits 是 bf16，相近的候选词常被量化成同一个值（分数出现大量平局），
-    所以用最后一层隐状态在 fp32 下重新乘一遍输出层；argmax 仍按 bf16 logits，与贪心解码一致。"""
+    所以用最后一层隐状态在 fp32 下重算候选词那几行输出层（整个输出层转 fp32 在 7B 上要 2.2 GB 显存）；
+    归一化常数取 bf16 全词表 logits 的 logsumexp，候选词之间的差（分数）不受它影响。
+    argmax 仍按 bf16 logits，与贪心解码一致。"""
     inp = _inputs(model, proc, text, image, system)
-    o = model(**inp, output_hidden_states=True)
     head = model.get_output_embeddings()
-    h = o.hidden_states[-1][0]  # 整段序列一起乘（单行输入走的矩阵乘法路径不同，bf16 结果会差一位）
-    assert torch.equal(head(h)[-1], o.logits[0, -1]), "hidden_states[-1] 不是输出层的输入"
-    lp = torch.log_softmax(h[-1].float() @ head.weight.float().T, -1)
-    top = int(o.logits[0, -1].argmax())
+    got = []
+    hook = head.register_forward_hook(lambda m, a, out: got.append(a[0]))
+    try:
+        # logits_to_keep=1：与 generate 一样只在最后一个位置算词表 logits（全序列要多占几百 MB 显存，7B 会溢出）
+        logits = model(**inp, logits_to_keep=1).logits[0, -1]
+    finally:
+        hook.remove()
+    h = got[0]
+    assert torch.equal(head(h)[0, -1], logits), "截取到的不是输出层的输入"
     tok = proc.tokenizer
-    ids = {w: tok.encode(w, add_special_tokens=False)[0] for w in words}
-    return {w: float(lp[i]) for w, i in ids.items()}, tok.decode([top])
+    ids = [tok.encode(w, add_special_tokens=False)[0] for w in words]
+    cand = h[0, -1].float() @ _head_rows(head, ids).T
+    lp = cand - torch.logsumexp(logits.float(), -1)
+    return {w: float(v) for w, v in zip(words, lp)}, tok.decode([int(logits.argmax())])
