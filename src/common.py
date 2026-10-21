@@ -37,8 +37,7 @@ def load(name):
     return model, proc
 
 
-@torch.no_grad()
-def generate(model, proc, text, image=None, system=None, max_new_tokens=64):
+def _inputs(model, proc, text, image=None, system=None):
     msgs = []
     if system:
         msgs.append({"role": "system", "content": [{"type": "text", "text": system}]})
@@ -49,5 +48,29 @@ def generate(model, proc, text, image=None, system=None, max_new_tokens=64):
     # 只对 InternVL 转 dtype；Qwen 保持原行为，保证已有结果可逐位复现
     if "pixel_values" in inp and model.config.model_type.startswith("internvl"):
         inp["pixel_values"] = inp["pixel_values"].to(torch.bfloat16)
+    return inp
+
+
+@torch.no_grad()
+def generate(model, proc, text, image=None, system=None, max_new_tokens=64):
+    inp = _inputs(model, proc, text, image, system)
     o = model.generate(**inp, max_new_tokens=max_new_tokens, do_sample=False)
     return proc.batch_decode(o[:, inp["input_ids"].shape[1]:], skip_special_tokens=True)[0].strip()
+
+
+@torch.no_grad()
+def next_logprobs(model, proc, text, words, image=None, system=None):
+    """与 generate 相同的输入，只做一次前向：返回第一个生成位置上各候选词（首个 token）的对数概率，
+    以及贪心会选的 token（用来核对与 generate 的第一个 token 一致）。
+    模型输出的 logits 是 bf16，相近的候选词常被量化成同一个值（分数出现大量平局），
+    所以用最后一层隐状态在 fp32 下重新乘一遍输出层；argmax 仍按 bf16 logits，与贪心解码一致。"""
+    inp = _inputs(model, proc, text, image, system)
+    o = model(**inp, output_hidden_states=True)
+    head = model.get_output_embeddings()
+    h = o.hidden_states[-1][0]  # 整段序列一起乘（单行输入走的矩阵乘法路径不同，bf16 结果会差一位）
+    assert torch.equal(head(h)[-1], o.logits[0, -1]), "hidden_states[-1] 不是输出层的输入"
+    lp = torch.log_softmax(h[-1].float() @ head.weight.float().T, -1)
+    top = int(o.logits[0, -1].argmax())
+    tok = proc.tokenizer
+    ids = {w: tok.encode(w, add_special_tokens=False)[0] for w in words}
+    return {w: float(lp[i]) for w, i in ids.items()}, tok.decode([top])
