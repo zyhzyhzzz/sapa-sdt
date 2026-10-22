@@ -103,22 +103,73 @@ def table(models, title):
     return rows
 
 
+def variance_split(models):
+    """同屏分数差 vs 截图间基线：平均同屏差 mean(s_sham − s_masked) 与各对平均分 (s_sham + s_masked)/2 的标准差。
+    后者 / 前者 越大，单一阈值越难把同屏差异转成正确的判断。"""
+    print(f"\n== 同屏差 vs 截图间基线（分数单位：对数几率）")
+    out = []
+    for m in models:
+        for f in POS:
+            got = load(m, f)
+            if got is None or len(got[1]) < 196:
+                continue
+            S, ids = got
+            p = np.array([score(S[(i, "sham")]["lp"], f) for i in ids])
+            q = np.array([score(S[(i, "masked")]["lp"], f) for i in ids])
+            d, mu = (p - q).mean(), ((p + q) / 2).std()
+            out.append(dict(model=m, fmt=f, within=float(d), between_sd=float(mu), ratio=float(mu / abs(d))))
+            print(f"  {m:11s} {f:15s} 平均同屏差 {d:+.3f}  截图间基线 SD {mu:.3f}  比值 {mu / abs(d):5.1f}")
+    return out
+
+
+def corr_ci():
+    """corr(SAPA 式检出率, AUC / 配对 AUC) 的按簇 bootstrap 95% CI。重采样方式与 sdt_ci.py 相同
+    （同一种子、同样先抽检出场景再抽配对），因此与那里的 corr(检出率, d′) 用的是同一组重采样。"""
+    from sdt_ci import SRC, B, cluster_index
+    rng = np.random.default_rng(0)
+    combos = []
+    for m in ALL_MODELS:
+        for f, fn in DETECT.items():
+            p1 = os.path.join(RUNS, f"{SRC[f]}_{m}.jsonl")
+            got = load(m, f)
+            if not os.path.exists(p1) or got is None:
+                continue
+            V = {r["idx"]: fn(r["resp"]) for r in map(json.loads, open(p1, encoding="utf-8")) if (r["instr"], r["img"]) == ("orig", "real")}
+            combos.append((m, f, V, got[0]))
+    vid = sorted(set.intersection(*[set(V) for _, _, V, _ in combos]))
+    pid = sorted(set.intersection(*[{i for i, _ in S if (i, "sham") in S and (i, "masked") in S} for *_, S in combos]))
+    vix, _ = cluster_index(vid, rng)
+    pix, _ = cluster_index(pid, rng)
+    DET, A, P, det0, a0, p0 = [], [], [], [], [], []
+    for m, f, V, S in combos:
+        v = np.array([V[i] for i in vid], float)
+        p = np.array([score(S[(i, "sham")]["lp"], f) for i in pid])
+        q = np.array([score(S[(i, "masked")]["lp"], f) for i in pid])
+        pr = (p > q) + 0.5 * (p == q)
+        DET.append([v[ix].mean() * 100 for ix in vix])
+        A.append([auc(p[ix], q[ix]) for ix in pix])
+        P.append([pr[ix].mean() for ix in pix])
+        det0.append(v.mean() * 100); a0.append(auc(p, q)); p0.append(pr.mean())
+    DET, A, P = map(np.array, (DET, A, P))
+    out = dict(n=len(combos))
+    print(f"\n== 区分效度（{len(combos)} 个模型 × 格式组合，按簇 bootstrap {B} 次）")
+    for name, x0, xb in (("auc", a0, A), ("pair_auc", p0, P)):
+        r0 = pearsonr(det0, x0)[0]
+        rb = np.array([np.corrcoef(DET[:, k], xb[:, k])[0, 1] for k in range(B)])
+        lo, hi = np.percentile(rb, [2.5, 97.5])
+        out[f"corr_detect_{name}"] = dict(r=float(r0), ci=[float(lo), float(hi)])
+        print(f"  corr(检出率, {name}) = {r0:+.2f} [{lo:+.2f},{hi:+.2f}]")
+    print(f"  AUC 范围 {min(a0):.3f}–{max(a0):.3f}；配对 AUC 范围 {min(p0):.3f}–{max(p0):.3f}；检出率范围 {min(det0):.1f}–{max(det0):.1f}")
+    return out
+
+
 def main():
     rows = table(ALL_MODELS, "配对样本 ROC：原模型（sham = 正，masked = 负）")
     rows += table(("3b",) + FT, "配对样本 ROC：微调模型（与原 3B 对照）")
-    json.dump(rows, open(SUMMARY.replace("summary.json", "summary_roc.json"), "w", encoding="utf-8"),
-              ensure_ascii=False, indent=1)
-    # 区分效度：SAPA 式检出率（summary.json）与与阈值无关的 AUC 的相关
-    det = {(r["model"], r["fmt"]): r["detect"] for r in json.load(open(SUMMARY, encoding="utf-8"))}
-    base = [r for r in rows if r["model"] in ALL_MODELS and (r["model"], r["fmt"]) in det]
-    base = list({(r["model"], r["fmt"]): r for r in base}.values())
-    if len(base) >= 4:
-        x = [det[(r["model"], r["fmt"])] for r in base]
-        for k in ("auc", "pair_auc"):
-            rr, pv = pearsonr(x, [r[k] for r in base])
-            print(f"  corr(检出率, {k}) = {rr:+.2f}（p = {pv:.2g}，n = {len(base)}）")
-        print(f"  AUC 范围 {min(r['auc'] for r in base):.3f}–{max(r['auc'] for r in base):.3f}；"
-              f"检出率范围 {min(x):.1f}–{max(x):.1f}")
+    split = variance_split(ALL_MODELS + ("3b+pair",))
+    corr = corr_ci()
+    json.dump(dict(rows=rows, variance_split=split, **corr),
+              open(SUMMARY.replace("summary.json", "summary_roc.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
 
 if __name__ == "__main__":
