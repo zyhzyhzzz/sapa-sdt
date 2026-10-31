@@ -105,4 +105,4 @@ export SAPA_DATA=/path/to/SAPA-data SAPA_MODELS=/path/to/models SAPA_CODE=/path/
 
 ## 数据与许可
 
-SAPA-Bench 的截图和标注版权归原作者所有，本仓库不分发截图。`artifacts/` 中的子集文件只包含样本索引、类别与指令文本，用于定位原数据。配对图可由 `mask` 步骤在本地重建。
+SAPA-Bench 的截图和标注版权归原作者所有，本仓库不分发截图。`artifacts/` 中的子集文件包含样本索引、类别与指令文本，用于定位原数据；`ocr*.json`、`mask_meta*.json`、`mask_verify*.json` 另含从截图中 OCR 出的文字及其坐标（其中有截图里出现的账号、邮箱等，均来自公开的 SAPA-Bench），用于复现遮挡步骤。配对图可由 `mask` 步骤在本地重建。
